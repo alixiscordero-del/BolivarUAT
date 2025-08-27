@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>CoIT AF Evaluate Optimization Request Overlap {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CoIT AF Evaluate Optimization Request Overlap</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_and_Verify_Overlap</targetReference>
+        </connector>
+        <object>FSL__Optimization_Request__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <subflows>
+        <name>Check_and_Verify_Overlap</name>
+        <label>Check and Verify Overlap</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>Custom_Fix_Overlap</flowName>
+        <inputAssignments>
+            <name>end</name>
+            <value>
+                <elementReference>$Record.FSL__Finish__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>serviceResourceId</name>
+            <value>
+                <elementReference>$Record.FSL__Service_Resource__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>start</name>
+            <value>
+                <elementReference>$Record.FSL__Start__c</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Cumple_rango_de_hora</name>
+        <label>Cumple rango de hora</label>
+        <locationX>578</locationX>
+        <locationY>468</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Outcome_1_of_Cumple_rango_de_hora</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>CalculateRangeTime</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pertenece_a</targetReference>
+            </connector>
+            <label>Cumple</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pertenece_a</name>
+        <label>Pertenece a</label>
+        <locationX>314</locationX>
+        <locationY>576</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_Outcome</name>
+            <conditionLogic>((1 OR 2 OR 3 OR 6 ) AND 9) OR (4 OR 5 OR 7 OR 8)</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Traslado aeropuerto o terminal</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Conductor Elegido</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Transporte Pasajeros</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Conductor Profesional</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Conductor Familiar</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Grua</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Cerrajeria - General</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Carro Taller - General</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pick Up</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Mark</targetReference>
+            </connector>
+            <label>Otros</label>
+        </rules>
+        <rules>
+            <name>Mensajeria</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Work_Order.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>(AA) Mensajeria</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.WorkType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pick Up</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Update_Mark</targetReference>
+            </connector>
+            <label>Mensajeria</label>
+        </rules>
+    </decisions>
+    <description>solo se utiliza para marcar reminder en true</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>calcula la hora del servicio este entre 24 y 48 horas</description>
+        <name>CalculateRangeTime</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+    {!$Record.SchedStartTime} &gt;= (NOW() + (24/24)),  /* al menos 24 horas después de ahora */
+    {!$Record.SchedStartTime} &lt;= (NOW() + (48/24))   /* máximo 48 horas después de ahora */
+)</expression>
+    </formulas>
+    <interviewLabel>CoIT SC Mensaje de Notificacion SMS para SA {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CoIT SC Mensaje de Notificacion SMS para SA</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Case</name>
+        <label>Get Case</label>
+        <locationX>578</locationX>
+        <locationY>360</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Cumple_rango_de_hora</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Work_Order.Case.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Work_Order</name>
+        <label>Get Work Order</label>
+        <locationX>578</locationX>
+        <locationY>252</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.FSSK__FSK_Work_Order__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>WorkOrder</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Copy_1_of_Update_Mark</name>
+        <label>Copy 1 of Update Mark</label>
+        <locationX>314</locationX>
+        <locationY>684</locationY>
+        <inputAssignments>
+            <field>Reminder_Mark__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Mark</name>
+        <label>Update Mark</label>
+        <locationX>50</locationX>
+        <locationY>684</locationY>
+        <inputAssignments>
+            <field>Reminder_Mark__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>452</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Work_Order</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Dispatched</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Reminder_Mark__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>ServiceAppointment</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2025-05-27</startDate>
+            <startTime>08:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>T_NotificacionDispachedMensajeria</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Seguros Bolívar: Le recordamos su servicio de {!Get_Work_Order.WorkType.CoIT_NameClean__c}, el  {!$Record.SchedStartTime} , en la  {!$Record.Street}. Pronto le enviaremos los datos del mensajero que lo recogerá.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>T_NotificationDespachedDriver</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Seguros Bolívar: Le recordamos su servicio de {!Get_Work_Order.WorkType.CoIT_NameClean__c}, el  {!$Record.SchedStartTime} , en la  {!$Record.Street}. Pronto le enviaremos los datos del conductor.</text>
+    </textTemplates>
+</Flow>

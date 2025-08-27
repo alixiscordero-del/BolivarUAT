@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Add_a_first_single_value_to_the_list</name>
+        <label>Add a first single value to the list</label>
+        <locationX>308</locationX>
+        <locationY>242</locationY>
+        <assignmentItems>
+            <assignToReference>SingleSelectedValue</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>SingleSelectedValueFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>SelectedValuesCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>SingleSelectedValue</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_SelectedValues</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Update_SelectedValues</name>
+        <label>Update SelectedValues</label>
+        <locationX>308</locationX>
+        <locationY>350</locationY>
+        <assignmentItems>
+            <assignToReference>SelectedValues</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>UpdateSelectedValues</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Si_SelectedValues_es_Blank</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Si_SelectedValues_es_Blank</name>
+        <label>Si SelectedValues es Blank</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <defaultConnector>
+            <targetReference>Add_a_first_single_value_to_the_list</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IsBlank_Outcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>CountSelectedValues</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <label>Is Blank</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>CountSelectedValues</name>
+        <dataType>Number</dataType>
+        <expression>LEN({!SelectedValues})</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>SingleSelectedValueFormula</name>
+        <dataType>String</dataType>
+        <expression>TRIM(SUBSTITUTE(LEFT( {!SelectedValues} , FIND(&quot;;&quot;,  {!SelectedValues} )),&quot;;&quot;,&quot;&quot;))</expression>
+    </formulas>
+    <formulas>
+        <name>SingleSelectedValueID</name>
+        <dataType>String</dataType>
+        <expression>LEFT({!SingleSelectedValue}, FIND(&quot;:&quot;, {!SingleSelectedValue})-1)</expression>
+    </formulas>
+    <formulas>
+        <name>SingleSelectedValueName</name>
+        <dataType>String</dataType>
+        <expression>RIGHT({!SingleSelectedValue}, LEN({!SingleSelectedValue})-FIND(&quot;:&quot;, {!SingleSelectedValue}))</expression>
+    </formulas>
+    <formulas>
+        <name>UpdateSelectedValues</name>
+        <dataType>String</dataType>
+        <expression>RIGHT({!SelectedValues}, LEN({!SelectedValues})-LEN({!SingleSelectedValue})-1)</expression>
+    </formulas>
+    <interviewLabel>CoIT Convert MPL Selected Values to Collection {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
+    <label>CoIT Convert MPL Selected Values to Collection</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Si_SelectedValues_es_Blank</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>SelectedValues</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>SelectedValuesCollection</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>SingleSelectedValue</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

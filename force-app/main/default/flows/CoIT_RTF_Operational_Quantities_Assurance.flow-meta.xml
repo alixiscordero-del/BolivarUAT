@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <customErrors>
+        <name>Quantity_Type_is_Wrong</name>
+        <label>Quantity Type is Wrong</label>
+        <locationX>446</locationX>
+        <locationY>395</locationY>
+        <customErrorMessages>
+            <errorMessage>La cantidad para el operativo seleccionado debe ser un número entero.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <name>Quantity_Value_is_Wrong</name>
+        <label>Quantity Value is Wrong</label>
+        <locationX>182</locationX>
+        <locationY>503</locationY>
+        <customErrorMessages>
+            <errorMessage>La cantidad para el operativo seleccionado debe ser un número entero mayor a 0 y no mayor al valor máximo definido: {!$Record.ProductItem.Product2.CoIT_Maximum_Value__c.</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <description>Ensures that if the quantity on hand is a fractional number then it is allowed.</description>
+        <name>Is_Quantity_Type_Correct</name>
+        <label>Is Quantity Type Correct?</label>
+        <locationX>248</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Quantity_Type_is_Wrong</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_1</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>IsFractionalQuantity</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ProductItem.Product2.CoIT_AllowFractionalQuantities__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_the_quantity_value_appropiate</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Ensures that if the quantity is not a fractional number, it is not greater than the maximum value defined on the product.</description>
+        <name>Is_the_quantity_value_appropiate</name>
+        <label>Is the Quantity Value appropiate?</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Quantity_Value_is_Wrong</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes_2</name>
+            <conditionLogic>(1 OR ((NOT 3) AND (NOT 1) AND 2) OR ((NOT 1) AND 3)) AND 4</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ProductItem.Product2.CoIT_AllowFractionalQuantities__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.QuantityConsumed</leftValueReference>
+                <operator>LessThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.ProductItem.Product2.null__NotFound</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ProductItem.Product2.CoIT_Maximum_Value__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.QuantityConsumed</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
+                </rightValue>
+            </conditions>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>IsFractionalQuantity</name>
+        <dataType>Boolean</dataType>
+        <expression>NOT(AND($Record.QuantityConsumed = CEILING($Record.QuantityConsumed),$Record.QuantityConsumed = FLOOR($Record.QuantityConsumed)))</expression>
+    </formulas>
+    <interviewLabel>CoIT RTF Prevent Operational Quantities Assurance {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CoIT RTF Operational Quantities Assurance</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>122</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Quantity_Type_Correct</targetReference>
+        </connector>
+        <filterFormula>AND(TEXT({!$Record.ProductItem.Product2.Family}) = &quot;Adicionales Operativos&quot;, OR(ISNEW(), ISCHANGED({!$Record.QuantityConsumed})))</filterFormula>
+        <object>ProductConsumed</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>InvalidDraft</status>
+    <variables>
+        <name>ProductRequiredSize</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+</Flow>

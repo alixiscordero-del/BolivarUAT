@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <choices>
+        <name>AltoImpacto</name>
+        <choiceText>Alto Impacto: 20 o más días</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Alto Impacto: 20 o más días</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BajoImpacto</name>
+        <choiceText>Bajo Impacto: 0 - 1 día</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Bajo Impacto: 0 - 1 día</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BajoImpacto3dias</name>
+        <choiceText>Bajo Impacto: 0 - 3 días</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Bajo Impacto: 0 - 3 días</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>BajoImpacto5dias</name>
+        <choiceText>Bajo Impacto: 0 - 5 días</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Bajo Impacto: 0 - 5 días</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Moderado</name>
+        <choiceText>Moderado: 6 - 19 días</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Moderado: 6 - 19 días</stringValue>
+        </value>
+    </choices>
+    <description>- Actualización de la severidad del case v2</description>
+    <environments>Default</environments>
+    <interviewLabel>CoIT SFSMF Tiempo de solucion {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CoIT SFSMF Tiempo de solucion</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>FieldServiceMobile</processType>
+    <recordLookups>
+        <name>Get_Work_Step</name>
+        <label>Get Work Step</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_WorkOrder_CaseId</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Id</elementReference>
+            </value>
+        </filters>
+        <object>WorkStep</object>
+        <outputReference>ActualWorkStep</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>ParentRecordId</queriedFields>
+        <queriedFields>WorkOrderId</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_WorkOrder_CaseId</name>
+        <label>Get Work Order Case Id</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>SC_Solution_Time</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>ActualWorkStep.WorkOrderId</elementReference>
+            </value>
+        </filters>
+        <object>WorkOrder</object>
+        <outputAssignments>
+            <assignToReference>CaseId</assignToReference>
+            <field>CaseId</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Case_Record</name>
+        <label>Update Case Record</label>
+        <locationX>176</locationX>
+        <locationY>566</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>CaseId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>CoIT_Click_Severity__c</field>
+            <value>
+                <elementReference>RB_Tiempo_de_solucion</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Work_Step_with_comment</name>
+        <label>Update Work Step with comment</label>
+        <locationX>176</locationX>
+        <locationY>458</locationY>
+        <connector>
+            <targetReference>Update_Case_Record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Description</field>
+            <value>
+                <elementReference>RB_Tiempo_de_solucion</elementReference>
+            </value>
+        </inputAssignments>
+        <object>WorkStep</object>
+    </recordUpdates>
+    <screens>
+        <name>SC_Solution_Time</name>
+        <label>Tiempo de solución</label>
+        <locationX>176</locationX>
+        <locationY>350</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_Work_Step_with_comment</targetReference>
+        </connector>
+        <fields>
+            <name>RB_Tiempo_de_solucion</name>
+            <choiceReferences>BajoImpacto</choiceReferences>
+            <choiceReferences>BajoImpacto3dias</choiceReferences>
+            <choiceReferences>BajoImpacto5dias</choiceReferences>
+            <choiceReferences>Moderado</choiceReferences>
+            <choiceReferences>AltoImpacto</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Tiempo de solución:</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <nextOrFinishButtonLabel>Finalizar</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Work_Step</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ActualWorkStep</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>WorkStep</objectType>
+    </variables>
+    <variables>
+        <name>CaseId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Id</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
