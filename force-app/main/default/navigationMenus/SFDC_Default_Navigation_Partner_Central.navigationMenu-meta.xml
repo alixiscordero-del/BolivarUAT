@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Partner Central</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Consola de Despacho</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/dispatcher-console</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Citas de Servicio</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>ServiceAppointment</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Recursos de servicio</label>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>ServiceResource</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <defaultListViewId>All</defaultListViewId>
+        <label>Mis ofertas</label>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>WOM_WorkOfferDetail__c</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <defaultListViewId>All_ServiceTerritories</defaultListViewId>
+        <label>Asignación de horarios</label>
+        <position>5</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>ServiceTerritory</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+</NavigationMenu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>santiago.pelaez@colibriit.com</contactEmail>
+    <label>CoIT_JWT_SegBol_ConnApp</label>
+    <oauthConfig>
+        <callbackUrl>sfdc://oauth/jwt/success</callbackUrl>
+        <certificate>MIIDnzCCAoegAwIBAgIUCREFrstZpCAJTKTeMrWHtA0ULqQwDQYJKoZIhvcNAQELBQAwXzELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEYMBYGA1UEAwwPQ29JVF9TZWdCb2xfVUFUMB4XDTIzMDkxNDE2MjAyMloXDTI1MDkxMzE2MjAyMlowXzELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDEYMBYGA1UEAwwPQ29JVF9TZWdCb2xfVUFUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArxNjeAZD3/njptkzlD4iJKgsz8vda1339hMePGmEAJ5bmB6WeVo5yPkmzeHbJx0UqYL96/sI7+I3Jk2nKkzb9ePojZrE0UVfQC+fgCh+jZzPmC4OkVN+NeJ1e8eWjBZhDI4E7l+RxRALzCEdB3ApMCTs4OU58OrMTnFdiSncKnyase9klnVZVByUTKsJMaCDqW17SAnw7mYMlC6B7k1MGMbALMk6JycJRiyX6/nyeGGxsjRq0c/byeQtzzEvc2Aon1U2laxuNUx8c+Qm3wAmpnf0+1VUjHXhVb0lTh/uFhkIvX12la6p5HliGveBGs0SrKvEVllNasoCzGkHWtZiGwIDAQABo1MwUTAdBgNVHQ4EFgQURSuwUVS+40+S/KRKSWTE3+EtpbkwHwYDVR0jBBgwFoAURSuwUVS+40+S/KRKSWTE3+EtpbkwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAV/TFkxPbNNDu5/LyV6k1YXjDoHEH3Oj0w2aaG4lPYmhJ1wOwnOkhukWG2dbL04sxRLZye2TrrNukpfi4vdqqFqVjfOqR89u1OqIVpulKrHcvu0czpsGfO6PgDRmGcZIpxIX8Lw87DutlLWGkmjBkJnNA4Hx9wzmTylHHFtlhndz5XH5Jd8kGZ+grotLtVIwPShITvt7vBFDlugbchr/S8ZEpKD36d9mOAAWYvXCv7lA4pQtugHbtnhQ227gXcEdsuH8cu78xNqYYPD4HU6Tvn9xoRjb+EwNYZV4kt5GcLbW6xJ5Vxzhi+IduMFlw1GVzjKnbdKBegP0VHDJ4uzS9Jw==</certificate>
+        <consumerKey>3MVG9qG3qyJ7I8u3tWymdU9fEzUHtHcjVUrMoLAu0dHLl1x.vqF7FY5JdkVssGS2X1ITjHS0kmhvtA8to1xSi</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Field Service Dispatcher Permissions</permissionSetName>
+    <profileName>Salesforce API Only System Integrations</profileName>
+    <profileName>CoIT_Field_Service_Integration</profileName>
+</ConnectedApp>

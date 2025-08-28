@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Lãnh Thổ Dịch Vụ</label>
+    <name>FSL__Service_Territory__c</name>
+    <relationshipLabel>Lãnh Thổ Cài Đặt Người Dùng Quản Lý Nhóm</relationshipLabel>
+</CustomFieldTranslation>

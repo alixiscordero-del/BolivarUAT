@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>PickUp and Drop Off</masterLabel>
+        <translation><!-- PickUp and Drop Off --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PickUp and Immediately Drop Off</masterLabel>
+        <translation><!-- PickUp and Immediately Drop Off --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Single Appointment</masterLabel>
+        <translation>Cita unica</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

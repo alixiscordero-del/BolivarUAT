@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>WorkOrder</SObjectType>
+    <active>true</active>
+    <entryStartDateField>WorkOrder.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>WorkOrder.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <milestoneName>1%2E Acción 1</milestoneName>
+        <minutesToComplete>40</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>2%2E Acción 2</milestoneName>
+        <minutesToComplete>80</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>3%2E Acción 3</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

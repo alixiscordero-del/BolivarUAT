@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>CoIT_Click_Severity__c</name>
+    <picklistValues>
+        <masterLabel>Alto Impacto: 20 o más días</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bajo Impacto: 0 - 1 día</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bajo Impacto: 0 - 3 días</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bajo Impacto: 0 - 5 días</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moderado: 6 - 19 días</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <gender></gender>
+    <layouts>
+        <layout>Work Type Business Behaivor Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel></nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Editar comportamiento de negocio</label>
+        <name>CoIT_EditBusinessBehaivor</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Nuevo comportamiento de negocio</label>
+        <name>CoIT_NewBusinessBehaivor</name>
+    </quickActions>
+    <webLinks>
+        <label>Crear Nuevo comportamiento de negocio</label>
+        <name>Create_New_Business_Behaivor</name>
+    </webLinks>
+</CustomObjectTranslation>

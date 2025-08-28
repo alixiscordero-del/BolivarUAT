@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Razón de alertamiento</label>
+    <name>CoIT_In_Jeopardy_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Failed service, contact customer</masterLabel>
+        <translation>Servicio fallido, contactar al cliente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No candidates found</masterLabel>
+        <translation>No se encontraron candidatos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No technicians were found available for the offer</masterLabel>
+        <translation>Ningun tecnico acepto la oferta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service accepted but not scheduled</masterLabel>
+        <translation>Servicio aceptado pero no agendado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service not dispatched to technician</masterLabel>
+        <translation>Servicio no despachado a un técnico</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician has not accepted the service</masterLabel>
+        <translation>El técnico no ha aceptado el servicio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician has not arrived on site</masterLabel>
+        <translation>El técnico no esta en sitio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician has not started travel</masterLabel>
+        <translation>El técnico no ha iniciado desplazamiento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician is taking more time than required</masterLabel>
+        <translation>El técnico esta tomando mas tiempo del requerido</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>The service has not been accepted by any technician</masterLabel>
+        <translation>El servicio no ha sido aceptado por ningún técnico</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unscheduled service</masterLabel>
+        <translation>Servicio no agendado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Urgent, repair not possible, assistance concept required</masterLabel>
+        <translation>Urgente, no es posible reparar, requiere concepto de asistencia</translation>
+    </picklistValues>
+</CustomFieldTranslation>

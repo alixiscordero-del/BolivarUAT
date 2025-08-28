@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>5</activeVersionNumber>
+    <description>Cuando no se asigna un proveedor a un caso, pero sí un técnico, se asigna como proveedor la cuenta a la que pertenece el técnico.</description>
+    <masterLabel>COIT RTF Actualizacion campo proveedor</masterLabel>
+</FlowDefinition>

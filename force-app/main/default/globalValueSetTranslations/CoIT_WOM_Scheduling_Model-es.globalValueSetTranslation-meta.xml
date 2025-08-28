@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>By Direct Assigment with Acceptance</masterLabel>
+        <translation>Asignacion directa con aceptacion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>By Direct Assignment</masterLabel>
+        <translation>Asignacion directa</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>By Offer</masterLabel>
+        <translation>Oferta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manual</masterLabel>
+        <translation><!-- Manual --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

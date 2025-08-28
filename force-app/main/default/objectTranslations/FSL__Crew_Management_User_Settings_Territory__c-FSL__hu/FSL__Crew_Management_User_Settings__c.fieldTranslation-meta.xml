@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Személyzetkezelési felh.beállítások</label>
+    <name>FSL__Crew_Management_User_Settings__c</name>
+    <relationshipLabel>Személyzetkezelési felhasználói beállítási terület</relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>CoIT Cars Case Layout - Director</layout>
+        <sections>
+            <label></label>
+            <section>Causa SIAB</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Tomador</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Observaciones</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>contacto</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Cars Case Layout - Manager/Supervisor</layout>
+        <sections>
+            <label></label>
+            <section>Causa Siab</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Tomador</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Observaciones</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Cars Case Layout – Base Technician</layout>
+        <sections>
+            <label></label>
+            <section>Causa Siab</section>
+        </sections>
+        <sections>
+            <label>Informacion del contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Tomador</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Observaciones</section>
+        </sections>
+        <sections>
+            <label>Informacion proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Case Layout - Director</layout>
+        <sections>
+            <label>Información del Contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información de Eventos clave</label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label>Información del Proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Case Layout Manager/Supervisor</layout>
+        <sections>
+            <label>Información del Contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información de Eventos clave</label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label>Información del Proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Case Layout – Base Technician</layout>
+        <sections>
+            <label>Información del Contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información del Proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Case Layout – IVR</layout>
+        <sections>
+            <label>Información del Contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información de Eventos clave</label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label>Información del Proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Case Layout – Leader</layout>
+        <sections>
+            <label>Información del Contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información de Eventos clave</label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label>Información del Proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Case Layout – Technician</layout>
+        <sections>
+            <label>Información del Contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información del Proveedor</label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Case Layout - Director</layout>
+        <sections>
+            <label></label>
+            <section>Causa Siab</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Tomador</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Observaciones</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Case Layout - Manager/Supervisor</layout>
+        <sections>
+            <label></label>
+            <section>Causa Siab</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contacto</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Tomador</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Observaciones</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Case Layout – Base Technician</layout>
+        <sections>
+            <label></label>
+            <section>Causa Siab</section>
+        </sections>
+        <sections>
+            <label>Informacion del contacto</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Tomador</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del servicio</section>
+        </sections>
+        <sections>
+            <label>Informacion para descripcion</label>
+            <section>Description information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Detalles</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Observaciones</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Change_Priority</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CloseCaseLightning</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Close_the_Case</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Crear_Orden_de_Trabajo_RC</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Crear_Orden_de_trabajo</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SocialPublisher</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>UpdateCase</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Autos</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Hogares</name>
+    </recordTypes>
+    <recordTypes>
+        <description></description>
+        <label></label>
+        <name>inov8__PMT_Project</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Numero_de_siniestro</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Record_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restrict_Change_OwnerId</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Hình Đa Giác Trên Bản Đồ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <nameFieldLabel>Tên Hình Đa Giác</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Màu của hình đa giác phải ở định dạng thập lục phân: (ví dụ: #ffffff)</errorMessage>
+        <name>FSL__Polygon_Color_HEX_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

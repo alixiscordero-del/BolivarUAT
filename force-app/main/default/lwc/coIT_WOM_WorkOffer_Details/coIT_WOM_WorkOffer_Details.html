@@ -1,0 +1,189 @@
+<template>
+    <lightning-quick-action-panel>
+
+        <template if:true={mapMarkersNotEmpty}>
+            <lightning-map map-markers={mapMarkers} markers-title="Service Appointments" zoom-level={zoomLevel}
+                list-view="hidden"></lightning-map>
+        </template>
+        <!-- <template if:true={mapMarkersNotEmpty}>
+            <lightning-map map-markers={mapMarkers} markers-title="Service Appointments" zoom-level={zoomLevel}
+                list-view="hidden" onmarkerselect={handleMarkerSelect}
+                selected-marker-value={selectedMarkerValue}></lightning-map>
+        </template> -->
+        <template if:false={mapMarkersNotEmpty}>
+            <lightning-spinner alternative-text="Loading" size="xx-small"></lightning-spinner>
+        </template>
+
+        <template if:true={isOverdue}>
+            <div class="slds-notify slds-notify_alert slds-alert_warning" role="alert">
+                <span class="slds-assistive-text">warning</span>
+                <lightning-icon class="slds-p-right_x-small" icon-name="utility:warning" alternative-text="warning"
+                    size="x-small"></lightning-icon>
+                <h2>Esta oferta ya ha expirado.</h2>
+            </div>
+        </template>
+
+        <!-- <template if:true={selectedSA}> -->
+        <template if:true={wOfferDetail.data}>
+            <lightning-layout multiple-rows="true" class="slds-m-top_medium">
+
+                <lightning-layout-item class="slds-p-horizontal_x-small button" size="6">
+                    <lightning-button
+                        disabled={isOverdue} stretch="true" variant="destructive" label="Rechazar" value="Reject"
+                        title="Destructive action"
+                        onclick={handleButtonClick}>
+                    </lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item class="slds-p-horizontal_x-small button" size="6">
+                    <lightning-button
+                        disabled={isOverdue} stretch="true" variant="success" label="Aceptar" value="Accept"
+                        title="Successful action"
+                        onclick={handleButtonClick}>
+                    </lightning-button>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Número de Cita de Servicio"
+                                value={WOM_ServiceAppointment_Number__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+                 <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Contacto de la Cita de Servicio"
+                                value={WOM_ContactName__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Necesidad del cliente"
+                                value={WOM_NecesidadCliente__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+                <!--
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Requerimientos del cliente"
+                                value={WOM_RequerimientosCliente__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+                
+                
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <div class="slds-form-element">
+                                <label class="slds-form-element__label slds-no-flex">Tipo de agendamiento</label>
+                                <div class="slds-form-element__control slds-grow slds-m-vertical_x-small">
+                                    <template if:true={isEmergency}>
+                                        <lightning-badge class="slds-theme_error whiteIconBadge"
+                                            label={WOM_SchedulingType__c}
+                                            icon-name="utility:warning"></lightning-badge>
+                                    </template>
+                                    <template if:false={isEmergency}>
+                                        <lightning-badge class="slds-theme_success whiteIconBadge"
+                                            label={WOM_SchedulingType__c}
+                                            icon-name="utility:reminder"></lightning-badge>
+                                    </template>
+                                </div>
+                            </div>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+            
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Tipo de Cita de Servicio"
+                                value={WOM_AppointmentType__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+                -->
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+
+                            <lightning-input read-only="true" type="text" label="Dirección inicio"
+                                value={WOM_ServiceAppointment_Address__c}>
+                            </lightning-input>
+                            <!--
+                            <label class="slds-form-element__label">Dirección inicio</label>
+                            <lightning-formatted-address street={selectedSA.Street} city={selectedSA.City}
+                                country={selectedSA.Country} province={selectedSA.State}
+                                postal-code={selectedSA.PostalCode}>
+                            </lightning-formatted-address> -->
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+
+                            <lightning-input read-only="true" type="text" label="Dirección destino"
+                                value={WOM_ServiceAppointment_Address2__c}>
+                            </lightning-input>
+
+                            <!-- <label class="slds-form-element__label">Dirección destino</label>
+                            <lightning-formatted-address street={selectedSA.streetDestino} city={selectedSA.CityDestino}
+                                country="Colombia" >
+                            </lightning-formatted-address> -->
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+                <!--
+                 <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Asunto"
+                                value={WOM_ServiceAppointmentSubject__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+                
+                
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="datetime" label="Fecha solicitada"
+                                value={WOM_ServiceAppointment_CreatedDate__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item> -->
+
+                <lightning-layout-item size="12" class="slds-p-vertical_small">
+                    <lightning-layout horizontal-align="space">
+                        <lightning-layout-item class="slds-form-element_readonly" size="10">
+                            <lightning-input read-only="true" type="text" label="Tipo de trabajo"
+                                value={WOM_WorkTypeName__c}></lightning-input>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+            </lightning-layout>
+        </template>
+
+    </lightning-quick-action-panel>
+</template>

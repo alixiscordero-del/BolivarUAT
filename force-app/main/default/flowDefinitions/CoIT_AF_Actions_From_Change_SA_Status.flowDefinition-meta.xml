@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>-Añadida variable Assigned resource
+-Añadida Notificación email cuando se Cancela SA
+-añadido accion enviar email SA Cancelada
+-añadido  acciones flujo inconpleto
+-DateTimeNUll agregado
+-Añadido accion de subbmit el proceso de aprobacion en estado Fallido.
+-Variable Assigned Service Resource
+-Submiter para el proceso de aprobación (partner funcionality)
+-Aprobador de estado fallido - Owner de la WO</description>
+    <masterLabel>zzz CoIT AF Actions From Change SA Status</masterLabel>
+</FlowDefinition>

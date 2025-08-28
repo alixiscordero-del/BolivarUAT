@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Recurso de servicio</label>
+    <name>CoIT_Service_Resource__c</name>
+    <relationshipLabel>Historial de estados de cita de servicio</relationshipLabel>
+</CustomFieldTranslation>

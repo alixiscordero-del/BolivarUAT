@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <milestoneName>Llamada a técnico</milestoneName>
+        <minutesToComplete>15</minutesToComplete>
+        <successActions>
+            <name>Llamada_a_Tecnico</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Llamada a Proveedor</milestoneName>
+        <minutesToComplete>30</minutesToComplete>
+        <successActions>
+            <name>Llamada_a_Proveedor</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Verificar Vigencia Poliza</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <successActions>
+            <name>Verificar_Urgencia_Poliza</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Crear Orden de trabajo</milestoneName>
+        <minutesToComplete>180</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

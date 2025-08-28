@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Se asigna el valor de no asignado al campo de estado razón, cuando el dueño del caso no es una cola de agentes.</description>
+    <masterLabel>zzzzzzzCOIT RTF Status reason not assignment</masterLabel>
+</FlowDefinition>

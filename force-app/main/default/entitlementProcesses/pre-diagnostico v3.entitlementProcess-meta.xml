@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>Default</businessHours>
+    <description>Proceso inicial para evaluar si es necesario hacer WO-diagnostico.</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Llamada técnico</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.OwnerId</field>
+            <operation>notContain</operation>
+            <value>Cola</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Llamada a técnico</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <successActions>
+            <name>Llamada_a_t_cnico_completada</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Llamada cliente</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.OwnerId</field>
+            <operation>notContain</operation>
+            <value>Cola</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Llamada a cliente</milestoneName>
+        <minutesToComplete>60</minutesToComplete>
+        <successActions>
+            <name>Llamar_a_cliente_completada</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>
