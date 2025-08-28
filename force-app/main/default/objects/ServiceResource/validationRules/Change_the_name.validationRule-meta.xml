@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_the_name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;,
+    ISCHANGED(Name)
+)</errorConditionFormula>
+    <errorMessage>No tienes permisos para editar el nombre de los recursos de servicio.</errorMessage>
+</ValidationRule>

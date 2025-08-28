@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Reason_Val</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(ISPICKVAL( Status , &quot;CoIT_Failed&quot; ) &amp;&amp;  ISPICKVAL( CoIT_Status_Reason__c , &quot;&quot;)   , True, False)
+ || 
+IF(ISPICKVAL( Status , &quot;Canceled&quot; ) &amp;&amp;  ISPICKVAL( CoIT_Status_Reason__c , &quot;&quot;) , True, False)
+ || 
+IF(ISPICKVAL( Status , &quot;Cannot Complete&quot; ) &amp;&amp;  ISPICKVAL( CoIT_Status_Reason__c , &quot;&quot;)  &amp;&amp; RecordType.Name=&quot;Hogares&quot;   , True, False)</errorConditionFormula>
+    <errorDisplayField>CoIT_Status_Reason__c</errorDisplayField>
+    <errorMessage>El motivo de cambio de estado es requerido.</errorMessage>
+</ValidationRule>

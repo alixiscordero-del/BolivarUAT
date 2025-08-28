@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CoIT_Share_WO_with_t_cnico_baseRCR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>CoIT Share WO with técnico baseRCR</label>
+        <sharedTo>
+            <group>Territorio_RCR_Proyectos_SAS</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5ESQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_WO_with_t_cnico_baseSUBA</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share WO with técnico baseSUBA</label>
+        <sharedTo>
+            <group>T_Agencia_de_Plomeria_de_Suba_LTDA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EQQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sobre_ruedas</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sobre ruedas</label>
+        <sharedTo>
+            <group>GRU_TAX_SOBRE_RUEDA_SERV_AL_INSTANTE_SAS</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0HhO80000001CVeKAM</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_Technichian_DueDate</fullName>
+    <active>true</active>
+    <description>No permite al tecnico base cambiar el campo Earliest Start Time</description>
+    <errorConditionFormula>$Profile.Name = &quot;CoIT Bolivar Base Technician Profile&quot; &amp;&amp;
+(
+ISCHANGED(DueDate)
+)</errorConditionFormula>
+    <errorMessage>No puedes editar este campo</errorMessage>
+</ValidationRule>

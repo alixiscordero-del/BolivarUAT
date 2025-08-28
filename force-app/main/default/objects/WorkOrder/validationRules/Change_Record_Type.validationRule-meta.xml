@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Record_Type</fullName>
+    <active>true</active>
+    <description>No puede cambiar el record type de una work order para los perfiles de Manager y Leader</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(RecordTypeId),
+    OR(
+        $Profile.Name = &quot;CoIT Bolivar Manager Profile&quot;,
+        $Profile.Name = &quot;CoIT Bolivar Leader Profile&quot;
+    )
+)</errorConditionFormula>
+    <errorMessage>No tienes permisos para cambiar el tipo de registro.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <environments>Default</environments>
+    <interviewLabel>RTF {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RTF Update Record Injeopardy UnscheduleService Close Date</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Close_Date</name>
+        <label>Update Close Date</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>CoIT_Date_Close__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Close_Date</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>2 AND (1 OR 3 OR 4 OR 5 OR 6 OR 7)</filterLogic>
+        <filters>
+            <field>CoIT_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Unscheduled service</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CoIT_UpdateCloseDate__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CoIT_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>No candidates found</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CoIT_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>No technicians were found available for the offer</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CoIT_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Technician is taking more time than required</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CoIT_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Technician has not started travel</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>CoIT_In_Jeopardy_Reason__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Urgent, repair not possible, assistance concept required</stringValue>
+            </value>
+        </filters>
+        <object>CoIT_In_Jeopardy_History__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <variables>
+        <name>V_CloseDate</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

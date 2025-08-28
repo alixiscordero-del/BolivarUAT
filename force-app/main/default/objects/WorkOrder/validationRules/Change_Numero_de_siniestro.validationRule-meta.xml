@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Numero_de_siniestro</fullName>
+    <active>true</active>
+    <description>gestores y supervisores no puede cambiar el numero de siniestro</description>
+    <errorConditionFormula>AND(
+ISCHANGED(CoIT_Numero_Siniestro__c),
+OR(
+$Profile.Name = &quot;CoIT Bolivar Manager Profile&quot;,
+$Profile.Name = &quot;CoIT Bolivar Leader Profile&quot;,
+$Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;,
+$Profile.Name = &quot;CoIT Bolivar Base Technician Profile&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>No tienes permisos para cambiar el Numero de siniestro</errorMessage>
+</ValidationRule>

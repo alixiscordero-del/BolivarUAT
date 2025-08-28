@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_SA_with_t_cnico_baseDuralav</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share SA with técnico baseDuralav</label>
+        <sharedTo>
+            <group>Territorio_DURALAV_SAS</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EVQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_SA_with_t_cnico_baseRCR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share SA with técnico baseRCR</label>
+        <sharedTo>
+            <group>Territorio_RCR_Proyectos_SAS</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5ESQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_SA_with_t_cnico_baseSUBA</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share SA with técnico baseSUBA</label>
+        <sharedTo>
+            <group>T_Agencia_de_Plomeria_de_Suba_LTDA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EQQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_change_Status_Reason_Fallido</fullName>
+    <active>true</active>
+    <description>Un usuario gestor o supervisor no pueden escoger el valor de fallido en una service appointment</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(CoIT_Status_Reason__c, &quot;Fallido&quot;),
+    OR(
+        $Profile.Name = &quot;CoIT Bolivar Manager Profile&quot;, 
+        $Profile.Name = &quot;CoIT Bolivar Supervisor Profile&quot;
+    )
+)</errorConditionFormula>
+    <errorMessage>No tienes permisos para realizar fallido en la cita de servicio</errorMessage>
+</ValidationRule>

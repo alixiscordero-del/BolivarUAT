@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_status_base_Scheduled</fullName>
+    <active>false</active>
+    <errorConditionFormula>$Profile.Name =
+&quot;CoIT Proveedor Base Partner Bolivar&quot; &amp;&amp; ISPICKVAL(Status, &quot;Scheduled&quot;)</errorConditionFormula>
+    <errorMessage>No Tienes permisos para cambiar estado</errorMessage>
+</ValidationRule>

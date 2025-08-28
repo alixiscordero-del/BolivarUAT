@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseTechnician_Restrict_Field_Changes_PD</fullName>
+    <active>true</active>
+    <errorConditionFormula>($Profile.Name = &quot;CoIT Bolivar Base Technician Profile&quot; || 
+ $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;) 
+&amp;&amp; 
+(
+    ISPICKVAL(Status, &quot;Travel&quot;) || 
+    ISPICKVAL(Status, &quot;In Progress&quot;) || 
+    ISPICKVAL(Status, &quot;Completed&quot;) || 
+    ISPICKVAL(Status, &quot;Canceled&quot;) || 
+    ISPICKVAL(FSSK__FSK_Work_Order__r.Status, &quot;Travel&quot;) || 
+    ISPICKVAL(FSSK__FSK_Work_Order__r.Status, &quot;In Progress&quot;) || 
+    ISPICKVAL(FSSK__FSK_Work_Order__r.Status, &quot;Completed&quot;) || 
+    ISPICKVAL(FSSK__FSK_Work_Order__r.Status, &quot;Canceled&quot;)
+) 
+&amp;&amp; 
+(
+    ISCHANGED(SchedStartTime) || 
+    ISCHANGED(FSSK__FSK_Assigned_Service_Resource__c)
+)</errorConditionFormula>
+    <errorMessage>No Puedes Cambiar  la Programacion de la Drop Off</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rescheduling_Date_Val</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( ISPICKVAL( CoIT_Status_Reason__c , &quot;El cliente solicita reagendar&quot;)&amp;&amp;  ISBLANK( CoIT_Rescheduling_Date__c ) , True, False)   
+ || 
+IF( ISPICKVAL( CoIT_Status_Reason__c , &quot;Falta herramientas y/o repuesto&quot;)&amp;&amp;  ISBLANK( CoIT_Rescheduling_Date__c ) , True, False)
+ || 
+IF( ISPICKVAL( CoIT_Status_Reason__c , &quot;Seguimiento de caso presencial&quot;) &amp;&amp;  ISBLANK( CoIT_Rescheduling_Date__c ), True, False)
+ || 
+IF( ISPICKVAL( CoIT_Status_Reason__c , &quot;Seguimiento de caso virtual&quot;) &amp;&amp;  ISBLANK( CoIT_Rescheduling_Date__c ) , True, False)</errorConditionFormula>
+    <errorDisplayField>CoIT_Rescheduling_Date__c</errorDisplayField>
+    <errorMessage>En necesario ingresar la fecha de reprogramación.</errorMessage>
+</ValidationRule>

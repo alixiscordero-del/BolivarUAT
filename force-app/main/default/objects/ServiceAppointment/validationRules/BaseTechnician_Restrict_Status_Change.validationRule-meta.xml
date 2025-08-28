@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseTechnician_Restrict_Status_Change</fullName>
+    <active>true</active>
+    <description>Evita que los usuarios con el perfil &quot;CoIT Bolivar Base Technician Profile&quot; cambien el estado de las citas a &quot;Scheduled&quot;, &quot;Dispatched&quot; o &quot;Canceled&quot;.</description>
+    <errorConditionFormula>(
+    ($Profile.Name = &quot;CoIT Bolivar Base Technician Profile&quot; || $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;) 
+&amp;&amp;
+    ISCHANGED(Status) 
+&amp;&amp;
+    ISPICKVAL(Status, &quot;Canceled&quot;)
+)</errorConditionFormula>
+    <errorMessage>No puedes cambiar la cita al estado solicitado.</errorMessage>
+</ValidationRule>

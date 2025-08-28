@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_change_time_zone_create</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;,
+    ISNEW(),
+    NOT(ISPICKVAL(TimeZone, &quot;(GMT-05:00) hora estándar de Colombia (America/Bogota)&quot;))
+)</errorConditionFormula>
+    <errorMessage>No tienes permisos para cambiar la zona horaria</errorMessage>
+</ValidationRule>

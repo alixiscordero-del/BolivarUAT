@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseTechnician_Restrict_Field_Changes_E</fullName>
+    <active>true</active>
+    <errorConditionFormula>(
+    ($Profile.Name = &quot;CoIT Bolivar Base Technician Profile&quot;  || $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;) 
+&amp;&amp;
+    ISPICKVAL(CoIT_WOM_Scheduling_Type__c, &quot;Emergency&quot;) 
+&amp;&amp;
+    (ISPICKVAL(Status, &quot;Dispatched&quot;) || ISPICKVAL(Status, &quot;Travel&quot;) || ISPICKVAL(Status, &quot;In Progress&quot;) || ISPICKVAL(Status, &quot;Completed&quot;) || ISPICKVAL(Status, &quot;Canceled&quot;))
+&amp;&amp;
+    (
+        ISCHANGED(SchedStartTime) || ISCHANGED(FSSK__FSK_Assigned_Service_Resource__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>No puedes cambiar la programación de la cita de servicio Emergencia</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>restriccion_Complete_gestor</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Profile.Name =
+&quot;CoIT Bolivar Manager Profile&quot; &amp;&amp; ISPICKVAL(Status, &quot;Complete&quot;)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>No tiene permisos para cambiar el estado</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Order_Complete</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(  ISPICKVAL( PRIORVALUE(Status), &apos;Completed&apos;) , true, false)</errorConditionFormula>
+    <errorMessage>No puede modificar una Orden de trabajo que ya ha sido completada</errorMessage>
+</ValidationRule>

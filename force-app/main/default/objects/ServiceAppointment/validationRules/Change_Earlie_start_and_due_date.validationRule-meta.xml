@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Earlie_start_and_due_date</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+    AND(
+        ISCHANGED(EarliestStartTime),
+        $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;
+    ),
+    AND(
+        ISCHANGED(DueDate),
+        $Profile.Name = &quot;CoIT Proveedor Base Partner Bolivar&quot;
+    )
+)</errorConditionFormula>
+    <errorMessage>No tienes permisos para cambiar las fechas de la cita de servicio.</errorMessage>
+</ValidationRule>

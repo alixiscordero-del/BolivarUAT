@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CoIT_Share_SR_with_t_cnico_baseDuralav</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>CoIT Share SR with técnico baseDuralav</label>
+        <sharedTo>
+            <group>Territorio_DURALAV_SAS</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EVQA1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EPQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CoIT_Share_SR_with_t_cnico_baseRCR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>CoIT Share SR with técnico baseRCR</label>
+        <sharedTo>
+            <group>Territorio_RCR_Proyectos_SAS</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5ESQA1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EPQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>CoIT_Share_SR_with_t_cnico_baseSUBA</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>CoIT Share SR with técnico baseSUBA</label>
+        <sharedTo>
+            <group>T_Agencia_de_Plomeria_de_Suba_LTDA</group>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EQQA1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>CoIT_Proveedor_ID__c</field>
+            <operation>contains</operation>
+            <value>0018M00000SM5EPQA1</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingGuestRules>
+        <fullName>Share_Guest_SR</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Share Guest SR</label>
+        <sharedTo>
+            <guestUser>Appointment_Assistant_SFS</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingOwnerRules>
+        <fullName>All_Internal</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Internal User can view all Work Type records</description>
+        <label>All Internal</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Ya_se_creo_una_WO_Diagnostico</name>
+        <label>Ya se creo una WO-Diagnostico?</label>
+        <locationX>182</locationX>
+        <locationY>242</locationY>
+        <defaultConnector>
+            <targetReference>Crear_WO_DIagnostico</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Si</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Obtener_Case.CoIT_Wo_Diagnostico_creada__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>No_creacion_de_la_WO</targetReference>
+            </connector>
+            <label>Si</label>
+        </rules>
+    </decisions>
+    <description>- Asigna el SR de lA WOLI-Asesor de acuerdo con el owner del Case 
+- Hereda Owner del Case
+- Crea mediante subflows las WO-DIagnostico, Reparación y Entrega
+- Usa subflow para la WO-Diagnostico</description>
+    <environments>Default</environments>
+    <interviewLabel>Diagnostico: Crear WO: Diagnostico, Reparación, Entrega v5 {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
+    <label>Diagnostico: Crear WO: Diagnostico, Reparación, Entrega v5</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Obtener_Case</name>
+        <label>Obtener Case</label>
+        <locationX>182</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Ya_se_creo_una_WO_Diagnostico</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>No_creacion_de_la_WO</name>
+        <label>No creacion de la WO</label>
+        <locationX>50</locationX>
+        <locationY>350</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>DT_NO_crea_WO</name>
+            <fieldText>&lt;p&gt;&lt;strong&gt;Ya existe una &lt;/strong&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Orden de trabajo para Diagnostico&lt;/strong&gt;&lt;strong&gt; creada para este caso.&lt;/strong&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>false</showHeader>
+    </screens>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Obtener_Case</targetReference>
+        </connector>
+    </start>
+    <status>Obsolete</status>
+    <subflows>
+        <name>Crear_WO_DIagnostico</name>
+        <label>Crear WO-DIagnostico</label>
+        <locationX>314</locationX>
+        <locationY>350</locationY>
+        <connector>
+            <targetReference>Crear_WO_Reparacion</targetReference>
+        </connector>
+        <flowName>Crear_WO_DIagnostico</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>Obtener_Case.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Crear_WO_Entrega</name>
+        <label>Crear WO-Entrega</label>
+        <locationX>314</locationX>
+        <locationY>566</locationY>
+        <flowName>Crear_WO_Entrega</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>Obtener_Case.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <subflows>
+        <name>Crear_WO_Reparacion</name>
+        <label>Crear WO Reparacion</label>
+        <locationX>314</locationX>
+        <locationY>458</locationY>
+        <connector>
+            <targetReference>Crear_WO_Entrega</targetReference>
+        </connector>
+        <flowName>Crear_WO_Reparaci_n</flowName>
+        <inputAssignments>
+            <name>recordId</name>
+            <value>
+                <elementReference>Obtener_Case.Id</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

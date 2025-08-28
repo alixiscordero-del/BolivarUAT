@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriccion_On_SIte_SUperviso</fullName>
+    <active>true</active>
+    <errorConditionFormula>$Profile.Name =
+&quot;CoIT Bolivar Supervisor Profile&quot; &amp;&amp; ISPICKVAL(Status, &quot;On Site&quot;)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>No tiene permisos para cambiar este estado</errorMessage>
+</ValidationRule>
