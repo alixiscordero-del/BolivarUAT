@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Lightbox zdrojů správy posádky</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Nouzová pole</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Získejte podrobnosti o kandidátů na zdroje</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filtr zdrojů v Ganttu</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox zdrojů</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Resource Layout</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Resource Layout-Base</layout>
+        <sections>
+            <label></label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copia de CoIT Service Resource Layout-Gestor</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_the_name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zdroj kapacity nemůže být typem posádky</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Rychlost cesty zdroje musí být vyšší než 0.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

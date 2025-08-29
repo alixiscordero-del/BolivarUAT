@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Paketin jäsenet</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Paketin jäsenten sisarukset</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Paketoijan Lightbox</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kapasiteetin palvelusarakkeet</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Monimutkaisten töiden hakusuhdekentät</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Henkilöstön hallinta</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Henkilöstön hallinnan työkaluvihje</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kohdistetut työkentät</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Vanhentunut</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-suodatin</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen optimointikriteeri</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaaminen laajennettu</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen luettelon sarakkeet</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen luettelon esikatselu</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen resurssikalenterin näyttö</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutapaamisen resurssikalenterin työkaluvihje</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelutietoikkunan kartta</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelun Lightbox</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service Lightboxin osoite</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Service Lightboxin aika</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Palvelun työkaluvihjeen Gantt</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Appointment Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Appointment Layout - Technician</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base - Autos</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base - Hogares</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FSL Service Appointment Layout SFS</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Complex Work</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Cambiar_estado_de_Cita</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Change_Appointment_Status</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CoIT_Cambiar_Estado</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CoIT_WOM_AcceptanceSA</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Contactless_Signature</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Autos</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Hogares</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_E</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_P</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_PD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_State_By_Assigne</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Status_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Base_Technichian_DueDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Base_Technichian_EarliestStartTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Earlie_start_and_due_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base_Dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base_Scheduled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Uutta palvelutapaamista ei voida luoda Ajoitettu- tai Lähetetty-tilassa.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Valitse käypä sidonnaisuuden tyyppi. Jos tapaamiset täytyy kohdistaa samalle resurssille, sidonnaisuuden tyyppi ei voi olla Sama alkamisaika.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Resurssin riippuvuus on virheellinen. Ajasta riippuvuus ei voi olla Sama alkamisaika, kun sama resurssi on pakollinen.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ajoitettu alku ja loppu ovat molemmat pakollisia</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ajoitettu alku ja loppu ovat molemmat pakollisia</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Gantt-kaavion värin täytyy olla heksadesimaalimuodossa (esimerkiksi #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Valitse asiaan liittyvä palvelu.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>DueDate-kenttä on pakollinen</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kesto-kenttä on pakollinen</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>EarliestStartTime-kenttä on pakollinen</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ajoitetun alkamisajan täytyy olla ennen ajoitettua päättymisaikaa.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_change_Status_Reason_Fallido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Rescheduling_Date_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restreiccion_Complete_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_OnSIte</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_Travel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_On_SIte_SUperviso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_travel_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_Reason_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_Subreason_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_Complete_gestor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_OnSIte_Gestor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_trave_gestor</name>
+    </validationRules>
+</CustomObjectTranslation>

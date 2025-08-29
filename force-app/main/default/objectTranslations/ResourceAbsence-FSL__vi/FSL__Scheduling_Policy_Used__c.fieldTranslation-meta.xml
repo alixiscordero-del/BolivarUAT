@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Chính Sách Lên Lịch Đã Sử Dụng</label>
+    <name>FSL__Scheduling_Policy_Used__c</name>
+    <relationshipLabel>Ngày Nghỉ Của Nhân Sự</relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Правило работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Правила работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Правило работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Правила работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Правила работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Правил работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Правилу работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Правилам работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Правилом работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Правилами работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Правиле работы</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Правилах работы</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Имя правила работы</nameFieldLabel>
+    <recordTypes>
+        <description>Установка ограничений для рабочей нагрузки сервисных ресурсов на заданной сервисной территории в соответствии с указанными критериями.</description>
+        <label>Field Service - Правило производительности</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ограничение сервисных ресурсов на основе количества элементов (например, сервисные встречи, продолжительности встреч или значения настраиваемых полей).</description>
+        <label>Field Service: правило количества</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сопоставление свойства в объекте &quot;Сервисная встреча&quot; со свойством из списка в объекте &quot;Сервисный ресурс&quot;.</description>
+        <label>Field Service: расширенное сопоставление</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Проверка назначенного ресурса для сервисной встречи на отсутствие в списке исключенных ресурсов</description>
+        <label>Field Service: исключенные ресурсы</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сопоставление рабочих территорий сервисного ресурса</description>
+        <label>Field Service: рабочие территории</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Проверка сервисного ресурса на доступность для сервисной встречи</description>
+        <label>Field Service: доступность сервисного ресурса</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Проверка логического свойства на наличие значения &quot;истина&quot; или &quot;ложь&quot;</description>
+        <label>Field Service: сопоставление логических значений</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сопоставление размера рабочей группы с минимальным размером рабочей группы для родителя обслуживания</description>
+        <label>Field Service: доступность ресурсов сервисной рабочей группы</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сопоставление свойства между объектами &quot;Сервисная встреча&quot; и &quot;Сервисный ресурс&quot;</description>
+        <label>Field Service: сопоставление полей</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сопоставление территории между объектами &quot;Сервисная встреча&quot; и &quot;Сервисный ресурс&quot; с поддержкой перемещения</description>
+        <label>Field Service: сопоставление территории</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сопоставление требуемых навыков для сервисной встречи с навыками сервисного ресурса</description>
+        <label>Field Service: сопоставление навыков</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ограничение расстояния/времени для командировки сервисных ресурсов из дома</description>
+        <label>Field Service: максимальная дорога из дома</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Проверка назначенного ресурса для сервисной встречи на наличие в списке требуемых ресурсов</description>
+        <label>Field Service: требуемые ресурсы</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Здесь обеспечивается соответствие сервисной встречи часам посещения, указанным клиентом.</description>
+        <label>Field Service: часы посещения для сервисной встречи</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Здесь обеспечивается допустимость сервисной встречи для планирования во временных интервалах, на которые она распространяется.</description>
+        <label>Field Service: назначенная работа TimeSlot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ограничение интервала времени планирования согласно свойствам даты и времени сервисной встречи.</description>
+        <label>Field Service: сопоставление правила времени</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Если свойству запланированного времени обслуживания задано значение &quot;SchedEndTime&quot;, то оператору времени должно быть задано значение &quot;Раньше или равно&quot;.</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Продолжительность должна быть положительной.</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Максимальная дорога из дома должна быть положительной.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Минимальный интервал не должен быть отрицательным.</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Время должно использовать следующий формат: ЧЧ:ММ.</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Время должно использовать следующий формат: ЧЧ:ММ.</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Arbetsregeln</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>En arbetsregel</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Arbetsregel</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Arbetsreglerna</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Arbetsregler</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Arbetsregler</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn på arbetsregel</nameFieldLabel>
+    <recordTypes>
+        <description>Sätter gränser för serviceresursernas arbetskapacitet inom ett visst serviceområde enligt angivna kriterier.</description>
+        <label>Field Service - Regel för arbetskapacitet</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begränsar serviceresurser baserat på ett antal objekt som servicebokningar, varaktighet, eller egna fältvärden</description>
+        <label>Field Service - Antalsregel</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matchar en egenskap mellan ett bokningsobjekt för en egenskap som finns i en lista i serviceresursobjekt</description>
+        <label>Field Service - Utökad matchning</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Säkerställer att den tilldelade resursen för servicebokningen inte är en av de uteslutna resurserna</description>
+        <label>Field Service - Uteslutna resurser</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matcha arbetsområden för serviceresurs</description>
+        <label>Field Service – Arbetsområden</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Säkerställer att serviceresursen är tillgänglig för en servicebokning</description>
+        <label>Field Service - Serviceresurstillgänglighet</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Validerar om booleska egenskap är satt till sant eller falskt</description>
+        <label>Field Service - Matcha boolesk</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matcha servicestyrka till minsta servicestyrka för överordnad</description>
+        <label>Field Service - Serviceresurstillgänglighet</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matchar en egenskap mellan ett servicebokningsobjekt och ett serviceresursobjekt</description>
+        <label>Field Service - Matcha fält</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matchar området mellan ett servicebokningsobjekt och ett serviceresursobjekt med stöd för omplacering</description>
+        <label>Field Service - Matcha område</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matchar den kompetens som krävs för en servicebokning med serviceresursens kompetens</description>
+        <label>Field Service - Matcha kompetens</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begränsar serviceresursers restid från hemmet</description>
+        <label>Field Service - Längsta restid från hem</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Säkerställer att den tilldelade resursen för servicebokningen är en av de resurser som behövs</description>
+        <label>Field Service - Resurser som behövs</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Säkerställer att servicebokningen är schemalagd inom kundens definierade besökstider.</description>
+        <label>Field Service - Besökstider för servicemöte</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Säkerställer att servicebokningen är tillåten att schemaläggas i de tidsluckor den finns i.</description>
+        <label>Field Service - Tidslucka tilldelat arbete</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begränsar tidsfönstret för schemaläggning enligt servicebokningens egenskaper för datum och tid</description>
+        <label>Field Service - Matcha tidsregel</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Tidsoperator ska vara &quot;Före&quot; eller Lika med’ när tidsegenskap för serviceschema är &quot;SchedEndTime&quot;</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tidslängd måste vara positiv</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Längsta restid hemifrån måste vara positivt.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Minsta lucka ska inte vara negativ</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tid måste vara i följande format: TT:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tid måste vara i följande format: TT:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

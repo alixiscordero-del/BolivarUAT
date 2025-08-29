@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estado de Aceptación</label>
+    <name>CoIT_Acceptance_Status__c</name>
+    <picklistValues>
+        <masterLabel>Accepted</masterLabel>
+        <translation>Aceptado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation>Rechazado</translation>
+    </picklistValues>
+</CustomFieldTranslation>

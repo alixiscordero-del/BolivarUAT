@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage>성능 기반 서비스 자원은 직원 구성원 할당 안 됨</errorMessage>
+        <name>FSL__Prevent_Crew_Allocation_For_Contractors</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Chabge_Territory_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Data de sfârșit trebuie să fie în următorii 3 ani</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Imposibil de salvat un membru de teritoriu de servicii, de tip secundar cu program de funcționare sau adresă</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

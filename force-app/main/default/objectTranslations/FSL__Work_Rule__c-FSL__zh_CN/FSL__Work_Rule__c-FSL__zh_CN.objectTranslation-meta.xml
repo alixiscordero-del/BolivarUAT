@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>工作规则</value>
+    </caseValues>
+    <nameFieldLabel>工作规则名称</nameFieldLabel>
+    <recordTypes>
+        <description>对于指定服务区域内的服务资源，根据指定的条件，设置工作量的限制。</description>
+        <label>Field Service - 工作容量规则</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根据项目数量限制服务资源，例如服务预约、预约持续时间或自定义字段值</description>
+        <label>Field Service - 计数规则</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>将服务预约对象属性与服务资源对象列表中的属性相匹配</description>
+        <label>字段服务—扩展匹配</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务预约的已分配资源并非其中一个已排除资源</description>
+        <label>Field Service - 已排除资源</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配服务资源工作区域</description>
+        <label>Field Service - 工作区域</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务资源对服务预约可用</description>
+        <label>Field Service - 服务资源可用性</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请验证布尔值属性设置为真或假</description>
+        <label>Field Service - 匹配布尔值</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配班组规模与服务父级最小班组规模</description>
+        <label>Field Service - 服务班组资源可用性</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配服务预约对象与服务资源对象之间的属性</description>
+        <label>Field Service - 匹配字段</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>通过重新定位支持，匹配服务预约对象与服务资源对象之间的区域</description>
+        <label>Field Service - 匹配区域</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>匹配服务预约的所需技能与服务资源的技能</description>
+        <label>Field Service - 匹配技能</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>显示距离总部的服务资源出行距离\时间</description>
+        <label>Field Service - 从总部出差的最大数量</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务预约的已分配资源是其中一个所需资源</description>
+        <label>Field Service - 所需资源</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保服务预约计划在客户确定的走访时间内。</description>
+        <label>Field Service - 服务预约访问小时</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>请确保允许在传播的时间空档上计划服务预约</description>
+        <label>Field Service - TimeSlot 已指派工作</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根据服务预约日期时间属性，限制计划时间时段</description>
+        <label>Field Service - 匹配时间规则</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>在服务预约时间属性是“SchedEndTime”时，时间运算符应是“之前或等于”。</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>持续时间必须为正</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>从总部出差的最大数量必须为正</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>最小时隙不得为负</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>时间必须按照如下格式：HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>时间必须按照如下格式：HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

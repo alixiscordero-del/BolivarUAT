@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Pakkemedlemmer</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Sideordnede pakkemedlemmer</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for pakker</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kapasitetstjenestekolonner</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Felt for komplekse arbeidsoppslag</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Mannskapsbehandling</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Verktøytips for mannskapsbehandling</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Felt for utpekt arbeid</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Foreldet</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt-filter</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Optimaliseringskriterier for tjenesteavtale</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tjenesteavtale utvidet</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kolonner for tjenesteavtaleliste</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Forhåndsvisning av for tjenesteavtaleliste</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Visning av ressurskalender for tjenesteavtale</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Verktøytips for ressurskalender for tjenesteavtale</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kart over tjenesteavtalevindu</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for tjenester</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for tjenester - adresse</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Fremhevet vindu for tjenester - tid</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt for tjenesteverktøytips</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Appointment Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Appointment Layout - Technician</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base - Autos</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base - Hogares</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FSL Service Appointment Layout SFS</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Complex Work</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Cambiar_estado_de_Cita</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Change_Appointment_Status</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CoIT_Cambiar_Estado</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CoIT_WOM_AcceptanceSA</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Contactless_Signature</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Autos</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Hogares</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_E</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_P</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_PD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_State_By_Assigne</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Status_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Base_Technichian_DueDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Base_Technichian_EarliestStartTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Earlie_start_and_due_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base_Dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base_Scheduled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ny tjenesteavtale kan ikke opprettes med planlagt eller utsendt status.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Velg en gyldig avhengighetstype. Hvis avtalene må tildeles til samme ressurs, kan ikke avhengighetstypen være Samme start.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ressursavhengighet er ugyldig. Tidsavhengighet kan ikke være Samme start når samme ressurs kreves.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Både planlagt start og slutt kreves</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Både planlagt start og slutt kreves</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Gantt-farger må være i heksadesimalt format: (for eksempel: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Velg Relatert tjeneste.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>DueDate-felt er nødvendig</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Varighet-felt er nødvendig</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>EarliestStartTime-felt er nødvendig</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Planlagt start må være tidligere enn planlagt slutt.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_change_Status_Reason_Fallido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Rescheduling_Date_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restreiccion_Complete_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_OnSIte</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_Travel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_On_SIte_SUperviso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_travel_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_Reason_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_Subreason_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_Complete_gestor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_OnSIte_Gestor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_trave_gestor</name>
+    </validationRules>
+</CustomObjectTranslation>

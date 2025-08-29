@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>กฎงาน</value>
+    </caseValues>
+    <nameFieldLabel>ชื่อกฎการทำงาน</nameFieldLabel>
+    <recordTypes>
+        <description>ตั้งขีดจำกัดสำหรับขีดความสามารถงานของทรัพยากรบริการในพื้นที่บริการที่กำหนดตามเกณฑ์ที่ระบุ</description>
+        <label>Field Service - กฎขีดความสามารถของงาน</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ขีดจำกัดของทรัพยากรบริการ ซึ่งยึดจากตัวเลขของรายการ เช่น การนัดหมายการบริการ ระยะเวลาการนัดหมาย หรือค่าฟิลด์แบบกำหนดเอง</description>
+        <label>Field Service - กฎการนับ</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จับคู่คุณสมบัติระหว่างออบเจ็กต์การนัดหมายการบริการให้กับคุณสมบัติที่มีอยู่ในรายการในออบเจ็กต์ทรัพยากรบริการ</description>
+        <label>Field Service - ตรงกับการขยายเวลา</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ดูให้แน่ใจว่าทรัพยากรที่ได้รับมอบหมายสำหรับการนัดหมายการบริการไม่ใช่หนึ่งในทรัพยากรที่ถูกยกเว้น</description>
+        <label>Field Service - ทรัพยากรที่ถูกยกเว้น</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จับคู่พื้นที่ทำงานของทรัพยากรบริการ</description>
+        <label>Field Service - ภูมิภาคการทำงาน</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ดูให้แน่ใจว่าทรัพยากรบริการพร้อมสำหรับการนัดหมายการบริการ</description>
+        <label>Field Service - ความพร้อมใช้งานของทรัพยากรการบริการ</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ตรวจสอบว่าคุณสมบัติของบูลีนถูกตั้งเป็นจริงหรือเท็จ</description>
+        <label>Field Service - บูลีนที่ตรงกัน</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จับคู่ขนาดของทีมงานกับขนาดทีมงานต่ำสุดของรายการหลักการบริการ</description>
+        <label>Field Service - ความพร้อมใช้งานของทรัพยากรทีมงานบริการ</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จับคู่คุณสมบัติระหว่างออบเจ็กต์การนัดหมายการบริการและออบเจ็กต์ทรัพยากรบริการ</description>
+        <label>Field Service - ฟิลด์ที่ตรงกัน</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จับคู่พื้นที่ระหว่างออบเจ็กต์การนัดหมายการบริการและออบเจ็กต์ทรัพยากรบริการที่รองรับการเปลี่ยนสถานที่ตั้ง</description>
+        <label>Field Service - ภูมิภาคที่ตรงกัน</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จับคู่ทักษะที่จำเป็นสำหรับการนัดหมายการบริการกับทักษะของทรัพยากรบริการ</description>
+        <label>Field Service - ทักษะที่ตรงกัน</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จำกัดระยะทาง\เวลาจากบ้านของทรัพยากรบริการ</description>
+        <label>Field Service - การเดินทางจากบ้านสูงสุด</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ดูให้แน่ใจว่าทรัพยากรที่ได้รับมอบหมายสำหรับการนัดหมายการบริการเป็นหนึ่งในทรัพยากรที่ต้องการ</description>
+        <label>Field Service - ทรัพยากรที่จำเป็น</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ดูให้แน่ใจว่าการนัดหมายการบริการถูกจัดตารางเวลาไว้ภายในเวลาเข้าพบที่ลูกค้ากำหนด</description>
+        <label>Field Service - เวลานัดหมายเยี่ยมเยียนสำหรับบริการ</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ดูให้แน่ใจว่าการนัดหมายการบริการได้รับอนุญาตให้จัดตารางเวลาในสล็อตเวลาที่กระจายอยู่</description>
+        <label>Field Service - สล็อตเวลาของงานที่กำหนดไว้</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>จำกัดช่วงเวลาการจัดตารางเวลาตามคุณสมบัติวันที่/เวลาการนัดหมายการบริการ</description>
+        <label>Field Service - กฎของเวลาที่ตรงกัน</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>ตัวดำเนินการเวลาจะต้องเป็น ’ก่อนหรือเท่ากับ’ เมื่อคุณสมบัติเวลาของตารางเวลาบริการเป็น ’SchedEndTime’</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ระยะเวลาจะต้องเป็นบวก</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>การเดินทางจากบ้านสูงสุดจะต้องเป็นบวก</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ช่องว่างต่ำสุดจะต้องไม่เป็นลบ</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>เวลาจะต้องอยู่ในรูปแบบต่อไปนี้: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>เวลาจะต้องอยู่ในรูปแบบต่อไปนี้: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

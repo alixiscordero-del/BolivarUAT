@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>班组管理资源 Lightbox</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>紧急字段</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>获取候选人资源详细信息</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>资源甘特图筛选器</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>资源 Lightbox</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Resource Layout</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Resource Layout-Base</layout>
+        <sections>
+            <label></label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copia de CoIT Service Resource Layout-Gestor</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_the_name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>能力资源的类型不得为班组</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>资源出差速度必须大于 0。</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

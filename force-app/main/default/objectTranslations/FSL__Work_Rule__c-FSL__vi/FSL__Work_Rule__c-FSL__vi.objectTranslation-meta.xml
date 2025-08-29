@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quy Tắc Công Việc</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <nameFieldLabel>Tên Quy Tắc Công Việc</nameFieldLabel>
+    <recordTypes>
+        <description>Thiết lập giới hạn cho năng suất làm việc của nhân sự dịch vụ trong một khu vực dịch vụ xác định, theo tiêu chí được chỉ định.</description>
+        <label>Field Service – Quy Tắc Về Khả Năng Làm Việc</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giới hạn nhân sự dịch vụ dựa trên một số mục như cuộc hẹn dịch vụ, thời lượng cuộc hẹn hoặc giá trị trường tùy chỉnh</description>
+        <label>Field Service - Quy Tắc Đếm</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Khớp một thuộc tính của một đối tượng là cuộc hẹn dịch vụ và một thuộc tính có trong danh sách của đối tượng là nhân sự dịch vụ</description>
+        <label>Field Service - Khớp Mở Rộng</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đảm bảo nhân sự được chỉ định cho cuộc hẹn dịch vụ không phải là một trong các nhân sự đã loại trừ</description>
+        <label>Field Service - Nhân Sự Đã Loại Trừ</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Khớp các khu vực làm việc của nhân sự dịch vụ</description>
+        <label>Field Service - Lãnh Thổ Làm Việc</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đảm bảo nhân sự dịch vụ này sẵn sàng cho cuộc hẹn dịch vụ</description>
+        <label>Field Service - Tình Trạng Sẵn Sàng Của Nhân Sự Dịch Vụ</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Xác thực thuộc tính boolean được đặt là true hoặc false</description>
+        <label>Field Service - Khớp Boolean</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Khớp quy mô nhóm với quy mô nhóm tối thiểu của mục dịch vụ mẹ</description>
+        <label>Field Service - Tình Trạng Sẵn Sàng Của Nhân Sự Nhóm Dịch Vụ</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Khớp một thuộc tính của một đối tượng là cuộc hẹn dịch vụ và một đối tượng là nhân sự dịch vụ</description>
+        <label>Field Service - Khớp Trường</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Khớp khu vực của một đối tượng là cuộc hẹn dịch vụ và một đối tượng là nhân sự dịch vụ</description>
+        <label>Field Service - So Khớp Lãnh Thổ</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Khớp các kỹ năng được yêu cầu cho cuộc hẹn dịch vụ với các kỹ năng của nhân sự dịch vụ</description>
+        <label>Field Service - Khớp Các Kỹ Năng</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giới hạn quãng đường/thời gian di chuyển từ nhà của nhân sự dịch vụ</description>
+        <label>Field Service - Thời Gian Di Chuyển Tối Đa Từ Nhà</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đảm bảo nhân sự được chỉ định cho cuộc hẹn dịch vụ là một trong các nhân sự được yêu cầu</description>
+        <label>Field Service - Nhân Sự Được Yêu Cầu</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đảm bảo cuộc hẹn dịch vụ được lên lịch trong số giờ thực hiện dịch vụ do khách hàng quy định.</description>
+        <label>Field Service - Số Giờ Truy Cập Chỉ Định Dịch Vụ</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đảm bảo cuộc hẹn dịch vụ được phép lên lịch vào khung giờ đã cho phép.</description>
+        <label>Field Service - Công Việc Được Chỉ Định Theo Khoảng Cách Thời Gian</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giới hạn cửa sổ giờ lên lịch theo thuộc tính ngày datetime của cuộc hẹn dịch vụ</description>
+        <label>Field Service - Khớp Quy Tắc Thời Gian</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Toán tử thời gian sẽ là ’Trước hoặc cùng’ khi Thuộc tính thời gian lên lịch dịch vụ là ’Thời gian kết thúc đã lên lịch’</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Thời Lượng phải là dương</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Thời Gian Di Chuyển Tối Đa Từ Nhà phải là dương</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Khoảng tối thiểu nên là âm</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Thời gian phải theo định dạng sau: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Thời gian phải theo định dạng sau: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

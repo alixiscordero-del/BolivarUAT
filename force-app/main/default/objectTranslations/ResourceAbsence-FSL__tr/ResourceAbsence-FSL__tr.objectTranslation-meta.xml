@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>İzin Kaynak Takvimi Araç İpucu</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kaynak İzni Lightbox</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Kaynak İzni Kaynak Takvimi</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <recordTypes>
+        <label>Ara</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Bulunmama</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Gantt rengi onaltılık formatta olmalıdır: (örneğin: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Başlangıç Zamanı Bitiş Zamanından önce olmalıdır</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

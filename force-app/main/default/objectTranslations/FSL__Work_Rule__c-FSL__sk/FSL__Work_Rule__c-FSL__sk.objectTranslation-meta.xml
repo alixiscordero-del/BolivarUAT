@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Pracovné pravidlo</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Pracovné pravidlá</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Pracovné pravidlo</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Pracovné pravidlá</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Pracovného pravidla</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Pracovných pravidiel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Pracovnému pravidlu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Pracovným pravidlám</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Pracovným pravidlom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Pracovnými pravidlami</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Pracovnom pravidle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Pracovných pravidlách</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Názov pracovného pravidla</nameFieldLabel>
+    <recordTypes>
+        <description>Nastavte limity pre pracovnú kapacitu servisných zdrojov na danom území služieb podľa stanovených kritérií.</description>
+        <label>Field Service - Pravidlo pracovnej kapacity</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Obmedzuje zdroje služieb na základe množstva položiek, ako sú servisné stretnutia, trvania stretnutí alebo vlastné hodnoty polí</description>
+        <label>Field Service – pravidlo počítania</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zosúlaďuje vlastnosť objektu servisného stretnutia a vlastnosť nachádzajúcu sa v zozname v objekte servisného zdroja</description>
+        <label>Field Service – rozšírená zhoda</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zabezpečuje, že priradený zdroj pre servisnú schôdzku nebude jeden z vylúčených zdrojov</description>
+        <label>Field Service – vylúčené zdroje</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Priradiť pracovné územia zdrojov servisu</description>
+        <label>Servis v teréne – pracovné územia</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zabezpečuje, že zdroj servisu bude dostupný pre servisnú schôdzku</description>
+        <label>Servis v teréne – dostupnosť servisných zdrojov</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Overuje, že boolovská vlastnosť je nastavená na pravda alebo nepravda</description>
+        <label>Field Service – spárovať booleovský operátor</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zosúladiť veľkosť tímu s minimálnou veľkosťou tímu pôvodného servisu</description>
+        <label>Servis v teréne – dostupnosť zdrojov servisného tímu</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zosúlaďuje vlastnosť objektu servisnej schôdzky a objektu servisného zdroja</description>
+        <label>Field Service – spárovať polia</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zosúlaďuje územie objektu servisnej schôdzky a objektu servisného zdroja s podporou relokácie</description>
+        <label>Servis v teréne – priradiť územie</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zosúlaďuje požadované zručnosti pre servisnú schôdzku so zručnosťami servisného zdroja</description>
+        <label>Field Service – spárovať zručnosti</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Obmedzuje cestovnú vzdialenosť/čas od domova servisných zdrojov</description>
+        <label>Field Service – maximálna cestovná vzdialenosť od domu</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zabezpečuje, že zdroj priradený k servisnej schôdzke bude jeden z požadovaných zdrojov</description>
+        <label>Field Service – požadované zdroje</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zabezpečuje, že servisná schôdzka bude naplánovaná v rámci návštevných hodín stanovených zákazníkom.</description>
+        <label>Servis v teréne – návštevné hodiny pre servisné termíny</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zabezpečuje, že servisná schôdzka bude môcť byť naplánovaná v časových úsekoch, počas ktorých trvá.</description>
+        <label>Servis v teréne – určená práca s trvaním TimeSlot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Obmedzuje okno času plánovania podľa vlastností dátumu a času servisnej schôdzky</description>
+        <label>Field Service – spárovať pravidlo pre čas</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Časový operátor by mal byť „Skôr než alebo rovná sa“, ak je vlastnosť naplánovaného času služby „SchedEndTime“</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trvanie musí byť kladná hodnota</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Maximálna cestovná vzdialenosť od domu musí byť kladné číslo.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Minimálny odstup by nemal byť záporná hodnota</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Čas je potrebné zadávať vo formáte HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Čas je potrebné zadávať vo formáte HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

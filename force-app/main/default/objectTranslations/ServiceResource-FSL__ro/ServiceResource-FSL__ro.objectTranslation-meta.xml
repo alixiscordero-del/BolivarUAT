@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Pupitru resurse gestionare echipe</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Câmpuri urgențe</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Obținere detalii resurse candidat</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Filtrare Gantt resurse</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Pupitru resurse</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Resource Layout</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Resource Layout-Base</layout>
+        <sections>
+            <label></label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copia de CoIT Service Resource Layout-Gestor</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_the_name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Capacitate resursă nu poate fi de tip echipă</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Viteza de deplasare a resursei trebuie să fie mai mare decât 0.</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

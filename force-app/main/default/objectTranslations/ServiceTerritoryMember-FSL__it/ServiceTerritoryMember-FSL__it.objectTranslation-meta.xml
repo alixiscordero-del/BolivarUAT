@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Chabge_Territory_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La data di fine deve cadere entro 3 anni da oggi</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Impossibile salvare il membro territorio di servizio di tipo secondario con Ore di funzionamento o Indirizzo</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

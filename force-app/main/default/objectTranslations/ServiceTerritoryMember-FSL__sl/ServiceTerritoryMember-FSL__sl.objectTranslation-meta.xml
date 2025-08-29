@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Chabge_Territory_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Končni datum mora biti v razponu 3 let od današnjega datuma</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Člana storitvenega ozemlja vrste »Sekundarni« ni mogoče shraniti z delovnim časom ali naslovom</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>부재 자원 캘린더 툴팁</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>자원 부재 라이트 박스</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>자원 부재 자원 캘린더</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <recordTypes>
+        <label>휴식</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>비가용성</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Gantt 색상이 16 진수 형식이어야 함: (예: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>시작 시간은 종료 시간 이전이어야 합니다.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

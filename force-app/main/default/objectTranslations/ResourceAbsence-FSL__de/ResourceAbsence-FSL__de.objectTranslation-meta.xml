@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>QuickInfo für den Ressourcenabwesenheitskalender</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox für die Ressourcenabwesenheit</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Ressourcenabwesenheitskalender</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <recordTypes>
+        <label>Pause</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Nichtverfügbarkeit</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Gantt-Farbe muss im Hexadezimalformat angegeben sein: (Beispiel: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die Startzeit muss vor der Endzeit liegen.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

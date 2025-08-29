@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Puuttuvan resurssikalenterin työkaluvihje</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Resurssin poissaolon Lightbox</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Resurssin poissaolon resurssikalenteri</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <recordTypes>
+        <label>Tauko</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Ei saatavilla</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Gantt-kaavion värin täytyy olla heksadesimaalimuodossa (esimerkiksi #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Alkamisajan täytyy olla ennen päättymisaikaa.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

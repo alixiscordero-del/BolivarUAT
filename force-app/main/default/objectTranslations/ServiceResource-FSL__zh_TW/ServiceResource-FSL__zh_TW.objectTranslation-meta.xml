@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>工作人員管理資源 Lightbox</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>緊急欄位</label>
+        <name>FSL__Emergency_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>取得候選項目資源詳細資料</label>
+        <name>FSL__Get_Candidates_Resource_Details</name>
+    </fieldSets>
+    <fieldSets>
+        <label>資源甘特圖篩選</label>
+        <name>FSL__Resource_Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>資源 Lightbox</label>
+        <name>FSL__Resource_Lightbox</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Resource Layout</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Resource Layout-Base</layout>
+        <sections>
+            <label></label>
+            <section>Resource Views</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copia de CoIT Service Resource Layout-Gestor</layout>
+        <sections>
+            <label></label>
+            <section>VFS</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Vistas de Recurso</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_the_name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>流量資源不能屬於類型工作人員</errorMessage>
+        <name>FSL__Capacity_Resource_of_Type_Crew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>資源出差速度必須大於 0。</errorMessage>
+        <name>FSL__Resource_travel</name>
+    </validationRules>
+</CustomObjectTranslation>

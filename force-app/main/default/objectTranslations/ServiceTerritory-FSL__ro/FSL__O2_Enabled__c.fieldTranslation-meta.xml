@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fol. prog. și optim. îmbunătățite</label>
+    <name>FSL__O2_Enabled__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Підказка календаря ресурсі відсутності</label>
+        <name>FSL__Absence_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Лайтбокс відсутності ресурсу</label>
+        <name>FSL__Resource_Absence_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Календар ресурсу відсутності ресурсу</label>
+        <name>FSL__Resource_Absence_Resource_Calendar</name>
+    </fieldSets>
+    <recordTypes>
+        <label>Перерва</label>
+        <name>FSL__Break</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Ненаявність</label>
+        <name>FSL__Non_Availability</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Кольори діаграми Ганта мають бути у шістнадцятковому форматі (напр.: #ffffff)</errorMessage>
+        <name>FSL__Absence_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Час початку повинен бути ранішим від часу кінця.</errorMessage>
+        <name>FSL__startShouldPrecedeEnd</name>
+    </validationRules>
+</CustomObjectTranslation>

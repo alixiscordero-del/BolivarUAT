@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralı</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralları</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kuralım</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kurallarım</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kuralınız</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kurallarınız</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralını</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kurallarını</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kuralımı</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kurallarımı</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kuralınızı</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kurallarınızı</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralının</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kurallarının</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kuralımın</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kurallarımın</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kuralınızın</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kurallarınızın</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralına</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kurallarına</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kuralıma</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kurallarıma</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kuralınıza</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kurallarınıza</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralından</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kurallarından</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kuralımdan</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kurallarımdan</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kuralınızdan</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Ablative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kurallarınızdan</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kuralında</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>None</possessive>
+        <value>Çalışma Kurallarında</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kuralımda</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>First</possessive>
+        <value>Çalışma Kurallarımda</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kuralınızda</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <possessive>Second</possessive>
+        <value>Çalışma Kurallarınızda</value>
+    </caseValues>
+    <nameFieldLabel>İş Kuralı Adı</nameFieldLabel>
+    <recordTypes>
+        <description>Belirlenen kriterlere göre verilen hizmet bölgesindeki hizmet kaynaklarının çalışma kapasitesi sınırlarını ayarlayın.</description>
+        <label>Field Service - Çalışma Kapasitesi Kuralı</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet randevuları, randevu süreleri ve özel alan değerleri gibi öğe sayısına göre hizmet kaynaklarını sınırlar</description>
+        <label>Field Service - Sayma Kuralı</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet randevu nesnesindeki bir özellikle hizmet kaynağı nesnesinin içindeki bir listedeki özelliği eşleştirir</description>
+        <label>Field Service - Genişletilmiş Eşleşme</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet ataması için atanan kaynağın hariç bırakılan kaynaklardan biri olmadığını garantiler</description>
+        <label>Field Service - Hariç Tutulan Kaynaklar</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet kaynağı çalışma bölgelerini eşleştir</description>
+        <label>Field Service - Çalışma Bölgeleri</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet kaynağının bir hizmet randevusuna kullanılabilir olmasını sağlar.</description>
+        <label>Field Service -Hizmet Kaynağı Bulunurluğu</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Boolean özelliğinin doğru veya yanlış olarak ayarlandığını garantiler</description>
+        <label>Field Service - Boolean Eşleştir</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ekip boyutunu ebeveyn minimum ekip boyutuna eşle</description>
+        <label>Field Service -Hizmet Ekibi Kaynakları Bulunurluğu</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet randevu nesnesiyle hizmet kaynağı nesnesinin arasında bir özelliği eşleştirir</description>
+        <label>Field Service - Alanları Eşleştir</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Yeniden Konumlandırma desteğiyle bir hizmet randevu nesnesiyle bir hizmet kaynağı nesnesi arasındaki bölgeyi eşleştirir</description>
+        <label>Field Service - Bölge Eşleştirme</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Bir servis randevusu için gerekli becerilerle hizmet kaynağının becerilerini eşleştirir</description>
+        <label>Field Service - Becerileri Eşleştir</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet kaynağının evden yolculuk mesafesini veya süresini sınırlar</description>
+        <label>Field Service - Evden Maksimum Yolculuk</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet randevusu için atanan kaynağın gerekli kaynaklardan bir tanesi olmasını sağlar.</description>
+        <label>Field Service - Gerekli Kaynaklar</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet randevusunun müşteri tarafından belirlenen ziyaret saatleri içinde planlanmasını sağlar.</description>
+        <label>Field Service - Hizmet Randevusu Ziyaret Saatleri</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet atamasının, yayıldığı zaman dilimlerinde programlanmasına izin verilmiş olmasını sağlar.</description>
+        <label>Field Service - TimeSlot Belirlenen İş</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hizmet zaman aralığını, hizmet randevusu tarih ve saat özelliklerine göre sınırlar.</description>
+        <label>Field Service - Zaman Kuralını Eşleştir</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Hizmet Planla Zamanı Özelliği ’SchedEndTime’ olduğunda Zaman İşlemcisi ’Önce veya Eşit’ olmalıdır</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Süre pozitif olmalıdır</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Evden Maksimum Yolculuk pozitif olmalıdır.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Minimum boşluk negatif olmamalıdır</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zaman aşağıdaki formatta olmalıdır: SS:DD</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zaman aşağıdaki formatta olmalıdır: SS:DD</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

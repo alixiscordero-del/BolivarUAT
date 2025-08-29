@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Chabge_Territory_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Slutdato skal være inden for 3 år fra i dag</errorMessage>
+        <name>FSL__Limit_STM_End_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kan ikke gemme serviceområdemedlem for typen sekundær med driftstid eller adresse</errorMessage>
+        <name>FSL__Secondary_STM</name>
+    </validationRules>
+</CustomObjectTranslation>

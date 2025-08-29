@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Thành Viên Gói</label>
+        <name>FSL__Bundle_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Anh Chị Em Thành Viên Gói</label>
+        <name>FSL__Bundle_Members_Siblings</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Trình Tạo Gói</label>
+        <name>FSL__Bundler_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Cột Năng Suất Dịch Vụ</label>
+        <name>FSL__Capacity_Service_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Trường Tra Cứu Công Việc Phức Tạp</label>
+        <name>FSL__Complex_Work_Lookups_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Quản Lý Nhóm</label>
+        <name>FSL__CrewManagement</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Chú Giải Quản Lý Nhóm</label>
+        <name>FSL__CrewManagementTooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Trường Công Việc Được Chỉ Định</label>
+        <name>FSL__Designated_Work_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Không Khuyến Khích</label>
+        <name>FSL__Emergency_Current_Service_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Bộ Lọc Gantt</label>
+        <name>FSL__Gantt_Filter</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Tiêu Chí Tối Ưu Hóa Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Optimization_Filter_By_Booleans</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Đã Mở Rộng Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Service_Appointment_Expanded</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Cột Danh Sách Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Service_Appointment_List_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Xem Trước Danh Sách Cuộc Hẹn Dịch Vụ</label>
+        <name>FSL__Service_Appointment_List_Preview</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Hiển Thị Cuộc Hẹn Dịch Vụ Trên Lịch Nhân Sự</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Display</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Chú Giải Cuộc Hẹn Dịch Vụ Trên Lịch Nhân Sự</label>
+        <name>FSL__Service_Appt_Resource_Calendar_Tooltip</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Khung Thông Tin Dịch Vụ Trên Bản Đồ</label>
+        <name>FSL__Service_Info_Window_Map</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Dịch Vụ</label>
+        <name>FSL__Service_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Dịch Vụ Trong Địa Chỉ</label>
+        <name>FSL__Service_Lightbox_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lớp Phủ Dịch Vụ Trong Thời Gian</label>
+        <name>FSL__Service_Lightbox_Time</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Chú Giải Dịch Vụ Trên Gantt</label>
+        <name>FSL__Service_Tooltip_Gantt</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Service Appointment Layout</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Service Appointment Layout - Technician</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base - Autos</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Coit Service Appointment Layout Base - Hogares</layout>
+        <sections>
+            <label></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Tiempos Estimados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FSL Service Appointment Layout SFS</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Complex Work</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dispatcher Console</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Time Constraints</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Cambiar_estado_de_Cita</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Change_Appointment_Status</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CoIT_Cambiar_Estado</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CoIT_WOM_AcceptanceSA</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Contactless_Signature</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Autos</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Hogares</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_E</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_P</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Field_Changes_PD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_State_By_Assigne</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BaseTechnician_Restrict_Status_Change</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Base_Technichian_DueDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Base_Technichian_EarliestStartTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Earlie_start_and_due_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base_Dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_status_base_Scheduled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Không thể tạo cuộc hẹn dịch vụ mới ở các trạng thái đã lên lịch hoặc đã gửi đi.</errorMessage>
+        <name>FSL__Dont_allow_scheduled_or_dispatched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Chọn loại phụ thuộc hợp lệ. Nếu phải chỉ định các cuộc hẹn cho cùng một nhân sự, loại phụ thuộc không được là Cùng Thời Điểm Bắt Đầu.</errorMessage>
+        <name>FSL__Related_Service_with_time_dependency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Phần phụ thuộc tài nguyên không hợp lệ. Phụ Thuộc Thời Gian không thể là Cùng Thời Điểm Bắt Đầu nếu bắt buộc phải sử dụng cùng một nhân sự.</errorMessage>
+        <name>FSL__Same_Resource_Same_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cả thời gian bắt đầu và kết thúc theo lịch đều là bắt buộc</errorMessage>
+        <name>FSL__Schedule_End_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cả thời gian bắt đầu và kết thúc theo lịch đều là bắt buộc</errorMessage>
+        <name>FSL__Schedule_Start_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Màu Gantt phải ở định dạng thập lục phân: (ví dụ: #ffffff)</errorMessage>
+        <name>FSL__Service_Color_HEX_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vui lòng chọn Dịch Vụ Liên Quan.</errorMessage>
+        <name>FSL__Time_dependency_with_related_service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trường DueDate là bắt buộc</errorMessage>
+        <name>FSL__isDueDateExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trường Duration là bắt buộc</errorMessage>
+        <name>FSL__isDurationExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trường EarliestStartTime là bắt buộc</errorMessage>
+        <name>FSL__isEarliestStartTimeExist</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Thời Gian Bắt Đầu Theo Lịch phải sớm hơn Thời Gian Kết Thúc Theo Lịch.</errorMessage>
+        <name>FSL__startTimeShouldPrecedeEndTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>No_change_Status_Reason_Fallido</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Rescheduling_Date_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restreiccion_Complete_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_OnSIte</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_Base_Travel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_On_SIte_SUperviso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Restriccion_travel_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_Reason_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Status_Subreason_Val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_Complete_gestor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_OnSIte_Gestor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>restriccion_trave_gestor</name>
+    </validationRules>
+</CustomObjectTranslation>

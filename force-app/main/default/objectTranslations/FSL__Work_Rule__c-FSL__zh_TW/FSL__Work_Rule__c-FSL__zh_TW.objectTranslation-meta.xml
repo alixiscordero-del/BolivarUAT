@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>工作規則</value>
+    </caseValues>
+    <nameFieldLabel>工作規則名稱</nameFieldLabel>
+    <recordTypes>
+        <description>根據指定條件，設定指定服務區域範圍的服務資源工作流量限制。</description>
+        <label>Field Service - 工作流量規則</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根據一些項目來限制服務資源，例如服務約會、約會持續時間或自訂欄位值</description>
+        <label>Field Service - 計數規則</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>比對服務約會物件之間的屬性與包含在服務資源物件清單中的屬性</description>
+        <label>Field Service - 延長比對</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>確定為服務約會指派的資源不是以下其中一個排除的資源</description>
+        <label>Field Service - 排除的資源</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>比對服務資源工作區域範圍</description>
+        <label>Field Service - 工作區域範圍</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>確定服務資源可供服務約會使用</description>
+        <label>Field Service - 服務資源可用性</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>驗證布林值屬性設定為 true 或 false</description>
+        <label>Field Service - 比對布林值</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>比較工作人員數與服務父系最少工作人員數</description>
+        <label>Field Service - 服務工作人員資源可用性</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>比對服務約會物件與服務資源物件之間的屬性</description>
+        <label>Field Service - 比對欄位</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>比對服務約會物件與具有「重新定位」支援的服務資源物件之間的區域範圍</description>
+        <label>Field Service - 比對區域範圍</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>比對服務約會的必要技能與服務資源的技能</description>
+        <label>Field Service - 比對技能</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>限制服務資源從住家啟程的出差路途距離\時間</description>
+        <label>Field Service - 從住家啟程出差路途上限</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>確定為服務約會指派的資源是以下其中一個必要資源</description>
+        <label>Field Service - 需要的資源</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>確定服務約會排程於客戶定義的造訪時段內。</description>
+        <label>Field Service - 服務約會造訪時數</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>確定允許服務約會排程在其橫跨的時段。</description>
+        <label>Field Service - 時段指派的工作</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>根據服務約會日期時間屬性限制排程時段</description>
+        <label>Field Service - 比對時間規則</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>當「服務排程時間屬性」為「SchedEndTime」時，「時間運算子」應為「早於或等於」</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>「持續時間」必須為正數</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>「從住家啟程出差路途上限」必須為正數。</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>最短間隔不應為負數。</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>時間格式必須為：HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>時間格式必須為：HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>
