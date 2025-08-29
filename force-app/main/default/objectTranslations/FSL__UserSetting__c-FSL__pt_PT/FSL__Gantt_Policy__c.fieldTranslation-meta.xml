@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Política do mapa de Gantt</label>
+    <name>FSL__Gantt_Policy__c</name>
+    <relationshipLabel>Definições do utilizador</relationshipLabel>
+</CustomFieldTranslation>

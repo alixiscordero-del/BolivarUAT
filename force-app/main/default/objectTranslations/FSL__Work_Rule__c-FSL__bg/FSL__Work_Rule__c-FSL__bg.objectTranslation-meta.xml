@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Работно правило</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Работни правила</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Име на работното правило</nameFieldLabel>
+    <recordTypes>
+        <description>Задаване на ограничения за работния капацитет на ресурси за обслужване в дадена територия на обслужване в зависимост от посочените критерии.</description>
+        <label>Field Service – Правило за работен капацитет</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ограничава ресурсите за обслужване въз основа на броя елементи, като например назначенията за обслужване, продължителността на назначенията или стойностите на полетата по избор</description>
+        <label>Field Service – правило за преброяване</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Съпоставя свойство между обект на назначение за обслужване към свойство в списък в обект на ресурс за обслужване</description>
+        <label>Field Service – разширено съпоставяне</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Гарантира, че присвоеният ресурс за назначението за обслужване не е един от изключените ресурси</description>
+        <label>Field Service – изключени ресурси</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Съпоставяне на работни територии на ресурса за обслужване</description>
+        <label>Field Service – работни територии</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Гарантира, че ресурсът за обслужване е достъпен за назначение за обслужване</description>
+        <label>Field Service – наличие на ресурс за обслужване</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Проверява дали булевото свойство е зададено на true, или false</description>
+        <label>Field Service – съпоставяне на булеви свойства</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Съпоставяне на размера за екипа с минималния размер на екипа на родителски елемент за обслужване</description>
+        <label>Field Service – наличност на ресурси от екипи за обслужване</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Съпоставя свойство между обект на назначение за обслужване и обект на ресурс за обслужване</description>
+        <label>Field Service – съпоставяне на полета</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Съпоставя територията между обект на назначение за обслужване и обект на ресурс за обслужване с поддръжка на преместване</description>
+        <label>Field Service – съпоставяне на територия</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Съпоставя необходимите умения за назначение за обслужване с уменията на ресурса за обслужване</description>
+        <label>Field Service – съпоставяне на умения</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ограничава разстоянието на пътуването\пътуването от дома за ресурса за обслужване</description>
+        <label>Field Service – максимално пътуване от дома</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Гарантира, че присвоеният ресурс за назначението за обслужване е един от необходимите ресурси</description>
+        <label>Field Service – необходими ресурси</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Гарантира, че назначението за обслужване е планирано в часове за посещение, които са дефинирани от клиента.</description>
+        <label>Field Service – посещение за обслужване през часовете за посещение</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Гарантира, че назначението за обслужване може да бъде планирано във времевите периоди, в които е разпределено.</description>
+        <label>Field Service – предназначена работа в TimeSlot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ограничава времевия период за планиране според свойствата datetime на назначението за обслужване</description>
+        <label>Field Service – съпоставяне на правило за време</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Когато свойството на планираното време на услугата е „SchedEndTime“, операторът на времето трябва да е настроен на „Преди или равно на“</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Стойността на продължителността трябва да е положителна</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Стойността на максималното пътуване от дома трябва да е положителна.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Стойността на минималния интервал не трябва да е отрицателна</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Времето трябва да е в следния формат: ЧЧ:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Времето трябва да е в следния формат: ЧЧ:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

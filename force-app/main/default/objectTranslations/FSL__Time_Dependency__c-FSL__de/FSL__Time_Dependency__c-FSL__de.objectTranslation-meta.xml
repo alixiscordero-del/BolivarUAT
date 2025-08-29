@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Terminabhängigkeit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Terminabhängigkeiten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Terminabhängigkeit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Terminabhängigkeiten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Terminabhängigkeit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Terminabhängigkeiten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Terminabhängigkeit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Terminabhängigkeiten</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der Terminabhängigkeit</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Wählen Sie einen Abhängigkeitstyp aus.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Es konnte keine Abhängigkeit zwischen den Serviceterminen erstellt werden. Bitten Sie Ihren Salesforce-Administrator, Ihnen Berechtigungen für alle Felder des benutzerdefinierten Objekts &quot;Zeitabhängigkeit&quot; zu erteilen.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Für Abhängigkeiten vom Typ &quot;Unmittelbar folgen&quot; ist die gleiche Ressource erforderlich.</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Servicetermin 2 ist erforderlich.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die Servicetermine in der Beziehung dürfen nicht geändert werden.</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>予定の連動関係</value>
+    </caseValues>
+    <nameFieldLabel>予定の連動関係の名前</nameFieldLabel>
+    <validationRules>
+        <errorMessage>連動関係種別を選択します。</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>サービス予定間の連動関係を作成できませんでした。Salesforce システム管理者にすべての時間の連動関係カスタムオブジェクト項目に対する権限を付与するように依頼してください。</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[すぐにフォロー] 連動関係では、[同じリソース] が必要です</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>サービス予定 2 は必須です。</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>リレーション内のサービス予定を変更することは許可されません</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

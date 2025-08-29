@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Hizmet Bölgesi</label>
+    <name>FSL__ServiceTerritory__c</name>
+    <relationshipLabel>Bölge Optimizasyon İstekleri</relationshipLabel>
+</CustomFieldTranslation>

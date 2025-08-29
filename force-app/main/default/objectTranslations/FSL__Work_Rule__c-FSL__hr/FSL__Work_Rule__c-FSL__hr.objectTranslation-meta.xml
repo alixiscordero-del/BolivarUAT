@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Radno pravilo</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Radna pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Radno pravilo</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Radna pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Radnog pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Radnih pravila</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Radnom pravilu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Radnim pravilima</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Radnim pravilom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Radnim pravilima</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Radnom pravilu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Radnim pravilima</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naziv radnog pravila</nameFieldLabel>
+    <recordTypes>
+        <description>Postavite ograničenja za radni kapacitet uslužnih resursa na određenom području usluge u skladu s navedenim kriterijem.</description>
+        <label>Field Service - Pravilo radnog kapaciteta</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ograničava izvor usluge na temelju broja stavki kao što su uslužne obveze, trajanja obveza ili vrijednosti prilagođenog polja</description>
+        <label>Field Service - Pravilo broja</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Usklađuje svojstvo objekta uslužne obveze sa svojstvom sadržanim na popisu u objektu izvora za uslugu</description>
+        <label>Field Service - Prošireno podudaranje</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Jamči da dodijeljeni izvor za sastanak za uslugu nije jedan od isključenih izvora</description>
+        <label>Field Service - isključeni izvori</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pridružuje radne teritorije izvora za uslugu</description>
+        <label>Field Service - radna područja</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Jamči da je izvor za uslugu dostupan za sastanak za uslugu</description>
+        <label>Field Service - dostup. servis. resursa</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potvrđuje da je Booleovo svojstvo postavljeno na točno ili netočno</description>
+        <label>Field Service - odgov. Booleov operator</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pridružuje veličinu ekipe izvornoj minimalnoj veličini ekipe za uslugu</description>
+        <label>Field Service - dostup. resursa ekipe</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pridružuje svojstvo objektu sastanka za uslugu ili objektu izvora za uslugu</description>
+        <label>Field Service - odgovarajuća polja</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pridružuje teritorij objektu sastanka za uslugu ili objektu izvora za uslugu pomoću podrške za premještaj</description>
+        <label>Field Service - podudaranje područja</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pridružuje potrebne vještine za sastanak za uslugu vještinama izvora za uslugu</description>
+        <label>Field Service - odgovarajuće vještine</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ograničava udaljenost/vrijeme putovanja izvora za uslugu od kuće</description>
+        <label>Field Service - maks. put. od kuće</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Jamči da je dodijeljeni izvor za sastanak za uslugu jedan od potrebnih izvora</description>
+        <label>Field Service - potrebni izvori</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Jamči da je sastanak za uslugu zakazan u razdoblju posjeta koje je odredio klijent.</description>
+        <label>Field Service - vrijeme posjete obveze</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Jamči da se sastanak za uslugu može zakazati u vremenskom odsječku na koji se proteže.</description>
+        <label>Field Service - dodij. posao za timeslot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ograničava vremenski okvir zakazivanja u skladu s datumom i vremenom sastanka za uslugu</description>
+        <label>Field Service - odgov. vremensko pravilo</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Vremenski operator mora biti ’Prije ili jednako’ kad je svojstvo Vrijeme rasporeda usluge ’SchedEndTime’</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Trajanje mora biti pozitivno</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Maksimalno putovanje od kuće mora biti pozitivno.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Minimalni razmak mora biti negativan</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vrijeme mora biti u sljedećem formatu: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vrijeme mora biti u sljedećem formatu: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>서비스 목표</value>
+    </caseValues>
+    <nameFieldLabel>서비스 목표 이름</nameFieldLabel>
+    <recordTypes>
+        <description>즉시 예약</description>
+        <label>ASAP</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>사용자 정의 목표</description>
+        <label>사용자 정의 목표</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속 사이의 유휴 시간 간격 감소</description>
+        <label>간격 최소화</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>초과 근무 사용 최소화</description>
+        <label>초과 근무 최소화</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>이동 시간 최소화</description>
+        <label>이동 최소화</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>기본 리소스에 따라 예약 우선 순위 지정</description>
+        <label>기본 설정 자원</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>리소스의 필드 값을 기반으로 하는 리소스를 기본으로 할당</description>
+        <label>자원 우선 순위</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>같은 사이트에서 약속 함께 예약</description>
+        <label>같은 사이트</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>가장 부적합한 후보/가장 적합한 후보를 기본으로 할당</description>
+        <label>기술 수준</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>기술 기본 설정 - 기술 유형</description>
+        <label>기술 기본 설정</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>자원 우선 순위 필드는 공백일 수 없음</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

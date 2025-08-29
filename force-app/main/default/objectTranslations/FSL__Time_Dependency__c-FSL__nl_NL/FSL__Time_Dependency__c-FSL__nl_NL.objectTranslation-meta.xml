@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Afhankelijkheid van afspraak</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Afhankelijkheden van afspraken</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam van afhankelijkheid van afspraak</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Selecteer een afhankelijkheidstype.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>We kunnen geen afhankelijkheid maken tussen de serviceafspraken. Vraag uw Salesforce-beheerder om u machtigingen te geven voor alle aangepaste objectvelden voor Tijdsafhankelijkheid.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Afhankelijkheid Onmiddellijk volgen vereist zelfde resource</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Serviceafspraak 2 is verplicht.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Het wijzigen van een van de serviceafspraken in de relatie is niet toegestaan</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

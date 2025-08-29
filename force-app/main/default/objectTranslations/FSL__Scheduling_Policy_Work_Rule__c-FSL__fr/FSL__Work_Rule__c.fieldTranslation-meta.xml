@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Règle de travail</label>
+    <name>FSL__Work_Rule__c</name>
+    <relationshipLabel>Règle de travail de la stratégie de planification</relationshipLabel>
+</CustomFieldTranslation>

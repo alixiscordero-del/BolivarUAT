@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Цель обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Цели обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Цель обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Цели обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Цели обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Целей обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Цели обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Целям обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Целью обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Целями обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Цели обслуживания</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Целях обслуживания</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Имя цели обслуживания</nameFieldLabel>
+    <recordTypes>
+        <description>Запланировать как можно раньше</description>
+        <label>Как можно раньше</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Настраиваемая цель</description>
+        <label>Настраиваемая цель</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Сократите время простоя между сервисными встречами</description>
+        <label>Минимизировать интервалы</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Минимизировать использование сверхурочного времени</description>
+        <label>Минимизировать сверхурочное время</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Минимизировать время на дорогу</description>
+        <label>Минимизировать дорогу</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Определить приоритет планирования в соответствии с предпочтительным ресурсом</description>
+        <label>Предпочтительный ресурс</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Отдать предпочтение ресурсу на основе значения поля для ресурса</description>
+        <label>Приоритет ресурса</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Предпочесть планирование встреч вместе на одинаковом сайте</description>
+        <label>Одинаковый сайт</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Отдать предпочтение наименее/наиболее квалифицированному кандидату</description>
+        <label>Уровень навыка</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Настройки навыка с типом навыка</description>
+        <label>Настройки навыков</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Поле приоритета ресурса не должно быть пустым.</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

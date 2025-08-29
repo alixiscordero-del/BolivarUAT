@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Aftaleafhængigheden</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Aftaleafhængighed</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Aftaleafhængighed</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Aftaleafhængighederne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Aftaleafhængigheder</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Aftaleafhængigheder</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på aftaleafhængighed</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Vælg en afhængighedstype.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Vi kunne ikke oprette en afhængighed mellem serviceaftalerne. Bed dig Salesforce-administrator om at give dig tilladelser til alle tilpassede objektfelter for Tidsafhængighed.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Afhængigheden Følg umiddelbart kræver samme ressource</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Serviceaftale 2 er påkrævet.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Det er ikke tilladt at ændre nogen af serviceaftalerne i relationen</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label>最早休息开始时间（分钟）</label>
+    <name>FSL__Earliest_Break_Start__c</name>
+</CustomFieldTranslation>

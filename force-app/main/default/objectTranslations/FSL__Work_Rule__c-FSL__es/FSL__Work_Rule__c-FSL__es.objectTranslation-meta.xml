@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regla de trabajo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reglas de trabajos</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de regla de trabajo</nameFieldLabel>
+    <recordTypes>
+        <description>Establece los límites para la capacidad de trabajo de recursos de servicio en un territorio de servicio específico según los criterios especificados.</description>
+        <label>Field Service - Regla de capacidad  de trabajo</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita los recursos de servicio en base al número de elementos como citas de servicio, duraciones de las citas o valores de campos personalizados</description>
+        <label>Field Service - Regla de recuento</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hace coincidir una propiedad entre un objeto de cita de servicio y una propiedad contenida en una lista en un objeto de recurso de servicio</description>
+        <label>Field Service - Coincidencia ampliada</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garantiza que el recurso asignado para la cita de servicio no es uno de los recursos excluidos</description>
+        <label>Field Service - Recursos excluidos</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Coincidir territorios de trabajo de recursos de servicio</description>
+        <label>Field Service - Territorios de trabajo</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garantiza que el recurso de servicio está disponible para una cita de servicio</description>
+        <label>Field Service - Disponibilidad de recursos de servicio</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Valida que la propiedad booleana está establecida en verdadera o falsa</description>
+        <label>Field Service - Coincidir booleano</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Coincidir tamaño de plantilla con tamaño mínimo de plantilla principal de servicio</description>
+        <label>Field Service - Disponibilidad de recursos de plantilla de servicio</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hace coincidir una propiedad entre un objeto de cita de servicio y un objeto de recurso de servicio</description>
+        <label>Field Service - Coincidir campos</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hace coincidir el territorio entre un objeto de cita de servicio y un objeto de recurso de servicio con admisión de Reubicación</description>
+        <label>Field Service - Coincidir territorio</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Hace coincidir las habilidades necesarias para una cita de servicio con las habilidades del recurso de servicio</description>
+        <label>Field Service - Coincidir habilidades</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita la distancia\tiempo de desplazamiento de los recursos de servicio desde sus hogares</description>
+        <label>Field Service - Máximo de desplazamiento desde domicilio</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garantiza que el recurso asignado para la cita de servicio es uno de los recursos requeridos</description>
+        <label>Field Service - Recursos requeridos</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garantiza que la cita de servicio está programada dentro de las horas de visita definidas por el cliente.</description>
+        <label>Field Service - Horas de visita de citas de servicio</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garantiza que se permite programar la cita de servicio en las divisiones de horas sobre las que se propaga.</description>
+        <label>Field Service - Hora designada de puesto de hora</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita el plazo de tiempo de programación según las propiedades de fecha y hora de la cita de servicio</description>
+        <label>Field Service - Regla de coincidencia de tiempo</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>El operador de tiempo debe ser &quot;Anterior o igual a&quot; cuando la Propiedad de hora de programación de servicio es &quot;SchedEndTime&quot;</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La duración debe ser positiva</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Máximo de desplazamiento desde domicilio debe ser positivo.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El intervalo mínimo no debe ser negativo</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La hora debe estar en el siguiente formato: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La hora debe estar en el siguiente formato: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

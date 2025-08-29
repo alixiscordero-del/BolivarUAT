@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aturan Kerja</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aturan Kerja</value>
+    </caseValues>
+    <nameFieldLabel>Nama Aturan Kerja</nameFieldLabel>
+    <recordTypes>
+        <description>Atus batas kapasitas kerja sumber daya layanan dalam wilayah layanan yang diberikan sesuai kriteria yang ditentukan.</description>
+        <label>Field Service - Aturan Kapasitas Kerja</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Membatasi sumber daya layanan berdasarkan sejumlah item seperti janji temu layanan, durasi janji temu, atau nilai bidang isian ubahsuai</description>
+        <label>Field Service - Aturan Penghitungan</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mencocokkan properti antara objek janji temu layanan dengan properti yang ada dalam daftar pada objek sumber daya layanan</description>
+        <label>Layanan Bidang - Kecocokan yang Diperpanjang</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Memastikan bahwa sumber daya yang ditetapkan untuk janji temu layanan bukanlah salah satu sumber daya yang dikecualikan</description>
+        <label>Field Service - Sumber Daya yang Dikecualikan</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Cocokkan wilayah kerja sumber daya layanan</description>
+        <label>Field Service - Wilayah Kerja</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Memastikan bahwa sumber daya layanan tersedia untuk janji temu layanan</description>
+        <label>Field Service - Ketersediaan Sumber Daya Layanan</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Validasi properti boolean disetel ke true atau false</description>
+        <label>Field Service - Cocok Boolean</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Cocokkan ukuran kru dengan ukuran kru minimum induk layanan</description>
+        <label>Field Service - Ketersediaan Sumber Daya Kru Layanan</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mencocokkan properti antara objek janji temu layanan dan objek sumber daya layanan</description>
+        <label>Field Service - Cocok Bidang Isian</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mencocokkan wilayah antara objek janji temu layanan dan objek sumber daya layanan dengan dukungan Relokasi</description>
+        <label>Field Service - Cocok Wilayah</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mencocokkan keterampilan yang dibutuhkan untuk janji temu layanan dengan keterampilan sumber daya layanan</description>
+        <label>Field Service - Cocok Keterampilan</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Membatasi jarak/waktu perjalanan dari rumah ke sumber daya layanan</description>
+        <label>Field Service - Maksimum Perjalanan Dari Rumah</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Memastikan bahwa sumber daya yang ditetapkan untuk janji temu layanan adalah salah satu sumber daya yang diperlukan</description>
+        <label>Field Service - Sumber Daya yang Dibutuhkan</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Memastikan bahwa janji temu layanan dijadwalkan dalam jam kunjungan yang ditentukan oleh pelanggan.</description>
+        <label>Field Service - Jam Berkunjung Janji Temu Layanan</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Memastikan bahwa janji temu layanan diizinkan untuk dijadwalkan pada celah waktu yang tersebar.</description>
+        <label>Field Service - Kerja yang Ditentukan Slot Waktu</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Membatasi jendela waktu penjadwalan sesuai properti waktu janji temu layanan</description>
+        <label>Field Service - Cocok Aturan Waktu</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Operator Waktu harus ’Sebelum atau Sama dengan’ ketika Properti Waktu Jadwal Layanan ’WaktuAkhirPenjadwalan’</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Durasi harus positif</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Maksimum Travel dari Rumah harus positif.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sela  minimum tidak boleh negatif</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Waktu harus dalam format: JJ:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Waktu harus dalam format: JJ:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

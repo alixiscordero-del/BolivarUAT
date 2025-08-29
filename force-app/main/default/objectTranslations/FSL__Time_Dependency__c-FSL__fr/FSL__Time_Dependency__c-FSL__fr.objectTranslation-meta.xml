@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Dépendance de rendez-vous</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dépendances de rendez-vous</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de la dépendance de rendez-vous</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Sélectionnez un type de dépendance.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nous n’avons pas pu créer de dépendance entre les rendez-vous de service. Demandez à votre administrateur Salesforce de vous accorder les autorisations pour tous les champs d’objets personnalisés Dépendance horaire.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La dépendance Suit immédiatement nécessite une Même ressource</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Un rendez-vous de service 2 est requis.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La modification de rendez-vous de service dans la relation n’est pas autorisée</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

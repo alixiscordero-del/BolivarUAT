@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Arbejdsreglen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Arbejdsregel</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Arbejdsregel</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Arbejdsreglerne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Arbejdsregler</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Arbejdsregler</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på arbejdsregel</nameFieldLabel>
+    <recordTypes>
+        <description>Angiv grænser for arbejdskapaciteten for serviceressourcer i et angivet serviceområde i henhold til angivne kriterier.</description>
+        <label>Field Service - Regel for arbejdskapacitet</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begrænser serviceressourcer baseret på et antal elementer, f.eks. serviceaftaler, aftalevarigheder eller tilpassede feltværdier</description>
+        <label>Field Service - optællingsregel</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matcher en egenskab mellem et serviceaftaleobjekt og en egenskab, der er indeholdt i en liste i et serviceressourceobjekt</description>
+        <label>Field Service - udvidet match</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Sikrer at den tildelte ressource for serviceaftalen ikke er en af de udeladte ressourcer</description>
+        <label>Field Service - udeladte ressourcer</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Match arbejdsområder for serviceressource</description>
+        <label>Field Service - arbejdsområder</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Sikrer, at serviceressourcen er tilgængelig for en serviceaftale</description>
+        <label>Field Service - tilgængelighed af serviceressource</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Validerer, at boolesk egenskab er angivet til sand eller falsk</description>
+        <label>Field Service - sammenlign boolesk</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Match bemandingsstørrelse med mindste bemandingsstørrelse for overordnet service</description>
+        <label>Field Service - tilgængelighed af servicebemandingsressourcer</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matcher en egenskab mellem et serviceaftaleobjekt og et serviceressourceobjekt</description>
+        <label>Field Service - sammenlign felt</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matcher området mellem et serviceaftaleobjekt og et serviceressourceobjekt med omplaceringssupport</description>
+        <label>Field Service - sammenlign område</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Matcher de krævede færdigheder for en serviceaftale med serviceressourcens færdigheder</description>
+        <label>Field Service - sammenlign færdigheder</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begrænser serviceressourcers rejseafstand/-tid hjemmefra</description>
+        <label>Field Service - maks. rejse fra hjemmet</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Sikrer, at den tildelte ressource til serviceaftalen er en af de krævede ressourcer</description>
+        <label>Field Service - nødvendige ressourcer</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Sikrer, at serviceaftalen er planlagt inden for kundens definerede besøgstid.</description>
+        <label>Field Service - besøgstider for serviceaftaler</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Sikrer, at serviceaftalen kan planlægges på de tidsintervaller, den strækker sig over.</description>
+        <label>Field Service - tildelt arbejde for tidsinterval</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begrænser planlægningstidsvinduet i henhold til serviceaftalens dato/tid-egenskaber</description>
+        <label>Field Service - regel for sammenligning af tid</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Tidsoperator skal være &quot;Før eller lig med&quot; når egenskaben Serviceplanlægningstid er &quot;SchedEndTime&quot;</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Varighed skal være positiv</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Maks. rejse fra hjemmet skal være positiv.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Mindste tidsrum må ikke være negativt</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tid skal være i følgende format: TT:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tid skal være i følgende format: TT:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

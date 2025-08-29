@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ketergantungan Janji Temu</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ketergantungan Janji Temu</value>
+    </caseValues>
+    <nameFieldLabel>Nama Ketergantungan Janji Temu</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Pilih jenis ketergantungan.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Kami tidak bisa membuat ketergantungan antara janji temu layanan. Minta admin Salesforce Anda untuk memberi izin untuk semua bidang objek kustom Ketergantungan Waktu.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ketergantungan Segera Ikuti memerlukan Sumber Daya yang Sama</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Janji temu layanan 2 diperlukan.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tidak diperbolehkan mengganti janji temu layanan dalam hubungan</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Serviceziel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Serviceziele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Serviceziel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Serviceziele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Serviceziels</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Serviceziele</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Serviceziel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Servicezielen</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Servicezielname</nameFieldLabel>
+    <recordTypes>
+        <description>So früh wie möglich planen</description>
+        <label>SFWM</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Benutzerdefiniertes Ziel</description>
+        <label>Benutzerdefiniertes Ziel</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Reduzieren Sie Leerlaufzeitabstände zwischen Serviceterminen</description>
+        <label>Abstände minimieren</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Nutzung von Überstunden minimieren</description>
+        <label>Überstunden minimieren</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Wegzeit minimieren</description>
+        <label>Weg minimieren</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Planung mit bevorzugter Ressource priorisieren</description>
+        <label>Bevorzugte Ressource</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ressource anhand eines Feldwerts für die Ressource bevorzugen</description>
+        <label>Ressourcenpriorität</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gemeinsame Planung von Terminen am selben Ort bevorzugen</description>
+        <label>Gleiche Site</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Den am wenigsten/meisten qualifizierten Kandidaten bevorzugen</description>
+        <label>Fertigkeitsebene</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Fertigkeitenvoreinstellungen mit Fertigkeitstyp</description>
+        <label>Fertigkeitenvoreinstellungen</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Feld für Ressourcenpriorität darf nicht leer sein</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

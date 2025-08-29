@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Werkregel</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Werkregels</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam werkregel</nameFieldLabel>
+    <recordTypes>
+        <description>Stelt de limiet in voor de werkcapaciteit van serviceresources in een bepaald serviceterritorium, gebaseerd op de opgegeven criteria.</description>
+        <label>Field Service - Regel voor werkcapaciteit</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Beperkt serviceresources op basis van een aantal items, zoals serviceafspraken, afspraakduur en aangepaste veldwaarden</description>
+        <label>Field Service - regel voor telling</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Heeft een overeenkomst voor een eigenschap voor serviceafspraken met een eigenschap in een lijst in een object Serviceresource</description>
+        <label>Field Service - uitgebreide overeenkomst</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zorgt ervoor dat de toegewezen resource voor de serviceafspraak niet een van de uitgesloten resources is</description>
+        <label>Field Service - uitgesloten resources</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Koppelen aan werkterritoria van serviceresource</description>
+        <label>Field Service - Werkterritoria</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zorgt ervoor dat de serviceresource beschikbaar is voor een serviceafspraak</description>
+        <label>Field Service - Beschikbaarheid van serviceresources</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Valideert of booleaanse eigenschap is ingesteld op true (waar) of false (onwaar)</description>
+        <label>Field Service - overeenkomst Booleaans</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ploeggrootte koppelen aan bovenliggende minimale ploeggrootte van service</description>
+        <label>Field Service - Beschikbaarheid van serviceploegresources</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Heeft een overeenkomst voor een eigenschap tussen een object en een object Serviceresource</description>
+        <label>Field Service- overeenkomst velden</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Heeft een overeenkomst voor het territorium tussen een object Serviceafspraak en een object Serviceresource met ondersteuning voor Relocatie</description>
+        <label>Field Service - Territoriumovereenkomst</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Heeft een overeenkomst voor de verplichte vaardigheden voor een serviceafspraak met de vaardigheden van de serviceresource</description>
+        <label>Field Service - overeenkomst vaardigheden</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Beperkt reisafstand\tijd van huis van serviceresources</description>
+        <label>Field Service - maximale reistijd van thuis</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zorgt ervoor dat de toegewezen resource voor de serviceafspraak  een van de verplichte resources is</description>
+        <label>Field Service - vereiste resources</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zorgt ervoor dat de serviceafspraak wordt gepland binnen de door de klant gedefinieerde bezoekuren.</description>
+        <label>Field Service - Bezoekuren van Serviceafspraak</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Zorgt ervoor dat de serviceafspraak mag worden gepland op de beschikbare tijdstippen waarover deze is verdeeld.</description>
+        <label>Field Service - Toegekend werk voor TimeSlot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Beperkt de periode van het tijdsbestek voor de planning volgens de eigenschappen voor DatumTijd van de serviceafspraak</description>
+        <label>Field Service - overeenkomst tijdregel</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Operator voor Tijd moet ’Vóór of Gelijk aan’ zijn wanneer Eigenschap van Serviceplanningstijd ’SchedEndTime’ is</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Duur moet positief zijn</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Maximum reistijd van thuis moet positief zijn.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Minimaal interval mag niet negatief zijn</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tijd moet de volgende notatie hebben: UU:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tijd moet de volgende notatie hebben: UU:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

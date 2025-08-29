@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Gantt 차트 정책</label>
+    <name>FSL__Gantt_Policy__c</name>
+    <relationshipLabel>사용자 설정</relationshipLabel>
+</CustomFieldTranslation>

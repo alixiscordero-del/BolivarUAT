@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>作業ルール</value>
+    </caseValues>
+    <nameFieldLabel>作業ルール名</nameFieldLabel>
+    <recordTypes>
+        <description>指定された条件に従って、指定されたサービステリトリー内のサービスリソースの作業業務量に対する制限を設定します。</description>
+        <label>Field Service - 作業業務量ルール</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定、予定時間、カスタム項目値などの項目の数に基づいてサービスリソースを制限します。</description>
+        <label>Field Service - カウントルール</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定オブジェクトと、サービスリソースオブジェクトのリストに含まれるプロパティとの間でプロパティを照合します</description>
+        <label>Field Service - 拡張照合</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定に割り当てられたリソースが、除外するリソースに含まれないようにします</description>
+        <label>Field Service - 除外するリソース</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービスリソースの作業テリトリーを照合します</description>
+        <label>Field Service - 作業テリトリー</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定に対してサービスリソースを対応可能にします</description>
+        <label>Field Service - サービスリソースの対応可能状況</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Boolean プロパティが true または false に設定されていることを検証します</description>
+        <label>Field Service - Boolean を照合</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>クルー人数をサービスの親の最小クルー人数と照合します</description>
+        <label>Field Service - サービスクルーリソースの対応可能状況</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定オブジェクトとサービスリソースオブジェクトとの間でプロパティを照合します</description>
+        <label>Field Service - 項目を照合</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定オブジェクトと、再配置をサポートするサービスリソースオブジェクトとの間で、テリトリーを照合します</description>
+        <label>Field Service - テリトリーを照合</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定の必須スキルをサービスリソースのスキルと照合します</description>
+        <label>Field Service - スキルを照合</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>自宅からのサービスリソースの移動距離/時間を制限します</description>
+        <label>Field Service - 自宅からの最長移動時間</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定に割り当てられたリソースが、必要なリソースに含まれるようにします</description>
+        <label>Field Service - 必要なリソース</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>顧客が定義した訪問時間内にサービス予定がスケジュールされるようにします</description>
+        <label>Field Service - サービス予定訪問時間</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>該当の時間枠にサービス予定をスケジュールできるようにします。</description>
+        <label>Field Service - 時間枠が指定された作業</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>サービス予定の日時プロパティに応じてスケジュールの時間枠を制限します</description>
+        <label>Field Service - 時間ルールを照合</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>[サービススケジュール時間のプロパティ] が [SchedEndTime] になっている場合、時間の演算子は [以前] になっている必要があります</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[期間] は正の値にする必要があります</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[自宅からの最長移動時間] は正の値にする必要があります。</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[最短間隔] は負の値にできません</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[時間] は HH:MM の形式にする必要があります</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>[時間] は HH:MM の形式にする必要があります</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

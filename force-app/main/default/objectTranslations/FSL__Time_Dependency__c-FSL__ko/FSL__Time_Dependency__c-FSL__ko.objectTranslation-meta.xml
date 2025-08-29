@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>약속 종속성</value>
+    </caseValues>
+    <nameFieldLabel>약속 종속성 이름</nameFieldLabel>
+    <validationRules>
+        <errorMessage>종속성 유형을 선택합니다.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>서비스 약속 간 종속성을 만들지 못했습니다. Salesforce 관리자에게 모든 시간 종속성 사용자 정의 개체 필드에 대한 권한을 요청하십시오.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>즉시 팔로우 종속성에 같은 자원이 필요함</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>서비스 약속 2 요구됨</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>관계 상 서비스 약속 변경 불가</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

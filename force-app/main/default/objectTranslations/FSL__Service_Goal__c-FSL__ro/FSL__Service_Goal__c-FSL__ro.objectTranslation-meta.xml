@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Obiectivul serviciului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Obiectiv de serviciu</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Obiectivele serviciilor</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Obiective de servicii</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Obiectivului serviciului</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Obiectivului serviciului</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Obiectivelor serviciilor</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Obiectivelor serviciilor</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Nume obiectiv serviciu</nameFieldLabel>
+    <recordTypes>
+        <description>Programare cât mai curând posibil</description>
+        <label>Cât mai curând posibil</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Obiectiv personalizat</description>
+        <label>Obiectiv personalizat</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Reduceți intervalele de timp inactiv între rezervările de servicii</description>
+        <label>Minimizare lacune</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimizarea folosirii orelor suplimentare</description>
+        <label>Minimizare ore suplimentare</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimizarea tipului de deplasare</description>
+        <label>Minimizare călătorii</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Stabiliți priorități în conformitate cu resursa preferată</description>
+        <label>Resursă preferată</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferați o resursă pe baza valorii câmpului resursei</description>
+        <label>Prioritatea resurselor</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Se preferă programarea grupată a rezervărilor în aceeași unitate</description>
+        <label>Aceeași unitate</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferați candidatul cel mai puțin/cel mai calificat</description>
+        <label>Nivel aptitudine</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferințe aptitudini cu tip aptitudine</description>
+        <label>Preferințe aptitudini</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Câmpul Prioritate resurse nu poate rămâne necompletată</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

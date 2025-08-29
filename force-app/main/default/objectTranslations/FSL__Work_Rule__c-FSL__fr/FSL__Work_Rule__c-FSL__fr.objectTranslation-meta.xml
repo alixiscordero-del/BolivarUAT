@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Règle de travail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Règles de travail</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de la règle de travail</nameFieldLabel>
+    <recordTypes>
+        <description>Définissez des limites pour la capacité de travail des ressources de service dans un territoire donné selon les critères spécifiés.</description>
+        <label>Field Service - Règle de capacité de travail</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limite les ressources de service en fonction du nombre d’éléments tels que les rendez-vous de service, les durées de rendez-vous ou les valeurs de champ personnalisé.</description>
+        <label>Field Service - règle de décompte</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mappe une propriété entre un objet de rendez-vous de service et une propriété incluse dans une liste dans l’objet de la ressource de service</description>
+        <label>Field Service - correspondance étendue</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Vérifie que la ressource attribuée au rendez-vous de service ne figure pas dans les ressources exclues</description>
+        <label>Field Service - Ressources exclues</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mapper les territoires de travail de la ressource de service</description>
+        <label>Field Service - Territoires de travail</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Vérifie que la ressource de service est disponible pour un rendez-vous de service</description>
+        <label>Field Service - Disponibilité de la ressource de service</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Valide la définition de la propriété booléenne sur vrai ou faux</description>
+        <label>Field Service - Correspondance booléenne</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mapper la taille de l’équipe avec la taille d’équipe minimale du parent du service</description>
+        <label>Field Service - Disponibilité des ressources de l’équipe d’assistance</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mapper une propriété entre un objet de rendez-vous de service et un objet de ressource de service</description>
+        <label>Field Service - Correspondance des champs</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mappe un territoire entre un objet de rendez-vous de service et un objet de ressource de service avec la prise en charge de la relocalisation</description>
+        <label>Field Service - Correspondance des territoires</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mapper les compétences requises pour un rendez-vous de service avec les compétences de la ressource de service</description>
+        <label>Field Service - Correspondance des compétences</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limite la distance/le temps de trajet des ressources de service depuis le domicile</description>
+        <label>Field Service - Trajet maximal depuis le domicile</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Vérifie que la ressource attribuée au rendez-vous de service figure dans les ressources requises</description>
+        <label>Field Service - Ressources requises</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Vérifie que le rendez-vous de service est planifié pendant les heures de visite définies par le client.</description>
+        <label>Field Service - Heures de visite du rendez-vous de service</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Vérifie que la planification du rendez-vous de service dans les créneaux qu’il occupe est autorisée.</description>
+        <label>Field Service - Créneau du travail désigné</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limite la fenêtre de planification en fonction des propriétés de date/heure du rendez-vous de service</description>
+        <label>Field Service - Correspondance de la règle horaire</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>L’opérateur de temps doit être ’Avant’ ou ’Égal à’ lorsque la propriété d’heure de planification du service est ’SchedEndTime’</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>La durée doit être positive</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Le trajet maximal à partir du domicile doit être positif.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’écart minimal ne doit pas être négatif</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’heure doit être définie au format : HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>L’heure doit être définie au format : HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

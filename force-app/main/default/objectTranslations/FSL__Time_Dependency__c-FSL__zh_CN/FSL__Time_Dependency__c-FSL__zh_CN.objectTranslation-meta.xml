@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>预约依赖性</value>
+    </caseValues>
+    <nameFieldLabel>预约依赖性名称</nameFieldLabel>
+    <validationRules>
+        <errorMessage>选择依赖类型。</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>我们无法在多次服务预约之间创建依赖关系。请您的 Salesforce 管理员为您授予访问所有时间依赖性自定义对象字段的权限。</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>立即关注依赖关系需要相同资源</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>服务预约 2 是必填项。</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>不允许在关系中更改任何服务预约</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

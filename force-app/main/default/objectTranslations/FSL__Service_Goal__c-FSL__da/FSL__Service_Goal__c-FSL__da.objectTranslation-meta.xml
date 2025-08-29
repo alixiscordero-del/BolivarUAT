@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Servicemålsætningen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Servicemålsætning</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Servicemålsætning</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Servicemålsætningerne</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Servicemålsætninger</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Servicemålsætninger</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Navn på servicemål</nameFieldLabel>
+    <recordTypes>
+        <description>Planlæg så hurtigt som muligt</description>
+        <label>Så hurtigt som muligt</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Tilpasset målsætning</description>
+        <label>Tilpasset målsætning</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Reducer ledige tidshuller mellem serviceaftaler</description>
+        <label>Minimer huller</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimer brugen af overtid</description>
+        <label>Minimer overtid</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimer rejsetid</description>
+        <label>Minimer rejser</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Prioriter planlægning i henhold til den foretrukne ressource</description>
+        <label>Foretrukket ressource</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Foretræk en ressource baseret på en feltværdi på ressourcen</description>
+        <label>Ressourceprioritet</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Foretræk planlægning af aftaler sammen på samme lokalitet</description>
+        <label>Samme lokalitet</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Foretræk den mindst/mest kvalificerede kandidat</description>
+        <label>Færdighedsniveau</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Færdighedspræferencer med færdighedstype</description>
+        <label>Færdighedspræferencer</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Ressourceprioritetsfelt må ikke være tomt</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>顯示「我的最愛」區域範圍索引標籤</label>
+    <name>FSL__ShowFavoriteTerritoriesTab__c</name>
+</CustomFieldTranslation>

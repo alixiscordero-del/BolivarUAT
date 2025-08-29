@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Regula de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Regulă de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Regulile de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Reguli de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Regulii de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Regulii de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Regulilor de lucru</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Regulilor de lucru</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nume regulă de lucru</nameFieldLabel>
+    <recordTypes>
+        <description>Setați limite pentru capacitatea de lucru a resurselor de servicii într-un teritoriu de serviciu anume, conform criteriilor specificate.</description>
+        <label>Field Service - Regulă capacitate de lucru</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limitează resursele de servicii în funcție de numărul de elemente precum rezervările de servicii, duratele rezervărilor sau valorile unor câmpuri personalizate</description>
+        <label>Câmp serviciu - Regulă de contorizare</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrivește o proprietate a unui obiect de tip rezervare de serviciu cu o proprietate dintr-o listă a obiectului resursă de servicii</description>
+        <label>Field Service – Potrivire extinsă</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Asigurați-vă că resursa atribuită pentru rezervările de serviciu nu este una dintre resursele excluse</description>
+        <label>Câmpul Serviciu - Resurse excluse</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrivirea teritoriilor de lucru ale resursei de serviciu</description>
+        <label>Field Service - Teritorii de lucru</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Asigură faptul că resursa de serviciu este disponibilă pentru o rezervare</description>
+        <label>Field Service - Disponibilitatea resursei de serviciu</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Validează faptul că proprietatea booleană este setată la valoarea Adevărat sau Fals</description>
+        <label>Câmpul serviciu - Potrivire booleană</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrivește dimensiunea echipei cu dimensiunea minimă a echipei părinte</description>
+        <label>Field Service - Disponibilitatea resurselor echipei de serviciu</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrivește o proprietate între un obiect de tip rezervare de serviciu și un obiect resursă de serviciu</description>
+        <label>Câmp Serviciu - Potrivire câmpuri</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrivește teritoriul între un obiect de tip rezervare de serviciu și un obiect resursă de serviciu cu asistență la relocare</description>
+        <label>Field Service - Potrivire teritorii</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Potrivește aptitudinile necesare pentru o rezervare de serviciu cu aptitudinile resursei de serviciu</description>
+        <label>Câmp Serviciu - Potrivire aptitudini</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limitează distanța/perioada de deplasare a resursei de serviciu de acasă</description>
+        <label>Câmp serviciu - Limită maximă de deplasare de acasă</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Asigurați-vă că resursa atribuită pentru rezervarea de serviciu este una dintre resursele cerute</description>
+        <label>Câmp Serviciu - Resurse necesare</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Asigurați-vă că rezervarea de serviciu este programată în timpul programului de vizitare definit de client.</description>
+        <label>Field Service - Orar vizitare rezervare serviciu</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Asigurați-vă că rezervarea de serviciu programarea rezervării de serviciu este permisă în timpul perioadei convenite.</description>
+        <label>Field Service - Lucrare desemnată în TimeSlot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limitează perioadele de programare conform proprietăților de dată și oră ale rezervării de serviciu</description>
+        <label>Câmp serviciu - Regulă potrivire timp</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Operatorul de timp trebuie să aibă valoarea „Înainte sau Egal cu” dacă proprietatea  Oră planificare serviciu este „SchedEndTime”</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Durata trebuie să fie o valoare pozitivă</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Valorea Limită maximă de deplasare de acasă trebuie să fie pozitivă.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Diferența minimă nu trebuie să fie negativă</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ora trebuie să aibă următorul format: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ora trebuie să aibă următorul format: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

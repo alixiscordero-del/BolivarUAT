@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>偏好的資源指派約會</label>
+    <name>FSL__NumberOfSasWithPreferredResource__c</name>
+</CustomFieldTranslation>

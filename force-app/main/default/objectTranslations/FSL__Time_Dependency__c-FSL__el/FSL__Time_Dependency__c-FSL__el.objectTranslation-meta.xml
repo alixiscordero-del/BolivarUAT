@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Εξάρτηση ραντεβού</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Εξαρτήσεις ραντεβού</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Εξάρτηση ραντεβού</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Εξαρτήσεις ραντεβού</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Εξάρτησης ραντεβού</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Εξαρτήσεων ραντεβού</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Όνομα εξάρτησης ραντεβού</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Επιλέξτε τύπο εξάρτησης.</errorMessage>
+        <name>FSL__Dependency_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Δεν μπορέσαμε να δημιουργήσουμε μια εξάρτηση μεταξύ των ραντεβού εξυπηρέτησης. Ζητήστε από τον διαχειριστή του Salesforce να σας εκχωρήσει δικαιώματα για όλα τα προσαρμοσμένα πεδία του αντικειμένου χρονικής εξάρτησης.</errorMessage>
+        <name>FSL__Root_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Η εξάρτηση άμεσης ακολουθίας απαιτεί τον ίδιο πόρο</errorMessage>
+        <name>FSL__Same_Resource_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Απαιτείται ραντεβού εξυπηρέτησης 2.</errorMessage>
+        <name>FSL__Service_Appointment_2_Is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Δεν επιτρέπεται η αλλαγή οποιουδήποτε από τα ραντεβού εξυπηρέτησης στη σχέση</errorMessage>
+        <name>FSL__Service_Appointment_2_Not_Changed</name>
+    </validationRules>
+</CustomObjectTranslation>

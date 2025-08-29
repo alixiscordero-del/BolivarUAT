@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Цел на услугата</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Цели на услугата</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Име на целта на услугата</nameFieldLabel>
+    <recordTypes>
+        <description>Планиране колкото е възможно по-скоро</description>
+        <label>Колкото е възможно по-скоро</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Цел по избор</description>
+        <label>Цел по избор</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Намалете интервалите за време на неактивност между назначенията за обслужване</description>
+        <label>Намаляване на интервали</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Минимално използване на извънредна работа</description>
+        <label>Намаляване на извънредната работа</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Минимално време на пътуване</description>
+        <label>Намаляване на пътуванията</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Приоритетното планиране според предпочитания ресурс</description>
+        <label>Предпочитан ресурс</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Предпочитан ресурс на базата на стойност на поле в ресурса</description>
+        <label>Приоритет на ресурс</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Предпочитане на планиране заедно с назначения в същия обект</description>
+        <label>Същият обект</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Предпочитан кандидат според най-ниска/най-висока квалификация</description>
+        <label>Ниво на умение</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Предпочитания за умение с тип умение</description>
+        <label>Предпочитания за умение</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Полето за приоритет на ресурс не трябва да бъде празно</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

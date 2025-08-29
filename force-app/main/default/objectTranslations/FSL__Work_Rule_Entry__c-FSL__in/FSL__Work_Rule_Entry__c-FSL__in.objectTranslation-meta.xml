@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Entrii Aturan Kerja</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Entrii Aturan Kerja</value>
+    </caseValues>
+    <nameFieldLabel>Nama Entri Aturan Kerja</nameFieldLabel>
+    <recordTypes>
+        <description>Membatasi sumber daya layanan berdasarkan sejumlah item seperti janji temu layanan, durasi janji temu, atau nilai bidang isian ubahsuai</description>
+        <label>Field Service - Ketersediaan Sumber Daya Layanan</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

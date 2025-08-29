@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objetivo de servicio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objetivos de servicios</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nombre de objetivo de servicio</nameFieldLabel>
+    <recordTypes>
+        <description>Programar de inmediato</description>
+        <label>De inmediato</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Objetivo personalizado</description>
+        <label>Objetivo personalizado</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Reducir intervalos de tiempo de inactividad entre citas de servicio</description>
+        <label>Minimizar intervalos</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimizar el uso de horas extras</description>
+        <label>Minimizar horas extras</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimizar tiempo de desplazamiento</description>
+        <label>Minimizar desplazamiento</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Priorizar la programación según el recurso preferido</description>
+        <label>Recurso preferido</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Priorizar un recurso en base a un valor de campo en el recurso</description>
+        <label>Prioridad de recurso</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferir programación conjunta de citas en el mismo emplazamiento</description>
+        <label>Mismo sitio</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferir el candidato más/menos cualificado</description>
+        <label>Nivel de habilidad</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferencias de habilidad con tipo de habilidad</description>
+        <label>Preferencias de habilidad</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Campo de prioridad de recurso no puede estar vacío</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

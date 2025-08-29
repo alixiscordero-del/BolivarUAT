@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mục Tiêu Dịch Vụ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value></value>
+    </caseValues>
+    <nameFieldLabel>Tên Mục Tiêu Dịch Vụ</nameFieldLabel>
+    <recordTypes>
+        <description>Lên lịch càng sớm càng tốt</description>
+        <label>Càng sớm càng tốt</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mục Tiêu Tùy Chỉnh</description>
+        <label>Mục Tiêu Tùy Chỉnh</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giảm khoảng thời gian nhàn rỗi giữa các cuộc hẹn dịch vụ</description>
+        <label>Giảm Thiểu Khoảng Trống</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giảm tối đa thời gian tăng ca</description>
+        <label>Giảm Tối Đa Tăng Ca</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Giảm tối đa thời gian di chuyển</description>
+        <label>Giảm Tối Đa Thời Gian Di Chuyển</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Đặt mức ưu tiên lên lịch theo nhân sự ưu tiên</description>
+        <label>Nhân Sự Được Ưu Tiên</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Mức ưu tiên một nhân sự dựa trên giá trị trường của nhân sự đó</description>
+        <label>Mức Ưu Tiên Của Nhân Sự</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ưu tiên lên lịch cùng với các cuộc hẹn tại cùng một địa điểm</description>
+        <label>Cùng Một Địa Điểm</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Ưu tiên ứng viên có trình độ thấp nhất/cao nhất</description>
+        <label>Cấp Độ Kỹ Năng</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Các Kỹ Năng Ưu Tiên với loại kỹ năng</description>
+        <label>Các Kỹ Năng Ưu Tiên</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Không được để trống Trường Mức Ưu Tiên Của Nhân Sự</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

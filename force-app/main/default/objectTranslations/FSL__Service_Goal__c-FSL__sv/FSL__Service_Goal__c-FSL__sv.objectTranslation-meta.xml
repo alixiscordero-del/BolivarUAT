@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Servicemålet</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Ett servicemål</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Servicemål</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Servicemålen</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Servicemål</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Servicemål</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Servicemålnamn</nameFieldLabel>
+    <recordTypes>
+        <description>Schemalägg så snart som möjligt</description>
+        <label>Så snart som möjligt</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Eget mål</description>
+        <label>Eget mål</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minska lediga tidsluckor mellan servicebokningar</description>
+        <label>Minimera luckor</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimera användningen av övertid</description>
+        <label>Minimera övertid</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimera restid</description>
+        <label>Minimera restid</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Prioritera schemaläggning enligt föredragen resurs</description>
+        <label>Föredragen resurs</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Föredra en resurs baserat på ett fältvärde i resursen</description>
+        <label>Resursprioritet</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Föredra att schemalägga bokningar på samma plats samtidigt</description>
+        <label>Samma plats</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Föredra den minst/mest kvalificerade kandidaten</description>
+        <label>Kompetensnivå</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Kompetenspreferenser med kompetenstyp</description>
+        <label>Kompetenspreferenser</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Resursprioritetsfält ska inte vara tomt</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

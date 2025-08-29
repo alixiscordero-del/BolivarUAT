@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeln</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeln</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeln</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Arbeitsregel</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Arbeitsregeln</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der Arbeitsregel</nameFieldLabel>
+    <recordTypes>
+        <description>Legen Sie Obergrenzen für die Arbeitskapazität von Serviceressourcen in einer bestimmten Serviceregion anhand von bestimmten Kriterien fest.</description>
+        <label>Field Service – Arbeitskapazitätsregel</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begrenzt Serviceressourcen anhand einer Anzahl von Elementen wie Serviceterminen, Termindauern oder benutzerdefinierten Feldwerten.</description>
+        <label>Field Service – Zählregel</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gleicht eine Eigenschaft zwischen einem Serviceterminobjekt mit einer Eigenschaft ab, die in einer Liste im Serviceressourcenobjekt enthalten ist.</description>
+        <label>Field Service – Erweiterte Übereinstimmung</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Stellt sicher, dass es sich bei der zugewiesenen Ressource für diesen Servicetermin nicht um eine der ausgeschlossenen Ressourcen handelt.</description>
+        <label>Field Service – ausgeschlossene Ressourcen</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gleicht die Arbeitsregionen der Serviceressource ab.</description>
+        <label>Field Service – Arbeitsregionen</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Stellt sicher, dass die Serviceressource für einen Servicetermin verfügbar ist.</description>
+        <label>Field Service – Serviceressourcenverfügbarkeit</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Validiert, ob die boolesche Eigenschaft auf &quot;wahr&quot; oder &quot;falsch&quot; festgelegt ist.</description>
+        <label>Field Service – übereinstimmender boolescher Wert</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gleicht die Belegschaftsgröße mit der übergeordneten Mindestbelegschaftsgröße des Service ab.</description>
+        <label>Field Service – Servicebelegschaft-Ressourcenverfügbarkeit</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gleicht eine Eigenschaft zwischen einem Serviceterminobjekt und einem Serviceressourcenobjekt ab.</description>
+        <label>Field Service – übereinstimmende Felder</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gleicht die Region zwischen einem Serviceterminobjekt und einem Serviceressourcenobjekt mit Unterstützung des Standortwechsels ab.</description>
+        <label>Field Service – übereinstimmende Region</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Gleicht die erforderlichen Fertigkeiten für einen Servicetermin mit den Fertigkeiten der Serviceressource ab.</description>
+        <label>Field Service – übereinstimmende Fertigkeiten</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begrenzt die Entfernung\Wegzeit der Serviceressource von Zuhause.</description>
+        <label>Field Service – max. Weg von Zuhause</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Stellt sicher, dass es sich bei der zugewiesenen Ressource für diesen Servicetermin um eine der erforderlichen Ressourcen handelt.</description>
+        <label>Field Service – erforderliche Ressourcen</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Stellt sicher, dass der Servicetermin innerhalb der vom Kunden festgelegten Besuchszeiten liegt.</description>
+        <label>Field Service – Besuchszeiten für Servicetermin</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Stellt sicher, dass der Servicetermin in den Zeitfenstern geplant werden kann, auf die er verteilt ist.</description>
+        <label>Field Service – TimeSlot für angegebene Arbeit</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Begrenzt das Planungszeitfenster gemäß den datetime-Eigenschaften des Servicetermins.</description>
+        <label>Field Service – übereinstimmende Zeitregel</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Der Operator für die Uhrzeit sollte auf ’Früher als oder gleich’ gesetzt sein, wenn die Serviceplanzeit-Eigenschaft ’SchedEndTime’ lautet.</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Dauer muss positiv sein</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Max. Weg von Zuhause muss positiv sein.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Mindestabstand darf nicht negativ sein</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zeit muss in folgendem Format angegeben sein: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Zeit muss in folgendem Format angegeben sein: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

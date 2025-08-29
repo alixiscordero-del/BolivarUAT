@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tujuan Layanan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tujuan Layanan</value>
+    </caseValues>
+    <nameFieldLabel>Nama Tujuan Layanan</nameFieldLabel>
+    <recordTypes>
+        <description>Jadwalkan sesegera mungkin</description>
+        <label>Sesegera Mungkin</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Objektif Ubahsuai</description>
+        <label>Objektif Ubahsuai</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Kurangi kesenjangan waktu diam di antara janji temu layanan</description>
+        <label>Minimalkan Kesenjangan</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimalkan penggunaan lembur</description>
+        <label>Minimalkan Lembur</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Minimalkan waktu perjalanan</description>
+        <label>Minimalkan Perjalanan</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Prioritaskan penjadwalan sesuai dengan sumber daya yang dipilih</description>
+        <label>Sumber Daya yang Disukai</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pilih sumber daya berdasarkan nilai bidang isian sumber daya</description>
+        <label>Prioritas Sumber Daya</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Memilih menjadwalkan janji temu secara bersamaan di tempat yang sama</description>
+        <label>Situs yang Sama</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Pilih kandidat dengan kualitas paling rendah/paling tinggi</description>
+        <label>Tingkat Keterampilan</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Preferensi Keterampilan dengan jenis keterampilan</description>
+        <label>Preferensi Keterampilan</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Bidang Isian Prioritas Sumber Daya tidak boleh kosong</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

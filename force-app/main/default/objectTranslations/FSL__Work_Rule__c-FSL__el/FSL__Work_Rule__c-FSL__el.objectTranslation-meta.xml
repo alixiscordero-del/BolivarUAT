@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Κανόνας εργασίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Κανόνες εργασίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Κανόνα εργασίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Κανόνες εργασίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Κανόνα εργασίας</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Κανόνων εργασίας</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Όνομα κανόνα εργασίας</nameFieldLabel>
+    <recordTypes>
+        <description>Καθορίζει το όριο της δυναμικότητας εργασίας των πόρων εξυπηρέτησης σε μια καθορισμένη περιοχή εξυπηρέτησης με βάση τα καθορισμένα κριτήρια.</description>
+        <label>Field Service - Κανόνας δυνατότητας εργασίας</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Περιορίζει τους πόρους εξυπηρέτησης βάσει του αριθμού των στοιχείων όπως τα ραντεβού εξυπηρέτησης, οι διάρκειες ραντεβού ή οι προσαρμοσμένες τιμές πεδίου</description>
+        <label>Field Service - Κανόνας καταμέτρησης</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Αντιστοιχίζει μια ιδιότητα μεταξύ ενός αντικειμένου ραντεβού εξυπηρέτησης και μιας ιδιότητας που υπάρχει στη λίστα στο αντικείμενο πόρων εξυπηρέτησης</description>
+        <label>Field Service - Εκτεταμένη αντιστοίχιση</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Εξασφαλίζει ότι ο καθορισμένος πόρος για το ραντεβού εξυπηρέτησης δεν είναι ένας από τους εξαιρούμενους πόρους</description>
+        <label>Field Service - Εξαιρούμενοι πόροι</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Αντιστοίχιση περιοχών εργασίας πόρων εξυπηρέτησης</description>
+        <label>Field Service – Περιοχές εργασίας</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Εξασφαλίζει ότι ο πόρος εξυπηρέτησης είναι διαθέσιμος για ένα ραντεβού εξυπηρέτησης</description>
+        <label>Field Service - Διαθεσιμότητα πόρου υπηρεσίας</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Επιβεβαιώνει αν η ιδιότητα boolean έχει οριστεί ως true ή false</description>
+        <label>Field Service - Αντιστοίχιση λογικής πράξης</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Αντιστοίχιση μεγέθους πληρώματος σε ελάχιστο μέγεθος γονικού πληρώματος εξυπηρέτησης</description>
+        <label>Field Service - Διαθεσιμότητα πόρων προσωπικού εξυπηρέτησης</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Αντιστοιχίζει μια ιδιότητα μεταξύ ενός αντικειμένου ραντεβού εξυπηρέτησης και ενός αντικειμένου πόρων εξυπηρέτησης</description>
+        <label>Field Service - Αντιστοίχιση πεδίων</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Αντιστοιχίζει την περιοχή μεταξύ ενός αντικειμένου ραντεβού εξυπηρέτησης και ενός αντικειμένου πόρων εξυπηρέτησης με υποστήριξη μετεγκατάστασης</description>
+        <label>Field Service - Αντιστοίχιση περιοχής</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Αντιστοιχίζει στις απαιτούμενες δεξιότητες για ένα ραντεβού εξυπηρέτησης με τις δεξιότητες του πόρου εξυπηρέτησης</description>
+        <label>Field Service - Αντιστοίχιση δεξιοτήτων</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Περιορίζει την απόσταση/το χρόνο ταξιδιού των πόρων εξυπηρέτησης από το σπίτι</description>
+        <label>Field Service - Μέγιστες μεταφορές από βάση</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Εξασφαλίζει ότι ο καθορισμένος πόρος για το ραντεβού εξυπηρέτησης δεν είναι ένας από τους απαιτούμενους πόρους</description>
+        <label>Field Service - Απαιτούμενοι πόροι</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Εξασφαλίζει ότι το ραντεβού εξυπηρέτησης έχει προγραμματιστεί εντός των καθορισμένων ωρών επίσκεψης του πελάτη.</description>
+        <label>Field Service - Ώρες επίσκεψης για ραντεβού εξυπηρέτησης</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Εξασφαλίζει ότι το ραντεβού εξυπηρέτησης επιτρέπεται να προγραμματιστεί στις χρονικές υποδοχές στις οποίες εκτείνεται.</description>
+        <label>Field Service - Ανατεθειμένη εργασία θυρίδας χρόνου</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Περιορίζει το χρονικό περιθώριο προγραμματισμού σύμφωνα με τις ιδιότητες ημερομηνίας και ώρας του ραντεβού εξυπηρέτησης</description>
+        <label>Field Service - Αντιστοίχιση κανόνα χρόνου</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>Ο χειριστής χρόνου θα πρέπει να είναι &quot;Πριν ή Ίσο με&quot; όταν η ιδιότητα χρόνου προγράμματος υπηρεσίας είναι &quot;SchedEndTime&quot;</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Η διάρκεια πρέπει να είναι θετική</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Οι μέγιστες μεταφορές από τη βάση πρέπει να είναι θετικές.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Το ελάχιστο κενό δεν θα πρέπει να είναι αρνητικό</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ο χρόνος πρέπει να αναγράφεται στην ακόλουθη μορφή: ΩΩ:ΛΛ</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ο χρόνος πρέπει να αναγράφεται στην ακόλουθη μορφή: ΩΩ:ΛΛ</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

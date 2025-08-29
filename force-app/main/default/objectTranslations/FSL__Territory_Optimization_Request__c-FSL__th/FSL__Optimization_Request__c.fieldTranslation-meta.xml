@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>คำขอการปรับให้เหมาะสมที่สุด</label>
+    <name>FSL__Optimization_Request__c</name>
+    <relationshipLabel>คำขอการปรับภูมิภาคให้เหมาะสมที่สุด</relationshipLabel>
+</CustomFieldTranslation>

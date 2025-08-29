@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Objectif de service</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Objectifs de service</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom de l’objectif de service</nameFieldLabel>
+    <recordTypes>
+        <description>Planifier dans les meilleurs délais</description>
+        <label>Dans les meilleurs délais</label>
+        <name>FSL__Objective_Asap</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Objectif personnalisé</description>
+        <label>Objectif personnalisé</label>
+        <name>FSL__Objective_Custom_Logic</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Réduire les temps d’inactivité entre les rendez-vous de service</description>
+        <label>Minimiser les écarts</label>
+        <name>FSL__Objective_Minimize_Gaps</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Réduire l’utilisation d’heures supplémentaires</description>
+        <label>Réduire les heures supplémentaires</label>
+        <name>FSL__Objective_Minimize_Overtime</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Réduire le temps de trajet</description>
+        <label>Réduire le trajet</label>
+        <name>FSL__Objective_Minimize_Travel</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Priorité à la planification selon la ressource préférée</description>
+        <label>Ressource préférée</label>
+        <name>FSL__Objective_PreferredEngineer</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Préférer une ressource basée sur une valeur de champ dans la ressource</description>
+        <label>Priorité de la ressource</label>
+        <name>FSL__Objective_Resource_Priority</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Préférer la planification des rendez-vous ensemble dans le même site</description>
+        <label>Même site</label>
+        <name>FSL__Objective_Same_Site</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Préférer le candidat le plus/le moins qualifié</description>
+        <label>Niveau de compétence</label>
+        <name>FSL__Objective_Skill_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Préférences de compétences avec type de compétences</description>
+        <label>Préférences de compétences</label>
+        <name>FSL__Objective_Skill_Preferences</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage>Le champ de priorité de la ressource ne doit pas être vide</errorMessage>
+        <name>FSL__Resource_Priority_Not_Null</name>
+    </validationRules>
+</CustomObjectTranslation>

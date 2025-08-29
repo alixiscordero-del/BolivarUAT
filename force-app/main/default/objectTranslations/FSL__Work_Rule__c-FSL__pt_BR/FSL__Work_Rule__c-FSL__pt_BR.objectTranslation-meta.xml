@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regra de trabalho</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regras de trabalho</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome da regra de trabalho</nameFieldLabel>
+    <recordTypes>
+        <description>Defina os limites para a capacidade de trabalho dos recursos em serviço em um determinado território de serviço de acordo com os critérios especificados.</description>
+        <label>Field Service – Regra de capacidade de trabalho</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita os recursos do serviço com base em vários itens, como compromissos de serviço, durações do compromisso ou valores de campo personalizados</description>
+        <label>Field Service – regra de contagem</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Corresponde a uma propriedade entre um objeto de compromisso de serviço a uma propriedade contida em uma lista no objeto de recurso de serviço</description>
+        <label>Field Service - Correspondência estendida</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garante que o recurso atribuído para o compromisso de serviço não seja um dos recursos excluídos</description>
+        <label>Field Service - Recursos excluídos</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Corresponde os territórios de trabalho do recurso de serviço</description>
+        <label>Serviço de campo - Territórios de trabalho</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garante que o recurso de serviço esteja disponível para um compromisso de serviço</description>
+        <label>Serviço de campo - Disponibilidade de recurso de serviço</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Valida a propriedade booleana definida como true ou false</description>
+        <label>Serviço de campo - Relacionar booleano</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Corresponde o tamanho da equipe para atender ao tamanho mínimo da equipe pai</description>
+        <label>Serviço de campo - Disponibilidade de recurso da equipe de serviços</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Corresponde uma propriedade entre um objeto de compromisso de serviço e um objeto de recurso de serviço</description>
+        <label>Serviço de campo - Relacionar campos</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Corresponde o território entre um objeto de compromisso de serviço e um objeto de recurso de serviço com o suporte de Relocação</description>
+        <label>Serviço de campo - Corresponder território</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Corresponde as habilidades necessárias para um compromisso de serviço com as habilidades do recurso de serviço</description>
+        <label>Serviço de campo - Relacionar habilidades</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita a distância/tempo da viagem dos recursos de serviço do início</description>
+        <label>Serviço de campo - Deslocamento máximo de casa</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garante que o recurso atribuído para o compromisso de serviço seja um dos recursos obrigatórios</description>
+        <label>Serviço de campo - Recursos necessários</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garante que o compromisso de serviço seja agendado dentro do horário de atendimento definido pelo cliente.</description>
+        <label>Serviço de campo - Horas de visita do compromisso de serviço</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Garante que o compromisso de serviço tenha permissão para ser agendado nos intervalos de tempo em que ele é distribuído.</description>
+        <label>Serviço de campo - Trabalho designado TimeSlot</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Limita a janela de tempo de agendamento de acordo com as propriedades de data e hora do compromisso de serviço</description>
+        <label>Serviço de campo - Relacionar regra de tempo</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>O operador de horário deve ser &quot;Anterior ou igual a&quot; quando a propriedade de horário de agendamento de serviço for &quot;SchedEndTime&quot;</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A duração deve ser positiva</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O Deslocamento máximo de casa deve ser positivo.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>O intervalo mínimo não deve ser negativo</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A hora deve estar no seguinte formato: HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>A hora deve estar no seguinte formato: HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

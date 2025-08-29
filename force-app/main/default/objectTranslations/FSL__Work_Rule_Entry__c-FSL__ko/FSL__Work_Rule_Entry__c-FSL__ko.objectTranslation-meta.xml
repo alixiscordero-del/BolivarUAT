@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>작업 규칙 항목</value>
+    </caseValues>
+    <nameFieldLabel>작업 규칙 항목 이름</nameFieldLabel>
+    <recordTypes>
+        <description>서비스 자원, 약속 기간 또는 사용자 정의 필드 값 등 항목 수를 기반으로 서비스 자원을 제한합니다.</description>
+        <label>Field Service - 서비스 자원 가용성</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+</CustomObjectTranslation>

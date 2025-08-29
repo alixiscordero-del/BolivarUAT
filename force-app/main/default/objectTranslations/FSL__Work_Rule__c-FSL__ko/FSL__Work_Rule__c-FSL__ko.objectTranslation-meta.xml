@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>작업 규칙</value>
+    </caseValues>
+    <nameFieldLabel>작업 규칙 이름</nameFieldLabel>
+    <recordTypes>
+        <description>특정 기준에 따라 해당 서비스 영역에서 서비스 자원의 작업 수용력 제한을 설정합니다.</description>
+        <label>Field Service - 작업 수용력 규칙</label>
+        <name>FSL__Capacity_Limit_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 자원, 약속 기간 또는 사용자 정의 필드 값 등 항목 수를 기반으로 서비스 자원을 제한합니다.</description>
+        <label>Field Service - 계산 규칙</label>
+        <name>FSL__Count_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속 개체 간 속성이 서비스 자원 개체의 목록에 포함된 속성과 일치합니다.</description>
+        <label>Field Service - 확장 일치</label>
+        <name>FSL__Enhanced_Match_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>제외 리소스에 해당하지 않는 리소스를 서비스 약속에 할당합니다.</description>
+        <label>Field Service - 제외된 자원</label>
+        <name>FSL__Excluded_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 리소스 작업 영역을 일치시킵니다.</description>
+        <label>Field Service - 작업 영역</label>
+        <name>FSL__Field_Working_Locations</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속에 서비스 리소스를 사용할 수 있습니다.</description>
+        <label>Field Service - 서비스 자원 운용가능성</label>
+        <name>FSL__Gap_Rule_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>부울 속성이 true 또는 false로 설정되었는지 확인합니다.</description>
+        <label>Field Service - 부울 일치</label>
+        <name>FSL__Match_Boolean_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>직원 규모를 서비스 상위 직원 최소 규모에 일치시킵니다.</description>
+        <label>Field Service - 서비스 직원 자원 운용가능성</label>
+        <name>FSL__Match_Crew_Size_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속 개체와 서비스 리소스 개체 간의 속성을 일치시킵니다.</description>
+        <label>Field Service - 필드 일치</label>
+        <name>FSL__Match_Fields_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속 개체와 서비스 리소스 개체 간의 영역을 재배치 지원과 일치시킵니다.</description>
+        <label>Field Service - 영역 일치</label>
+        <name>FSL__Match_Location_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속에 필요한 기술을 서비스 리소스의 기술과 일치시킵니다.</description>
+        <label>Field Service - 기술 일치</label>
+        <name>FSL__Match_Skills_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>홈부터 서비스 리소스 이동 거리/시간을 제한합니다.</description>
+        <label>Field Service - 홈에서 최대 이동</label>
+        <name>FSL__Max_Travel_From_Home_To_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>필수 리소스에 해당하는 리소스를 서비스 약속에 할당합니다.</description>
+        <label>Field Service - 필수 자원</label>
+        <name>FSL__Required_Resources_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <description>고객이 정의한 방문 시간 내로 서비스 약속 일정을 예약합니다.</description>
+        <label>Field Service - 서비스 약속 방문 시간</label>
+        <name>FSL__Service_Visiting_Hours</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속을 해당 약속이 분포된 시간 슬롯에서 예약할 수 있습니다.</description>
+        <label>Field Service - 타임슬롯 할당 작업</label>
+        <name>FSL__TimeSlot_Designated_Work</name>
+    </recordTypes>
+    <recordTypes>
+        <description>서비스 약속 날짜/시간 속성에 따라 예약 시간 구간을 제한합니다.</description>
+        <label>Field Service - 시간 규칙 일치</label>
+        <name>FSL__Time_Rule_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>서비스 일정 시간 속성이 ’SchedEndTime’인 경우 시간 연산자는 ’이전 또는 같음’이어야 합니다.</errorMessage>
+        <name>FSL__Check_time_rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>기간은 양수여야 합니다.</errorMessage>
+        <name>FSL__Greater_than_zero</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>홈에서 최대 이동은 양수여야 합니다.</errorMessage>
+        <name>FSL__Maximum_Travel_Must_Be_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>최소 간격은 음수가 아니어야 합니다.</errorMessage>
+        <name>FSL__Minimum_Gap_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>시간은 다음과 같은 형식이어야 합니다. HH:MM</errorMessage>
+        <name>FSL__Start_Of_Day_Time_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>시간은 다음과 같은 형식이어야 합니다. HH:MM</errorMessage>
+        <name>FSL__Time_Format</name>
+    </validationRules>
+</CustomObjectTranslation>
