@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMT Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMT Settings</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__Default_Availability_btwn_1_to_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__RP_Years_in_advance_greater_than_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__Start_Month_between_1_and_12</name>
+    </validationRules>
+</CustomObjectTranslation>

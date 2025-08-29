@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hogares</fullName>
+    <active>true</active>
+    <businessProcess>inov8__PMT</businessProcess>
+    <compactLayoutAssignment>CoIT_Compact_Case_Manager_Supervisor</compactLayoutAssignment>
+    <label>Hogares</label>
+    <picklistValues>
+        <picklist>CoIT_Click_Severity__c</picklist>
+        <values>
+            <fullName>Alto Impacto%3A 20 o más días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo Impacto%3A 0 - 1 día</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo Impacto%3A 0 - 3 días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo Impacto%3A 0 - 5 días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderado%3A 6 - 19 días</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoIT_Codigo_Ubicacion__c</picklist>
+        <values>
+            <fullName>1400</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoIT_Impacto__c</picklist>
+        <values>
+            <fullName>Alto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoIT_Management_Type__c</picklist>
+        <values>
+            <fullName>Agendamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alertamientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alto impacto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo%2Fmedio impacto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fallido Completado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestión Automatica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestión Automatica PoC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoIT_Nombre_Ubicacion__c</picklist>
+        <values>
+            <fullName>Bogota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Marta</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CoIT_Producto_Bolivar__c</picklist>
+        <values>
+            <fullName>1 - INCENDIO TRADICIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100 - ASISTENCIA HOGAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>109 - HOGAR PARA DISFRUTAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 - TRADICIONAL EMPRESAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1111 - ASISTENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>112 - MIGRACION HOGAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>115 - HOGAR BANCARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>117 - HOGAR  PARA DISFRUTAR FUNCIONARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>121 - HOGAR MULTICOMPA%3FIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>125 - HOGAR VIVIR Y DISFRUTAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>127 - HOGAR EL LIBERTADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>129 - HOGAR MODULAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140 - TODO RIESGO PARA CONSTRUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150 - TODO RIESGO CONSTRUCCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>152 - EQUIPO Y MAQUINARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>173 - MULTIRIESGO PYMES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200 - GARANTIAS CONSTRUCTORA BOLIVAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>220 - ASISTENCIA HOGAR DIGITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>339 - HOGAR PROTECCION TOTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600 - SEGURO AGRICOLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>73 - HIPOTECARIOS COLPATRIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>74 - CREDITOS HIPOTECARIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75 - HIPOTECARIOS DAVIVIENDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>76 - ALL RISK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>777 - E-PYMES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>799 - EDUCADORES PLUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 - ROTURA DE MAQUINARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>923 - OFERTAS DE PROTECCION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>93 - MIDAS PLAN INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94 - MULTIRIESGO PANIFICADORAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>95 - MULTIRIESGO EMPRESARIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97 - PERSEO INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>98 - MULTIRIESGO  DAVIVIENDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99 - COOPROPIEDADES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado_Razon__c</picklist>
+        <values>
+            <fullName>Asignado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asignado a area interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En espera del cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En espera del tercero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestionado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No aplica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No asignado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No cobertura</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teléfono</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Razon_Estado__c</picklist>
+        <values>
+            <fullName>ASIGNADO A AJUSTADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASIGNADO A UIFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTACTABILIDAD ASG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caso gestionado por otro gestor%2Fsupervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casos cerrados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISPONIBILIDAD ASG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DISPONIBILIDAD RC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libertador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENDIENTE PAGO DEDUCIBLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENDIENTE TOMA FACTURABLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACION ADMON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACIONES DEL ASG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REPARACIONES DEL RC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>El usuario no asistió a la capacitación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funcionalidad compleja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instrucciones poco claras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo problema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema existente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status_Reason__c</picklist>
+        <values>
+            <fullName>Asignado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asignado a área interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En espera de terceros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En espera del cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gestionado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No aplica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No asignado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No cobertura</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Pregunta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de función</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>PMT Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PMT Projects</value>
+    </caseValues>
+    <sharingReasons>
+        <label></label>
+        <name>inov8__Project_Member</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__InitialStartDate_should_be_less</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__Path_to_Green_should_be_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__SOX_Comment_Blank_SOX_Impact_unchecked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>inov8__SOX_comment_not_null_when_SOX_checked</name>
+    </validationRules>
+</CustomObjectTranslation>

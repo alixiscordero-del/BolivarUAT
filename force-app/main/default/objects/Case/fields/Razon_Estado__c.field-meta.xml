@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Razon_Estado__c</fullName>
+    <label>Razon Estado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Estado_Razon__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CONTACTABILIDAD ASG</fullName>
+                <default>false</default>
+                <label>CONTACTABILIDAD ASG</label>
+            </value>
+            <value>
+                <fullName>DISPONIBILIDAD ASG</fullName>
+                <default>false</default>
+                <label>DISPONIBILIDAD ASG</label>
+            </value>
+            <value>
+                <fullName>REPARACIONES DEL ASG</fullName>
+                <default>false</default>
+                <label>REPARACIONES DEL ASG</label>
+            </value>
+            <value>
+                <fullName>PENDIENTE PAGO DEDUCIBLE</fullName>
+                <default>false</default>
+                <label>PENDIENTE PAGO DEDUCIBLE</label>
+            </value>
+            <value>
+                <fullName>PENDIENTE TOMA FACTURABLE</fullName>
+                <default>false</default>
+                <label>PENDIENTE TOMA FACTURABLE</label>
+            </value>
+            <value>
+                <fullName>REPARACION ADMON</fullName>
+                <default>false</default>
+                <label>REPARACION ADMON</label>
+            </value>
+            <value>
+                <fullName>REPARACIONES DEL RC</fullName>
+                <default>false</default>
+                <label>REPARACIONES DEL RC</label>
+            </value>
+            <value>
+                <fullName>DISPONIBILIDAD RC</fullName>
+                <default>false</default>
+                <label>DISPONIBILIDAD RC</label>
+            </value>
+            <value>
+                <fullName>ASIGNADO A AJUSTADOR</fullName>
+                <default>false</default>
+                <label>ASIGNADO A AJUSTADOR</label>
+            </value>
+            <value>
+                <fullName>ASIGNADO A UIFA</fullName>
+                <default>false</default>
+                <label>ASIGNADO A UIFA</label>
+            </value>
+            <value>
+                <fullName>Casos cerrados</fullName>
+                <default>false</default>
+                <label>Casos cerrados</label>
+            </value>
+            <value>
+                <fullName>Libertador</fullName>
+                <default>false</default>
+                <label>Libertador</label>
+            </value>
+            <value>
+                <fullName>Caso gestionado por otro gestor/supervisor</fullName>
+                <default>false</default>
+                <label>Caso gestionado por otro gestor/supervisor</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>En espera del cliente</controllingFieldValue>
+            <valueName>CONTACTABILIDAD ASG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del cliente</controllingFieldValue>
+            <valueName>DISPONIBILIDAD ASG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del cliente</controllingFieldValue>
+            <valueName>REPARACIONES DEL ASG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del cliente</controllingFieldValue>
+            <valueName>PENDIENTE PAGO DEDUCIBLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del cliente</controllingFieldValue>
+            <valueName>PENDIENTE TOMA FACTURABLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del tercero</controllingFieldValue>
+            <valueName>REPARACION ADMON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del tercero</controllingFieldValue>
+            <valueName>REPARACIONES DEL RC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera del tercero</controllingFieldValue>
+            <valueName>DISPONIBILIDAD RC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignado a area interna</controllingFieldValue>
+            <valueName>ASIGNADO A AJUSTADOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignado a area interna</controllingFieldValue>
+            <valueName>ASIGNADO A UIFA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No aplica</controllingFieldValue>
+            <valueName>Casos cerrados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No aplica</controllingFieldValue>
+            <valueName>Libertador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No aplica</controllingFieldValue>
+            <valueName>Caso gestionado por otro gestor/supervisor</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

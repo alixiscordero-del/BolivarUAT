@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Lightbox Gestion de l’équipe</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Déprécié</label>
+        <name>FSL__Emergency_Current_WorkORder_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Lightbox Gantt</label>
+        <name>FSL__Gantt_Lightbox</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Cars Work Order Layout - Base Technician</layout>
+        <sections>
+            <label></label>
+            <section>Car Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Características del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Proveedor/Técnico</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Monitoring Time</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Supplier &amp; Technician</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del Servicio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Cars Work Order Layout - Director</layout>
+        <sections>
+            <label></label>
+            <section>Análisis de Costos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Características del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Proveedor/Técnico</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información del Vehículo</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Seguimiento</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Offer Model</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Cars Work Order Layout - Leader</layout>
+        <sections>
+            <label></label>
+            <section>Características del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Proveedor/Técnico</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Detalle del solicitante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información del Vehículo</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Monitoring Time</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del Servicio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Cars Work Order Layout - Manager/Supervisor</layout>
+        <sections>
+            <label></label>
+            <section>Características del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Detalle del Solicitante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información del Vehículo</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del Servicio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Cars Work Order Layout - Technician</layout>
+        <sections>
+            <label></label>
+            <section>Car Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Monitoring Time</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Supplier &amp; Technician</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Work Order Layout - Base Technician</layout>
+        <sections>
+            <label></label>
+            <section>Características del Servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos Proveedor/Técnico</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del Servicio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Work Order Layout - Director</layout>
+        <sections>
+            <label></label>
+            <section>Análisis de Costos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Información del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Work Order Layout - Leader</layout>
+        <sections>
+            <label></label>
+            <section>Catacterísticas del servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Proveedor/Tecnico</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Detalle del solicitante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informaciòn del vehiculo</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Seguimiento</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del servicio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Work Order Layout - Manager/Supervisor</layout>
+        <sections>
+            <label></label>
+            <section>Características del servicio</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Datos del Asegurado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Detalle del Solicitante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Informacion del vehiculo</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Seguimiento</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Ubicación del Servicio</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Homes Work Order Layout - Technician</layout>
+        <sections>
+            <label></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Monitoring Time</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout - Director</layout>
+        <sections>
+            <label></label>
+            <section>Análisis de Costos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout - Leader</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout Manager/Supervisor</layout>
+        <sections>
+            <label></label>
+            <section>Análisis de Costos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout – Base Technician</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout – IVR</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout – Leader</layout>
+        <sections>
+            <label></label>
+            <section>Análisis de Costos</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Milestones Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Layout – Technician</layout>
+        <sections>
+            <label></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Partner Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Work Order Layout</layout>
+        <sections>
+            <label></label>
+            <section>Entitlement &amp; Milestone Process</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Work Offer Model</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>CoIT_Seguimiento</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Crear_Gasto_Adicional</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Enviar_Plan_de_Reparaci_n</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Generar_Acta_de_Entrega</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Generar_PDF</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Reportar_Novedad</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>Autos</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Hogares</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Numero_de_siniestro</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Change_Record_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Work_Order_Complete</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>Generar_Acta_de_Entrega</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_SFS_Migrations_Click</fullName>
+    <columns>NAME</columns>
+    <columns>CoIT_Call_ID__c</columns>
+    <columns>CoIT_BLPUDO__c</columns>
+    <columns>CoIT_Customer_Name__c</columns>
+    <columns>CoIT_Numero_Caso_SIAB__c</columns>
+    <columns>CoIT_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All SFS Migrations Click</label>
+</ListView>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Producto_Bolivar__c</fullName>
+    <label>Producto Bolivar</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - INCENDIO TRADICIONAL</fullName>
+                <default>false</default>
+                <label>1 - INCENDIO TRADICIONAL</label>
+            </value>
+            <value>
+                <fullName>100 - ASISTENCIA HOGAR</fullName>
+                <default>false</default>
+                <label>100 - ASISTENCIA HOGAR</label>
+            </value>
+            <value>
+                <fullName>109 - HOGAR PARA DISFRUTAR</fullName>
+                <default>false</default>
+                <label>109 - HOGAR PARA DISFRUTAR</label>
+            </value>
+            <value>
+                <fullName>11 - TRADICIONAL EMPRESAR</fullName>
+                <default>false</default>
+                <label>11 - TRADICIONAL EMPRESAR</label>
+            </value>
+            <value>
+                <fullName>1111 - ASISTENCIA</fullName>
+                <default>false</default>
+                <label>1111 - ASISTENCIA</label>
+            </value>
+            <value>
+                <fullName>112 - MIGRACION HOGAR</fullName>
+                <default>false</default>
+                <label>112 - MIGRACION HOGAR</label>
+            </value>
+            <value>
+                <fullName>115 - HOGAR BANCARIO</fullName>
+                <default>false</default>
+                <label>115 - HOGAR BANCARIO</label>
+            </value>
+            <value>
+                <fullName>117 - HOGAR  PARA DISFRUTAR FUNCIONARIOS</fullName>
+                <default>false</default>
+                <label>117 - HOGAR  PARA DISFRUTAR FUNCIONARIOS</label>
+            </value>
+            <value>
+                <fullName>121 - HOGAR MULTICOMPA?IA</fullName>
+                <default>false</default>
+                <label>121 - HOGAR MULTICOMPA?IA</label>
+            </value>
+            <value>
+                <fullName>125 - HOGAR VIVIR Y DISFRUTAR</fullName>
+                <default>false</default>
+                <label>125 - HOGAR VIVIR Y DISFRUTAR</label>
+            </value>
+            <value>
+                <fullName>127 - HOGAR EL LIBERTADOR</fullName>
+                <default>false</default>
+                <label>127 - HOGAR EL LIBERTADOR</label>
+            </value>
+            <value>
+                <fullName>129 - HOGAR MODULAR</fullName>
+                <default>false</default>
+                <label>129 - HOGAR MODULAR</label>
+            </value>
+            <value>
+                <fullName>140 - TODO RIESGO PARA CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>140 - TODO RIESGO PARA CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>150 - TODO RIESGO CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>150 - TODO RIESGO CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>152 - EQUIPO Y MAQUINARIA</fullName>
+                <default>false</default>
+                <label>152 - EQUIPO Y MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>173 - MULTIRIESGO PYMES</fullName>
+                <default>false</default>
+                <label>173 - MULTIRIESGO PYMES</label>
+            </value>
+            <value>
+                <fullName>200 - GARANTIAS CONSTRUCTORA BOLIVAR</fullName>
+                <default>false</default>
+                <label>200 - GARANTIAS CONSTRUCTORA BOLIVAR</label>
+            </value>
+            <value>
+                <fullName>220 - ASISTENCIA HOGAR DIGITAL</fullName>
+                <default>false</default>
+                <label>220 - ASISTENCIA HOGAR DIGITAL</label>
+            </value>
+            <value>
+                <fullName>339 - HOGAR PROTECCION TOTAL</fullName>
+                <default>false</default>
+                <label>339 - HOGAR PROTECCION TOTAL</label>
+            </value>
+            <value>
+                <fullName>600 - SEGURO AGRICOLA</fullName>
+                <default>false</default>
+                <label>600 - SEGURO AGRICOLA</label>
+            </value>
+            <value>
+                <fullName>73 - HIPOTECARIOS COLPATRIA</fullName>
+                <default>false</default>
+                <label>73 - HIPOTECARIOS COLPATRIA</label>
+            </value>
+            <value>
+                <fullName>74 - CREDITOS HIPOTECARIOS</fullName>
+                <default>false</default>
+                <label>74 - CREDITOS HIPOTECARIOS</label>
+            </value>
+            <value>
+                <fullName>75 - HIPOTECARIOS DAVIVIENDA</fullName>
+                <default>false</default>
+                <label>75 - HIPOTECARIOS DAVIVIENDA</label>
+            </value>
+            <value>
+                <fullName>76 - ALL RISK</fullName>
+                <default>false</default>
+                <label>76 - ALL RISK</label>
+            </value>
+            <value>
+                <fullName>777 - E-PYMES</fullName>
+                <default>false</default>
+                <label>777 - E-PYMES</label>
+            </value>
+            <value>
+                <fullName>799 - EDUCADORES PLUS</fullName>
+                <default>false</default>
+                <label>799 - EDUCADORES PLUS</label>
+            </value>
+            <value>
+                <fullName>8 - ROTURA DE MAQUINARIA</fullName>
+                <default>false</default>
+                <label>8 - ROTURA DE MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>923 - OFERTAS DE PROTECCION</fullName>
+                <default>false</default>
+                <label>923 - OFERTAS DE PROTECCION</label>
+            </value>
+            <value>
+                <fullName>93 - MIDAS PLAN INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>93 - MIDAS PLAN INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>94 - MULTIRIESGO PANIFICADORAS</fullName>
+                <default>false</default>
+                <label>94 - MULTIRIESGO PANIFICADORAS</label>
+            </value>
+            <value>
+                <fullName>95 - MULTIRIESGO EMPRESARIAL</fullName>
+                <default>false</default>
+                <label>95 - MULTIRIESGO EMPRESARIAL</label>
+            </value>
+            <value>
+                <fullName>97 - PERSEO INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>97 - PERSEO INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>98 - MULTIRIESGO  DAVIVIENDA</fullName>
+                <default>false</default>
+                <label>98 - MULTIRIESGO  DAVIVIENDA</label>
+            </value>
+            <value>
+                <fullName>99 - COOPROPIEDADES</fullName>
+                <default>false</default>
+                <label>99 - COOPROPIEDADES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

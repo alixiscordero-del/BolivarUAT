@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Notificacion</fullName>
+    <columns>NAME</columns>
+    <columns>CoIT_Work_Order__c</columns>
+    <columns>CoIT_Service_Appointment__c</columns>
+    <columns>CoIT_Status_Service_Appointment__c</columns>
+    <columns>CoIT_Response__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CoIT_Numero_Autorizacion__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CoIT_Numero_Autorizacion__c</field>
+        <operation>equals</operation>
+        <value>5604675</value>
+    </filters>
+    <label>All Notificacion</label>
+</ListView>

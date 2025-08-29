@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>造訪時數</label>
+    <name>FSL__VisitingHours__c</name>
+    <relationshipLabel>工作指示條列項目</relationshipLabel>
+</CustomFieldTranslation>

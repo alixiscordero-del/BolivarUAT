@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Management_Type__c</fullName>
+    <label>Management Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gestión Automatica</fullName>
+                <default>true</default>
+                <label>Gestión Automatica</label>
+            </value>
+            <value>
+                <fullName>Agendamiento</fullName>
+                <default>false</default>
+                <label>Agendamiento</label>
+            </value>
+            <value>
+                <fullName>Alertamientos</fullName>
+                <default>false</default>
+                <label>Alertamientos</label>
+            </value>
+            <value>
+                <fullName>Alto impacto</fullName>
+                <default>false</default>
+                <label>Alto impacto</label>
+            </value>
+            <value>
+                <fullName>Bajo/medio impacto</fullName>
+                <default>false</default>
+                <label>Bajo/medio impacto</label>
+            </value>
+            <value>
+                <fullName>Fallido Completado</fullName>
+                <default>false</default>
+                <label>Fallido Completado</label>
+            </value>
+            <value>
+                <fullName>Gestión Automatica PoC</fullName>
+                <default>false</default>
+                <label>Gestión Automatica PoC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

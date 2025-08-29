@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_In_Jeopardy_Reason__c</fullName>
+    <label>In Jeopardy Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unscheduled service</fullName>
+                <default>false</default>
+                <label>Unscheduled service</label>
+            </value>
+            <value>
+                <fullName>Service not dispatched to technician</fullName>
+                <default>false</default>
+                <label>Service not dispatched to technician</label>
+            </value>
+            <value>
+                <fullName>Technician has not accepted the service</fullName>
+                <default>false</default>
+                <label>Technician has not accepted the service</label>
+            </value>
+            <value>
+                <fullName>Technician has not started travel</fullName>
+                <default>false</default>
+                <label>Technician has not started travel</label>
+            </value>
+            <value>
+                <fullName>Technician has not arrived on site</fullName>
+                <default>false</default>
+                <label>Technician has not arrived on site</label>
+            </value>
+            <value>
+                <fullName>Technician is taking more time than required</fullName>
+                <default>false</default>
+                <label>Technician is taking more time than required</label>
+            </value>
+            <value>
+                <fullName>No technicians were found available for the offer</fullName>
+                <default>false</default>
+                <label>No technicians were found available for the offer</label>
+            </value>
+            <value>
+                <fullName>No candidates found</fullName>
+                <default>false</default>
+                <label>No candidates found</label>
+            </value>
+            <value>
+                <fullName>Failed service, contact customer</fullName>
+                <default>false</default>
+                <label>Failed service, contact customer</label>
+            </value>
+            <value>
+                <fullName>Urgent, repair not possible, assistance concept required</fullName>
+                <default>false</default>
+                <label>Urgent, repair not possible, assistance concept required</label>
+            </value>
+            <value>
+                <fullName>The service has not been accepted by any technician</fullName>
+                <default>false</default>
+                <label>The service has not been accepted by any technician</label>
+            </value>
+            <value>
+                <fullName>Service accepted but not scheduled</fullName>
+                <default>false</default>
+                <label>Service accepted but not scheduled</label>
+            </value>
+            <value>
+                <fullName>Delayed Finish</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Delayed Finish</label>
+            </value>
+            <value>
+                <fullName>Delayed Start</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Delayed Start</label>
+            </value>
+            <value>
+                <fullName>No Response</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Response</label>
+            </value>
+            <value>
+                <fullName>Problems with scheduling</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Problems with scheduling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

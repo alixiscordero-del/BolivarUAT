@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label>Zarządzanie zespołem Lightbox</label>
+        <name>FSL__CrewManagment_Lightbox</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Wycofane</label>
+        <name>FSL__Emergency_Current_WOLineItem</name>
+    </fieldSets>
+    <fieldSets>
+        <label>Gantt Lightbox</label>
+        <name>FSL__Gantt_Lightbox</name>
+    </fieldSets>
+    <layouts>
+        <layout>CoIT Work Order Line Item Layout  - Director</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Cost Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Line Item Layout Manager/Supervisor</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Cost Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Line Item Layout – Base Technician</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Cost Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Line Item Layout – IVR</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Line Item Layout – Leader</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Cost Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CoIT Work Order Line Item Layout – Technician</layout>
+        <sections>
+            <label></label>
+            <section>Address</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>CoIT_Enviar_a_Aprobacion</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>Finalizar_Plan_de_Reparaci_n</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>WOLI_Completed</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estado_Razon__c</fullName>
+    <label>Estado Razón</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No asignado</fullName>
+                <default>false</default>
+                <label>No asignado</label>
+            </value>
+            <value>
+                <fullName>Asignado</fullName>
+                <default>false</default>
+                <label>Asignado</label>
+            </value>
+            <value>
+                <fullName>En espera del cliente</fullName>
+                <default>false</default>
+                <label>En espera del cliente</label>
+            </value>
+            <value>
+                <fullName>En espera del tercero</fullName>
+                <default>false</default>
+                <label>En espera del tercero</label>
+            </value>
+            <value>
+                <fullName>Asignado a area interna</fullName>
+                <default>false</default>
+                <label>Asignado a area interna</label>
+            </value>
+            <value>
+                <fullName>No aplica</fullName>
+                <default>false</default>
+                <label>No aplica</label>
+            </value>
+            <value>
+                <fullName>Gestionado</fullName>
+                <default>false</default>
+                <label>Gestionado</label>
+            </value>
+            <value>
+                <fullName>No cobertura</fullName>
+                <default>false</default>
+                <label>No cobertura</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Nuevo</controllingFieldValue>
+            <valueName>No asignado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nuevo</controllingFieldValue>
+            <valueName>Asignado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera</controllingFieldValue>
+            <valueName>En espera del cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera</controllingFieldValue>
+            <valueName>En espera del tercero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>En espera</controllingFieldValue>
+            <valueName>Asignado a area interna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No aplica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>Gestionado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrado</controllingFieldValue>
+            <valueName>No cobertura</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

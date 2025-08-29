@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>FSL Work Type Layout SFS</layout>
+        <sections>
+            <label></label>
+            <section>Agendamiento Relacionado</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Editor de Habilidades</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Modelo de Oferta de Trabajo</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
