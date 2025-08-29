@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Date_Time_for_Consider_Offline__c</fullName>
+    <description>Indicates the date and time to be considered offline.</description>
+    <inlineHelpText>Indicates the date and time to be considered offline.</inlineHelpText>
+    <label>Date/Time to Be Considered Offline</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

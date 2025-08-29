@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+            <profile>Standard</profile>
+            <profile>CoIT Bolivar Manager Profile</profile>
+            <profile>CoIT Bolivar Supervisor Profile</profile>
+        </profiles>
+        <users>
+            <user>service.by6ndqcub55f@segbol2023.com</user>
+            <user>alejandra.urrego@colibriit.com</user>
+        </users>
+    </assignments>
+    <capacity>60</capacity>
+    <enableAutoAccept>true</enableAutoAccept>
+    <enableDecline>false</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>true</enableDisconnectSound>
+    <enableRequestSound>true</enableRequestSound>
+    <label>Presence Asistencia Bolivar</label>
+</PresenceUserConfig>

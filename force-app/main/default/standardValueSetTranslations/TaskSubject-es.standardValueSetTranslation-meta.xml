@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Asistente remoto visual</masterLabel>
+        <translation>Asistente remoto visual</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enviar carta</masterLabel>
+        <translation><!-- Enviar carta --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Enviar presupuesto</masterLabel>
+        <translation><!-- Enviar presupuesto --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Llamar</masterLabel>
+        <translation><!-- Llamar --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Otros</masterLabel>
+        <translation><!-- Otros --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seguimiento</masterLabel>
+        <translation><!-- Seguimiento --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

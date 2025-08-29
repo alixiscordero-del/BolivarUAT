@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_ThirdScheduling_PolicyUsed__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Third Scheduling Policy Used</label>
+    <referenceTo>FSL__Scheduling_Policy__c</referenceTo>
+    <relationshipLabel>Service Appointments (Third Scheduling Policy Used)</relationshipLabel>
+    <relationshipName>Service_Appointments1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

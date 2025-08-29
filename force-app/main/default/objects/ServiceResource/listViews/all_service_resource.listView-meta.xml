@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>all_service_resource</fullName>
+    <columns>Name</columns>
+    <columns>CoIT_Is_Online__c</columns>
+    <columns>RelatedRecord</columns>
+    <columns>CoIT_N_Documento__c</columns>
+    <columns>ResourceType</columns>
+    <columns>IsActive</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>Id__c</columns>
+    <columns>CoIT_Proveedor_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos los recursos de servicio</label>
+</ListView>

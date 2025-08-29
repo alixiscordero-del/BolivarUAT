@@ -1,0 +1,7 @@
+<apex:page showHeader="true" sidebar="true">
+    <apex:pageBlock title="Acceso Restringido">
+        
+            <apex:pageMessage severity="error" summary="No tienes acceso a la pestaña de Cuentas." />
+        
+    </apex:pageBlock>
+</apex:page>

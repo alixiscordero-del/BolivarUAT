@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Acceptance_Fiel1d1</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Acceptance Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Acceptance_Field</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Acceptance Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Candidates_Field</fullName>
+        <field>CoIT_Is_Failed_Candidates__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Candidates Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Completed_Field</fullName>
+        <field>CoIT_Is_Failed_Completed__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Completed Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Dispatched_Field</fullName>
+        <field>CoIT_Is_Failed_Dispatched__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Dispatched Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Dispatched_Field1</fullName>
+        <field>CoIT_Is_Failed_Dispatched__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Dispatched Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_In_Progress_Field</fullName>
+        <field>CoIT_Is_Failed_In_Progress__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed In Progress Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Scheduled_Field</fullName>
+        <field>CoIT_Is_Failed_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Scheduled Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Scheduled_Field1</fullName>
+        <field>CoIT_Is_Failed_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Scheduled Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Scheduled_Field11</fullName>
+        <field>CoIT_Is_Failed_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Scheduled Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Is_Failed_Travel_Field</fullName>
+        <field>CoIT_Is_Failed_Travel__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Travel Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Approval_Status_Pending</fullName>
+        <field>CoIT_WOM_Approval_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>CoIT WOM Approval Status Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Approval_Status_Rejected</fullName>
+        <field>CoIT_WOM_Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>CoIT WOM Approval Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Approval_Status_to_Approved</fullName>
+        <field>CoIT_WOM_Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>CoIT WOM Approval Status to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedAcceptance</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedAcceptance1</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedAcceptance11</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedAcceptance2</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedAcceptance3</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedAcceptance31</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedScheduleByOffer</fullName>
+        <field>CoIT_Is_Failed_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Schedule</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateFailedScheduleDAWA</fullName>
+        <field>CoIT_Is_Failed_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Schedule</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateWaitingCandidates</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateWaitingCandidates1</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateWaitingCandidates2</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateWaitingCandidates3</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateWaitingCandidates31</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_UpdateWaiting_Candidates</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Update_Failed_Acceptance</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Update_Failed_Acceptance2</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Update_Failed_Acceptance3</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Update_Waiting_Candidates</fullName>
+        <description>CoIT WOM Update Waiting Candidates</description>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Update_Waiting_Candidates1</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_WOM_Update_Waiting_Candidates_Stats</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>CoIT WOM Update Waiting Candidates Stats</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Coit_Update_Is_Failed_Candidates</fullName>
+        <field>CoIT_Is_Failed_Candidates__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Candidates</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Coit_Update_Is_Failed_Completed</fullName>
+        <field>CoIT_Is_Failed_Completed__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Coit_Update_is_failed_in_Progress</fullName>
+        <description>Update is falided in progress field</description>
+        <field>CoIT_Is_Failed_In_Progress__c</field>
+        <literalValue>1</literalValue>
+        <name>Update is failed in Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Failed_Completed</fullName>
+        <field>CoIT_Is_Failed_Completed__c</field>
+        <literalValue>1</literalValue>
+        <name>Failed Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Failed_In_Progress</fullName>
+        <field>CoIT_Is_Failed_In_Progress__c</field>
+        <literalValue>1</literalValue>
+        <name>Failed In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Failed_Scheduled_1</fullName>
+        <field>CoIT_Is_Failed_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>Failed Scheduled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Failed_Travel</fullName>
+        <field>CoIT_Is_Failed_Travel__c</field>
+        <literalValue>1</literalValue>
+        <name>Failed Travel</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>UpdateValidateScheduling_1</fullName>
+        <field>CoIT_ValidateScheduling__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Validate Scheduling</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_IsFailedAcceptance</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Is_Failed_Acceptance</fullName>
+        <field>CoIT_Is_Failed_Acceptance__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Is Failed Acceptance</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_RequireScalated_By_Scheduled_1</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Require Scalated By Scheduled 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Require_Scalated_By_Scheduled_1</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Require Scalated By Scheduled 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ValidateScheduling</fullName>
+        <field>CoIT_ValidateScheduling__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Validate Scheduling</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_ValidateScheduling_1</fullName>
+        <field>CoIT_ValidateScheduling__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Validate Scheduling</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Validate_Scheduling</fullName>
+        <field>CoIT_ValidateScheduling__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Validate Scheduling</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Validate_Scheduling_1</fullName>
+        <field>CoIT_ValidateScheduling__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Validate Scheduling</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Waiting_For_Candidate_Finished</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Waiting For Candidate Finished</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Waiting_For_Candidates_Finish</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>Waiting For Candidates Finish</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Waiting_For_Candidates_Finish_22</fullName>
+        <field>CoIT_WOM_Waiting_for_Candidates_Finished__c</field>
+        <literalValue>1</literalValue>
+        <name>Waiting For Candidates Finish</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>updateRequireScalatedBy_Scheduled_1</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>updateRequire_Scalated_By_Scheduled_1</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>updateRequire_Scalated_By_Scheduled_2</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_RequireScalatedBy_Scheduled_1</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_RequireScalatedBy_Scheduled_2</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_Require_ScalatedByScheduled_2</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_Require_ScalatedBy_Scheduled_2</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>update_Require_Scalated_By_Scheduled_2</fullName>
+        <field>CoIT_Require_Scalated_By_Scheduled__c</field>
+        <literalValue>1</literalValue>
+        <name>update Require Scalated By Scheduled 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

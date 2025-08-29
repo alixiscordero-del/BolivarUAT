@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_SecondScheduling_PolicyUsed__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Second Scheduling Policy Used</label>
+    <referenceTo>FSL__Scheduling_Policy__c</referenceTo>
+    <relationshipLabel>Work Orders (Second Scheduling Policy Used)</relationshipLabel>
+    <relationshipName>Work_Orders1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

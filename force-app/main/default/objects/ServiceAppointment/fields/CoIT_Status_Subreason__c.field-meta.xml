@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Status_Subreason__c</fullName>
+    <label>Estado Subrazón</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CoIT_Status_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cliente no toma servicio</fullName>
+                <default>false</default>
+                <label>Cliente no toma servicio</label>
+            </value>
+            <value>
+                <fullName>El cliente ya solucionó por su cuenta</fullName>
+                <default>false</default>
+                <label>El cliente ya solucionó por su cuenta</label>
+            </value>
+            <value>
+                <fullName>El cliente cancela por demora en la prestación - BC</fullName>
+                <default>false</default>
+                <label>El cliente cancela por demora en la prestación - BC</label>
+            </value>
+            <value>
+                <fullName>No reporta ausencia y/o técnico ocupado</fullName>
+                <default>false</default>
+                <label>No reporta ausencia y/o técnico ocupado</label>
+            </value>
+            <value>
+                <fullName>Rechazo de servicio</fullName>
+                <default>false</default>
+                <label>Rechazo de servicio</label>
+            </value>
+            <value>
+                <fullName>Proveedor cancela el servicio pero tiene otro recurso</fullName>
+                <default>false</default>
+                <label>Proveedor cancela el servicio pero tiene otro recurso</label>
+            </value>
+            <value>
+                <fullName>Técnico y/o proveedor no contesta</fullName>
+                <default>false</default>
+                <label>Técnico y/o proveedor no contesta</label>
+            </value>
+            <value>
+                <fullName>Proveedor va tarde y existe un proveedor mas cerca</fullName>
+                <default>false</default>
+                <label>Proveedor va tarde y existe un proveedor mas cerca</label>
+            </value>
+            <value>
+                <fullName>Causa errónea</fullName>
+                <default>false</default>
+                <label>Causa errónea</label>
+            </value>
+            <value>
+                <fullName>Cliente cancelo el servicio</fullName>
+                <default>false</default>
+                <label>Cliente cancelo el servicio</label>
+            </value>
+            <value>
+                <fullName>El cliente soluciono la emergencia por su cuenta</fullName>
+                <default>false</default>
+                <label>El cliente soluciono la emergencia por su cuenta</label>
+            </value>
+            <value>
+                <fullName>Error en la direccion</fullName>
+                <default>false</default>
+                <label>Error en la direccion</label>
+            </value>
+            <value>
+                <fullName>Hay otro tecnico en sitio</fullName>
+                <default>false</default>
+                <label>Hay otro tecnico en sitio</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Fallido</controllingFieldValue>
+            <valueName>Cliente cancelo el servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fallido</controllingFieldValue>
+            <valueName>El cliente soluciono la emergencia por su cuenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fallido</controllingFieldValue>
+            <valueName>Error en la direccion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fallido</controllingFieldValue>
+            <valueName>Hay otro tecnico en sitio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente cancela servicio</controllingFieldValue>
+            <valueName>Cliente no toma servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente cancela servicio</controllingFieldValue>
+            <valueName>El cliente ya solucionó por su cuenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cliente cancela servicio</controllingFieldValue>
+            <valueName>El cliente cancela por demora en la prestación - BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Novedades con Proveedor</controllingFieldValue>
+            <valueName>No reporta ausencia y/o técnico ocupado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Novedades con Proveedor</controllingFieldValue>
+            <valueName>Rechazo de servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Novedades con Proveedor</controllingFieldValue>
+            <valueName>Proveedor cancela el servicio pero tiene otro recurso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Novedades con Proveedor</controllingFieldValue>
+            <valueName>Técnico y/o proveedor no contesta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Novedades con Proveedor</controllingFieldValue>
+            <valueName>Proveedor va tarde y existe un proveedor mas cerca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLS cancela el servicio</controllingFieldValue>
+            <valueName>Causa errónea</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

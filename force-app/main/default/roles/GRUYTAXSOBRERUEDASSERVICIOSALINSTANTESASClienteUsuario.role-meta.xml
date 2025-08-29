@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>GRU Y TAX-SOBRE RUEDAS SERVICIOS AL INSTANTE S.A.S. Cliente Usuario</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>GRU Y TAX-SOBRE RUEDAS SERVICIOS AL INSTANTE S.A.S. Cliente Usuario</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>CoiT_Director</parentRole>
+</Role>

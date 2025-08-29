@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>recursos_en_linea</fullName>
+    <columns>Name</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>RelatedRecord</columns>
+    <columns>ResourceType</columns>
+    <columns>IsActive</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CoIT_Is_Online__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>recursos en linea</label>
+    <sharedTo>
+        <role>CoiT_Director</role>
+        <role>CoiT_Manager</role>
+    </sharedTo>
+</ListView>

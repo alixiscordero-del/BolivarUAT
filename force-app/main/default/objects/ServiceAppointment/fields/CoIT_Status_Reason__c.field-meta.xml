@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Status_Reason__c</fullName>
+    <label>Estado Razón</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Novedades con Proveedor</fullName>
+                <default>false</default>
+                <label>Novedades con Proveedor</label>
+            </value>
+            <value>
+                <fullName>CLS cancela el servicio</fullName>
+                <default>false</default>
+                <label>CLS cancela el servicio</label>
+            </value>
+            <value>
+                <fullName>Cliente no esta en sitio</fullName>
+                <default>false</default>
+                <label>Cliente no esta en sitio</label>
+            </value>
+            <value>
+                <fullName>Complejidad Tecnica</fullName>
+                <default>false</default>
+                <label>Complejidad Tecnica</label>
+            </value>
+            <value>
+                <fullName>El cliente solicita reagendar</fullName>
+                <default>false</default>
+                <label>El cliente solicita reagendar</label>
+            </value>
+            <value>
+                <fullName>Falta definicion por Asistencia</fullName>
+                <default>false</default>
+                <label>Falta definicion por Asistencia</label>
+            </value>
+            <value>
+                <fullName>Falta herramientas y/o repuesto</fullName>
+                <default>false</default>
+                <label>Falta herramientas y/o repuesto</label>
+            </value>
+            <value>
+                <fullName>No cobertura</fullName>
+                <default>false</default>
+                <label>No cobertura</label>
+            </value>
+            <value>
+                <fullName>No disponibilidad del cliente</fullName>
+                <default>false</default>
+                <label>No disponibilidad del cliente</label>
+            </value>
+            <value>
+                <fullName>Requiere segundo concepto</fullName>
+                <default>false</default>
+                <label>Requiere segundo concepto</label>
+            </value>
+            <value>
+                <fullName>Seguimiento de caso presencial</fullName>
+                <default>false</default>
+                <label>Seguimiento de caso presencial</label>
+            </value>
+            <value>
+                <fullName>Seguimiento de caso virtual</fullName>
+                <default>false</default>
+                <label>Seguimiento de caso virtual</label>
+            </value>
+            <value>
+                <fullName>Fallido</fullName>
+                <default>false</default>
+                <label>Fallido</label>
+            </value>
+            <value>
+                <fullName>Cliente cancela servicio</fullName>
+                <default>false</default>
+                <label>Cliente cancela servicio</label>
+            </value>
+            <value>
+                <fullName>Asignacion manual en Siab</fullName>
+                <default>false</default>
+                <label>Asignacion manual en Siab</label>
+            </value>
+            <value>
+                <fullName>Cliente cancela el servicio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cliente cancela el servicio</label>
+            </value>
+            <value>
+                <fullName>El cliente soluciono la emergencia por su cuenta</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>El cliente soluciono la emergencia por su cuenta</label>
+            </value>
+            <value>
+                <fullName>Error en la direccion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Error en la direccion</label>
+            </value>
+            <value>
+                <fullName>Hay otro tecnico en sitio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hay otro tecnico en sitio</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Cliente no esta en sitio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Complejidad Tecnica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>El cliente solicita reagendar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Falta definicion por Asistencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Falta herramientas y/o repuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>No cobertura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>No disponibilidad del cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Requiere segundo concepto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Seguimiento de caso presencial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <valueName>Seguimiento de caso virtual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cannot Complete</controllingFieldValue>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Fallido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Novedades con Proveedor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>CLS cancela el servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Cliente cancela servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canceled</controllingFieldValue>
+            <valueName>Asignacion manual en Siab</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

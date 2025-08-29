@@ -1,0 +1,48 @@
+<apex:page standardController="WorkOrder" extensions="CoIT_RepairPlanController" renderAs="PDF">
+    <apex:image id="LogoBolivar" value="{!$Resource.LogoBolivar}" alt="Logo"/>
+    <apex:stylesheet value="{!$Resource.PDFStyles}"/>
+    <apex:outputPanel id="all">
+        <apex:form >
+            <center><apex:pageBlock >
+            	<h1>
+                    Plan de Reparación
+                </h1>
+                <apex:pageBlockSection showHeader="false" title="Información General" columns="1">
+                    <h2>
+                        Información General
+                    </h2>
+                    <apex:outputField label="Número de Orden de trabajo:" value="{!WorkOrder.WorkOrderNumber}"/>
+                    <apex:outputField label="Fecha de inicio:" value="{!WorkOrder.StartDate}"/>
+                    <apex:outputField label="Fecha de finalización:" value="{!WorkOrder.EndDate}"/>
+                    <apex:outputField label="Número de Orden de trabajo:" value="{!WorkOrder.CoIT_Partner_Account__r.Name}"/>
+                    <apex:outputField label="Afectación:" value="{!WorkOrder.CoIT_Describa_la_Afectacion__c}"/>
+                    <apex:outputField label="Condiciones de Accesibilidad:" value="{!WorkOrder.CoIT_Describa_la_Accesibilidad__c}"/>
+                </apex:pageBlockSection>
+                <apex:pageBlockSection showHeader="false" title="Detalle Reparación" columns="1" >
+                    <h2>
+                        Detalle Reparación
+                    </h2>
+                    <apex:repeat value="{!Wolis}" var="woli">
+                        <br/><br/>
+                        <apex:outputField label="Tipo de trabajo:" value="{!woli.CoIT_WorkType_Name__c}"/>
+                        <!-- Ocultado WOLI id --> 
+                        <!-- <apex:outputField value="{!woli.id}"/> -->                        
+                        <apex:repeat value="{!woli.id}" var="woliKey">
+                            <apex:pageBlockTable value="{!mapProductRequired[woliKey]}" var="itemProductRequired">
+                                <apex:column headerValue="Nombre Zona" value="{!itemProductRequired.CoIT_ZoneName__c}"/>
+                                <apex:column headerValue="Cantidad Afectada" value="{!itemProductRequired.CoIT_Quantity_Affected__c}"/>
+                                <apex:column headerValue="Cantidad Requerida" value="{!itemProductRequired.QuantityRequired}"/>
+                            </apex:pageBlockTable>
+                            <apex:pageBlockTable value="{!mapExpense[woliKey]}" var="itemExpense">
+                                <apex:column headerValue="Nombre Zona" value="{!itemExpense.CoIT_ZoneName__c}"/>
+                                <apex:column headerValue="Descripción" value="{!itemExpense.Description}"/>
+                                <apex:column headerValue="Cantidad" value="{!itemExpense.Quantity}"/>
+                            </apex:pageBlockTable>
+                        </apex:repeat>
+                    </apex:repeat>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+                </center>
+        </apex:form>
+    </apex:outputPanel>
+</apex:page>

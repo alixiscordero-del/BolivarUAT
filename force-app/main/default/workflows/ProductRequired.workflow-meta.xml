@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CoIT_Update_New_Quantity_Required</fullName>
+        <field>QuantityRequired</field>
+        <formula>0</formula>
+        <name>Update New Quantity Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_New_Quantity_Required1</fullName>
+        <field>QuantityRequired</field>
+        <formula>0</formula>
+        <name>New Quantity Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_New_Quantity_Required2</fullName>
+        <field>QuantityRequired</field>
+        <formula>0</formula>
+        <name>Update New Quantity Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Quantity_Required</fullName>
+        <field>QuantityRequired</field>
+        <formula>CoIT_New_Quantity_Required__c</formula>
+        <name>Update Quantity Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Quantity_Required1</fullName>
+        <field>QuantityRequired</field>
+        <formula>CoIT_New_Quantity_Required__c</formula>
+        <name>Quantity Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Delete_Checkbox</fullName>
+        <field>Delete__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Delete Checkbox</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Quantity_Required</fullName>
+        <field>QuantityRequired</field>
+        <formula>CoIT_New_Quantity_Required__c</formula>
+        <name>Update Quantity Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

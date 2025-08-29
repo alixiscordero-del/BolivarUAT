@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Product_Family_Required__c</fullName>
+    <label>Product Family Required</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acabados de Pisos</fullName>
+                <default>false</default>
+                <label>Acabados de Pisos</label>
+            </value>
+            <value>
+                <fullName>Acabado de Techo</fullName>
+                <default>false</default>
+                <label>Acabado de Techo</label>
+            </value>
+            <value>
+                <fullName>Acabados de Muros</fullName>
+                <default>false</default>
+                <label>Acabados de Muros</label>
+            </value>
+            <value>
+                <fullName>Cubiertas</fullName>
+                <default>false</default>
+                <label>Cubiertas</label>
+            </value>
+            <value>
+                <fullName>Aseo</fullName>
+                <default>false</default>
+                <label>Aseo</label>
+            </value>
+            <value>
+                <fullName>Equipos Especiales</fullName>
+                <default>false</default>
+                <label>Equipos Especiales</label>
+            </value>
+            <value>
+                <fullName>Alistamiento</fullName>
+                <default>false</default>
+                <label>Alistamiento</label>
+            </value>
+            <value>
+                <fullName>Actividades Preliminares</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Actividades Preliminares</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

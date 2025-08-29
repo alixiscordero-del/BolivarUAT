@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Alertamientos</name>
+    <queueMembers>
+        <users>
+            <user>ginna.alejandra@asistenciabolivar.com</user>
+            <user>sebastian.@asistenciabolivar.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>CoIT_RoutingAlertamientos</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Service Technician SFS</label>
+    <permissionSets>FSL_Mobile_License</permissionSets>
+    <permissionSets>FSL_Resource_License</permissionSets>
+    <permissionSets>FSL_Resource_Permissions</permissionSets>
+    <permissionSets>Field_Service_Mobile_Permissions_CDO</permissionSets>
+    <permissionSets>Field_Service_Started_Kit_Permissions</permissionSets>
+    <permissionSets>Field_Service_Tab_Visibility_Permissions_SFS</permissionSets>
+    <permissionSets>Lightning_Experience_SFS</permissionSets>
+    <permissionSets>force__FieldServiceMobileStandardPermSet</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

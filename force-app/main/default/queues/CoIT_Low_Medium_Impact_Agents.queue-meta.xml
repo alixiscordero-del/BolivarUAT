@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Cola: Agentes – Bajo/medio impacto</name>
+    <queueMembers>
+        <users>
+            <user>karen.julian@asistenciabolivar.com</user>
+            <user>karen.johanna@asistenciabolivar.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>CoIT_BajoMedioImpacto</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

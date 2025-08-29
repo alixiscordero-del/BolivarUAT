@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>INDUSTRIA Y ARQUITECTURA INDUARQ SAS Cliente Usuario</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>INDUSTRIA Y ARQUITECTURA INDUARQ SAS Cliente Usuario</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentRole>CoiT_Director</parentRole>
+</Role>

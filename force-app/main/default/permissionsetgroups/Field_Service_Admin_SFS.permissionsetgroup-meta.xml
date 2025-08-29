@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Service Admin SFS</label>
+    <permissionSets>FSL_Admin_License</permissionSets>
+    <permissionSets>FSL_Admin_Permissions</permissionSets>
+    <permissionSets>Field_Service_Cree_Managment_SFS</permissionSets>
+    <permissionSets>Field_Service_Extended_Custom_Permissions_SFS</permissionSets>
+    <permissionSets>Field_Service_Started_Kit_Permissions</permissionSets>
+    <permissionSets>Field_Service_Tab_Visibility_Permissions_SFS</permissionSets>
+    <permissionSets>Lightning_Experience_SFS</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

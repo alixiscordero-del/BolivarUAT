@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_ServiceappointmentTecnichian</fullName>
+    <columns>SchedStartTime</columns>
+    <columns>FSSK__FSK_Work_Order__c</columns>
+    <columns>WorkType</columns>
+    <columns>STREET</columns>
+    <filterScope>Mine</filterScope>
+    <label>Service appointment Tecnichian</label>
+    <sharedTo>
+        <role>CoiT_Technician</role>
+    </sharedTo>
+</ListView>

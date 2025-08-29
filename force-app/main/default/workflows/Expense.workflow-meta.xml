@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>CoIT_Update_Expense_Type</fullName>
+        <field>ExpenseType</field>
+        <literalValue>No facturable</literalValue>
+        <name>Update Expense Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Expense_Type1</fullName>
+        <field>ExpenseType</field>
+        <literalValue>No facturable</literalValue>
+        <name>Update Expense Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Quantity</fullName>
+        <field>Quantity</field>
+        <formula>0</formula>
+        <name>Update Quantity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Quantity1</fullName>
+        <field>Quantity</field>
+        <formula>0</formula>
+        <name>Update Quantity</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Unit_Price</fullName>
+        <field>Quantity</field>
+        <formula>0</formula>
+        <name>Update Unit Price</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CoIT_Update_Unit_Price1</fullName>
+        <field>Quantity</field>
+        <formula>0</formula>
+        <name>Unit Price</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <tasks>
+        <fullName>CoIT_Update_Unit_Price</fullName>
+        <assignedTo>alejandra.urrego@colibriit.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>Por favor actualice el precio unitario del Expense</description>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Actualizar Precio Unitario del Materia</subject>
+    </tasks>
+</Workflow>

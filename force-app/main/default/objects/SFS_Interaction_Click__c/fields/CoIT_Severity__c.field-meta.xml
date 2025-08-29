@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Severity__c</fullName>
+    <label>Severidad</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bajo Impacto: 0 - 1 día</fullName>
+                <default>false</default>
+                <label>Bajo Impacto: 0 - 1 día</label>
+            </value>
+            <value>
+                <fullName>Bajo Impacto: 0 - 3 días</fullName>
+                <default>false</default>
+                <label>Bajo Impacto: 0 - 3 días</label>
+            </value>
+            <value>
+                <fullName>Bajo Impacto: 0 - 5 días</fullName>
+                <default>false</default>
+                <label>Bajo Impacto: 0 - 5 días</label>
+            </value>
+            <value>
+                <fullName>Moderado: 6 - 19 días</fullName>
+                <default>false</default>
+                <label>Moderado: 6 - 19 días</label>
+            </value>
+            <value>
+                <fullName>Alto Impacto: 20 o más días</fullName>
+                <default>false</default>
+                <label>Alto Impacto: 20 o más días</label>
+            </value>
+            <value>
+                <fullName>Alto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alto</label>
+            </value>
+            <value>
+                <fullName>Bajo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bajo</label>
+            </value>
+            <value>
+                <fullName>Medio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Medio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

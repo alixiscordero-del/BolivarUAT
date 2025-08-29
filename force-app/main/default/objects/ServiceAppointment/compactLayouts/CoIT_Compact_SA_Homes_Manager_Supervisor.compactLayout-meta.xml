@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Compact_SA_Homes_Manager_Supervisor</fullName>
+    <fields>AppointmentNumber</fields>
+    <fields>Status</fields>
+    <fields>CoIT_Status_Reason__c</fields>
+    <fields>CoIT_Status_Subreason__c</fields>
+    <fields>SchedStartTime</fields>
+    <fields>FSSK__FSK_Work_Order__c</fields>
+    <label>CoIT Compact SA Homes Manager/Supervisor</label>
+</CompactLayout>

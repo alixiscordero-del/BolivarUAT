@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniSupervisorConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isTimelineHidden>false</isTimelineHidden>
+    <masterLabel>Supervisor Bolivar</masterLabel>
+    <omniSupervisorConfigAction>
+        <actionName>ManageQueues</actionName>
+        <actionTab>QueuesBacklog</actionTab>
+        <displayOrder>0</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigGroup>
+        <group>Cola_Agentes_Alto_impacto</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigGroup>
+        <group>Cola_Agentes_Bajo_medio_impacto</group>
+    </omniSupervisorConfigGroup>
+    <omniSupervisorConfigProfile>
+        <profile>admin</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigQueue>
+        <queue>Agendamiento</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigQueue>
+        <queue>Alertamientos</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigQueue>
+        <queue>CoIT_High_Impact_Agents</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigQueue>
+        <queue>CoIT_Low_Medium_Impact_Agents</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigQueue>
+        <queue>Gestion_Automatica</queue>
+    </omniSupervisorConfigQueue>
+    <omniSupervisorConfigUser>
+        <user>carolina.aguirre@segurosbolivar.com.uat</user>
+    </omniSupervisorConfigUser>
+    <omniSupervisorConfigUser>
+        <user>alejandra.urrego@colibriit.com.uat</user>
+    </omniSupervisorConfigUser>
+    <omniSupervisorConfigUser>
+        <user>santiago.pelaez@colibriit.com.uat</user>
+    </omniSupervisorConfigUser>
+    <omniSupervisorConfigUser>
+        <user>service.by6ndqcub55f@segbol2023.com.uat</user>
+    </omniSupervisorConfigUser>
+    <skillVisibility>AllSkills</skillVisibility>
+</OmniSupervisorConfig>

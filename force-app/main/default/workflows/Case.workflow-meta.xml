@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Cambia la prioridad del caso a alta.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Llamada_a_Proveedor</fullName>
+        <field>CoIT_Realizo_Llamada_a_Proveedor__c</field>
+        <literalValue>1</literalValue>
+        <name>Llamada a Proveedor</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Llamada_a_Tecnico</fullName>
+        <field>CoIT_Realizo_Llamada_a_Tecnico__c</field>
+        <literalValue>1</literalValue>
+        <name>Llamada a Tecnico</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Llamada_a_t_cnico</fullName>
+        <field>CoIT_Realizo_Llamada_a_Tecnico__c</field>
+        <literalValue>1</literalValue>
+        <name>Llamada a técnico</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Llamada_a_t_cnico_completada</fullName>
+        <field>Status</field>
+        <literalValue>Llamada cliente</literalValue>
+        <name>Llamada a técnico completada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Llamar_a_cliente_completada</fullName>
+        <field>Status</field>
+        <literalValue>Creación orden de servicio</literalValue>
+        <name>Llamar a cliente completada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Verificar_Urgencia_Poliza</fullName>
+        <field>CoIT_Verifco_Urgencia_Poliza__c</field>
+        <literalValue>1</literalValue>
+        <name>Verificar Urgencia Poliza</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Verificar_Urgencia_Poliza2</fullName>
+        <field>CoIT_Verifco_Urgencia_Poliza__c</field>
+        <literalValue>1</literalValue>
+        <name>Verificar Urgencia Poliza</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

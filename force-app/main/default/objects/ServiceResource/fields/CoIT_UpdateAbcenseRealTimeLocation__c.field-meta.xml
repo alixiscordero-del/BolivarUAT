@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_UpdateAbcenseRealTimeLocation__c</fullName>
+    <formula>IF( CoIT_LastDateTimeOfOfferAcceptance__c + (3/1440) &gt;  NOW(), False, True)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Update Abcense Real Time Location</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Assigned_Service_Resource_Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Assigned Service Resource Id</label>
+    <referenceTo>ServiceResource</referenceTo>
+    <relationshipLabel>Service Appointments (Assigned Service Resource)</relationshipLabel>
+    <relationshipName>Service_Appointments</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

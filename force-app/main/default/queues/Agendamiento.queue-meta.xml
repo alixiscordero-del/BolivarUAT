@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Agendamiento</name>
+    <queueMembers>
+        <users>
+            <user>brayan.jordy@asistenciabolivar.com</user>
+            <user>cindy.lorena@asistenciabolivar.com</user>
+            <user>johan.david@asistenciabolivar.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>CoIT_RoutingAgendamiento</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

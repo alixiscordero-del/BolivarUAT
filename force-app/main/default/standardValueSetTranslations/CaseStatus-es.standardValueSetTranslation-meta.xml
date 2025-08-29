@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Cerrado</masterLabel>
+        <translation><!-- Cerrado --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>En Progreso</masterLabel>
+        <translation>En progreso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>En espera</masterLabel>
+        <translation><!-- En espera --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Nuevo</masterLabel>
+        <translation>Nuevo</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

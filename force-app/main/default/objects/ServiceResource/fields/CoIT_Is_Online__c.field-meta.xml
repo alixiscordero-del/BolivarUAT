@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CoIT_Is_Online__c</fullName>
+    <description>Indicates whether the service resource is online.</description>
+    <formula>IF( CoIT_Date_Time_for_Consider_Offline__c &gt;= NOW(), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Indicates whether the service resource is online.</inlineHelpText>
+    <label>Is Online</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
